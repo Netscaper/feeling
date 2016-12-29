@@ -42,10 +42,83 @@ var lximg=[
 
 
 ]
+var mood1=[
+    {
+        title1:"游来游去的鱼",
+        title2:"Gary White",
+        min:"19 m",
+        content:"周末，徒步旅行的小家伙",
+        contentYin:"Weekend backpacking with my look the guys.",
+        sc:"8523",
+        pl:"3452",
+        img1:"images/mood_03.png",
+        img2:"images/mood_10.png"
+    },
+    {
+        title1:"游来游去的鱼",
+        title2:"Gary White",
+        min:"19 m",
+        content:"周末，徒步旅行的小家伙",
+        contentYin:"Weekend backpacking with my look the guys.",
+        sc:"8523",
+        pl:"3452",
+        img1:"images/mood_03.png",
+        img2:"images/mood_10.png"
+    },
+    {
+        title1:"游来游去的鱼",
+        title2:"Gary White",
+        min:"19 m",
+        content:"周末，徒步旅行的小家伙",
+        contentYin:"Weekend backpacking with my look the guys.",
+        sc:"8523",
+        pl:"3452",
+        img1:"images/mood_03.png",
+        img2:"images/mood_10.png"
+    },
+
+]
+var mood2=[
+    {
+        title1:"游来游去的鱼",
+        title2:"Gary White",
+        min:"19 m",
+        content:"周末，徒步旅行的小家伙",
+        contentYin:"Weekend backpacking with my look the guys.",
+        sc:"8523",
+        pl:"3452",
+        img1:"images/mood_05.png",
+        img2:"images/mood_12.png"
+    },
+    {
+        title1:"萌萌的兔子",
+        title2:"Jesse Scott",
+        min:"12 m",
+        content:"陪我去海边一起看海好吗",
+        contentYin:"Accompany me to go to the beach  to watch the sea",
+        sc:"8523",
+        pl:"3452",
+        img1:"images/mood_05.png",
+        img2:"images/mood_12.png"
+    },
+    {
+        title1:"游来游去的鱼",
+        title2:"Gary White",
+        min:"19 m",
+        content:"周末，徒步旅行的小家伙",
+        contentYin:"Weekend backpacking with my look the guys.",
+        sc:"8523",
+        pl:"3452",
+        img1:"images/mood_05.png",
+        img2:"images/mood_12.png"
+    }
+]
 var app=angular.module("app",[]);
 app.controller("c",function($scope){
     $scope.data=data;
     $scope.lximg=lximg;
+    $scope.mood1=mood1;
+    $scope.mood2=mood2;
 })
 app.directive("lx",function(){
     return {

@@ -1,9 +1,10 @@
 body,html{
     background:#f6f6f6;
 }
-h2{
+h2,h3,h4,h5{
     margin:0;
     padding:0;
+    font-weight:normal;
 }
 .lhy-banner,.lhy-banner img{
     width:100%;
@@ -114,4 +115,161 @@ h2{
     width:100%;
     height:auto;
     padding:0 .24rem;
+    box-sizing:border-box;
+}
+.lhy-mood-title{
+    width:100%;
+    height:1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:.11rem;
+}
+.lhy-mood-title img{
+    width:2.74rem;
+    height:.66rem;
+}
+/*mood下面*/
+.lhy-mood-content{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    margin-bottom:.98rem;
+}
+.lhy-mood-content-left{
+    float:left;
+}
+.lhy-mood-content-right{
+    float:right;
+}
+.lhy-mood-content li{
+    height:auto;
+    border-radius:5px;
+    margin-bottom:.22rem;
+    background:#fff;
+    padding-bottom:.25rem;
+    box-shadow:0 0 10px 0  #ddd;
+}
+.lhy-mood-content-left li{
+    width:3.53rem;
+}
+.lhy-mood-content-right li{
+    width:3.27rem;
+}
+.lhy-mood-top{
+    width:100%;
+    height:.88rem;
+    display: flex;
+    align-items: center;
+}
+.lhy-mood-top img{
+    width:.56rem;
+    height:.56rem;
+    margin-left:.21rem;
+}
+.lhy-mood-top-middle{
+    width:1.75rem;
+    height:.48rem;
+    margin-left:.22rem;
+    float:left;
+}
+.lhy-mood-top-middle h3{
+    width:100%;
+    font-size:.18rem;
+    color:#313131;
+}
+.lhy-mood-top-middle h4{
+    width:100%;
+    font-size:.16rem;
+    color:#666666;
+}
+.lhy-mood-top-right{
+    float:right;
+    color:#666666;
+    font-size:.16rem;
+}
+.lhy-mood-middle{
+    width:100%;
+    display: block;
+}
+.lhy-mood-bottom{
+    width:100%;
+    height:auto;
+}
+.lhy-mood-bottom h4{
+    height:.64rem;
+    font-size:.24rem;
+    line-height:.64rem;
+    padding-left:.13rem;
+    box-sizing:border-box;
+    font-weight:bold;
+    color:#333;
+    margin-left:.1rem;
+    margin-right:.13rem;
+    background:url("images/mood_17.png") left bottom no-repeat;
+    background-size:contain;
+}
+.lhy-mood-bottom h2{
+    line-height:.3rem;
+    font-size:.2rem;
+    color:#525252;
+    padding:0 .23rem;
+    box-sizing:border-box;
+    font-family:"sans-serif";
+    margin-top:.1rem;
+    margin-bottom:.19rem;
+}
+.lhy-mood-sc,.lhy-mood-pl{
+    height:.23rem;
+    display: block;
+    width:.26rem;
+    background:url("images/mood_24.png") 0 0 no-repeat;
+    background-size:contain;
+}
+.lhy-mood-pl{
+    background:url("images/mood_26.png") 0 0 no-repeat;
+    background-size:contain;
+}
+.lhy-mood-scpl{
+
+    overflow: hidden;
+}
+.lhy-mood-scpl span{
+    font-size:.18rem;
+    color:#626262;
+    float:left;
+    margin-left:.14rem;
+}
+.lhy-mood-scpl .lhy-mood-sc{
+    margin-left:.23rem;
+}
+.lhy-mood-scpl .lhy-mood-pl{
+    margin-left:.35rem;
+}
+/***************tab*********************/
+.lhy-tab{
+    width:100%;
+    height:0.98rem;
+    background:#2c3033;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+.lhy-tab li{
+    padding:.18rem 0;
+    box-sizing:border-box;
+    background:url("images/lhy-tab_09.png") center right no-repeat;
+    background-size:auto 60%;
+}
+.lhy-tab li,.lhy-tab li a{
+    width:25%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+}
+.lhy-tab li img{
+    display: block;
+    height:90%;
 }

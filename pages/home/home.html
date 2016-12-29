@@ -40,7 +40,72 @@
 </div>
 <!--mood-->
 <div class="lhy-mood">
-
+    <div class="lhy-mood-title">
+        <img src="images/lximg_27.png" alt="">
+    </div>
+    <div class="lhy-mood-content">
+        <div class="lhy-mood-content-left">
+            <li  ng-repeat="v in mood1">
+                <div class="lhy-mood-top">
+                    <img src="{{v.img1}}" alt="">
+                    <div class="lhy-mood-top-middle">
+                        <h3>{{v.title1}}</h3>
+                        <h4>{{v.title2}}</h4>
+                    </div>
+                    <span class="lhy-mood-top-right">{{v.min}}</span>
+                </div>
+                <img src="{{v.img2}}" class="lhy-mood-middle" alt="">
+                <div class="lhy-mood-bottom">
+                    <h4>{{v.content}}</h4>
+                    <h2>{{v.contentYin}}</h2>
+                    <div class="lhy-mood-scpl">
+                        <span class="lhy-mood-sc"></span>
+                        <span>{{v.sc}}</span>
+                        <span class="lhy-mood-pl"></span>
+                        <span>{{v.pl}}</span>
+                    </div>
+                </div>
+            </li>
+        </div>
+        <div class="lhy-mood-content-right">
+            <li  ng-repeat="v in mood2">
+                <div class="lhy-mood-top">
+                    <img src="{{v.img1}}" alt="">
+                    <div class="lhy-mood-top-middle">
+                        <h3>{{v.title1}}</h3>
+                        <h4>{{v.title2}}</h4>
+                    </div>
+                    <span class="lhy-mood-top-right">{{v.min}}</span>
+                </div>
+                <img src="{{v.img2}}" class="lhy-mood-middle" alt="">
+                <div class="lhy-mood-bottom">
+                    <h4>{{v.content}}</h4>
+                    <h2>{{v.contentYin}}</h2>
+                    <div class="lhy-mood-scpl">
+                        <span class="lhy-mood-sc"></span>
+                        <span>{{v.sc}}</span>
+                        <span class="lhy-mood-pl"></span>
+                        <span>{{v.pl}}</span>
+                    </div>
+                </div>
+            </li>
+        </div>
+    </div>
 </div>
+<!--tab栏-->
+<ul class="lhy-tab">
+    <li>
+        <a href=""><img src="images/lhy-tab_03.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="images/lhy-tab_15.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="images/lhy-tab_06.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="images/lhy-tab_12.png" alt=""></a>
+    </li>
+</ul>
 </body>
 </html>   
