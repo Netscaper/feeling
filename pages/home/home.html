@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="../../js/angular.min.js"></script>
+    <script src="../../js/rem.js"></script>
+    <script src="home.js"></script>
+    <title>首页</title>
+</head>
+<body ng-controller="c">
+<!--banner-->
+<div class="lhy-banner">
+    <img src="images/lhy-bg_02.png" alt="">
+</div>
+<!--热门推荐-->
+<div class="lhy-rmtj">
+    <div class="lhy-title">
+        <img src="images/lhy-title1_03.png" alt="">
+    </div>
+    <ul class="lhy-lx"  >
+        <lx ng-repeat="v in data" data="v"></lx>
+    </ul>
+</div>
+<!--fashion-->
+<div class="lhy-fashion">
+    <div class="lhy-fashion-title">
+        <img src="images/lximg_03.png" alt="" class="lhy-fashionimg">
+        <img src="images/lximg_06.png" alt="" class="lhy-fashion-more">
+    </div>
+    <ul class="lhy-fashion-imglist">
+        <li ng-repeat="v in lximg">
+            <a href=""><img src="{{v.src}}" alt=""></a>
+        </li>
+    </ul>
+</div>
+<!--mood-->
+<div class="lhy-mood">
+
+</div>
+</body>
+</html>   
