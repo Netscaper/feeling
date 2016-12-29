@@ -1,0 +1,90 @@
+body{
+    background:#F6F6F6;
+}
+.zyp_header{
+    width:100%;
+    height:.9rem;
+    padding:0 .24rem;
+    box-sizing:border-box;
+    background:#91CBDA;
+    display:flex;
+    justify-content: space-between;
+    overflow:hidden;
+}
+.zyp_header_title{
+    width:1.54rem;
+    height:.52rem;
+    margin:.19rem 0;
+    background:url(images/life_title.png) no-repeat center center/cover; 
+}
+.zyp_header_search{
+    width:3.82rem;
+    height:.46rem;
+    border-radius: .20rem;
+    margin:.25rem 0;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 .01rem .10rem 0 rgba(215, 215, 215, 0.75);
+    position:relative;
+}
+.zyp_header_search:before{
+    content:'';
+    display:block;
+    width:.06rem;
+    height:.06rem;
+    border-radius:50%;
+    position:absolute;
+    left:.21rem;
+    top:50%;
+    margin-top:-0.03rem;
+    background-color: rgb(145, 203, 218);
+}
+.zyp_header_search:after{
+    content:'';
+    display:block;
+    width:.35rem;
+    height:.34rem;
+    background:url(images/search.png) no-repeat center center/cover;
+    position:absolute;
+    right:.14rem;
+    top:.06rem;
+}
+.zyp_header_search input{
+    display:block;
+    width:2.9rem;
+    height:100%;
+    margin:0;
+    border:0;
+    padding:0;
+    margin-left:.4rem;
+    background:transparent;
+    font-size: .18rem;
+    font-family: "PingFang SC";
+    color: rgb(49, 49, 49);
+    line-height: 1.2;
+    outline:none;
+}
+.zyp_touxiang{
+    width:100%;
+    height:auto;
+    padding:.63rem .24rem 0;
+    box-sizing:border-box;
+}
+.zyp_photo_box{
+    width:2rem;
+    height:2rem;
+    margin:0 auto;
+    background:url(images/zyp_circle.gif) no-repeat center center/cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.zyp_photo_box img{
+    width:1.54rem;
+    height:1.54rem;
+    border-radius:50%;
+}
+.zyp_dengji{
+    width:3.2rem;
+    height:.5rem;
+    margin:0 auto;
+}
