@@ -1,5 +1,4 @@
-var ctrl=angular.module("app",[])
-ctrl.directive("shuru",function () {
+app.directive("shuru",function () {
     return{
         restrict:"ECMA",
         templateUrl:"<div>susu</div>",
