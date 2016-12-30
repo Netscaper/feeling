@@ -23,6 +23,11 @@ html,body{
     left: .24rem;
     top: .18rem;
 }
+.sly-return a{
+    display:block;
+    width:100%;
+    height:100%;
+}
 .sly-mb{
     width:6.55rem;
     height:5.08rem;

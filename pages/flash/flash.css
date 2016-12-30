@@ -13,6 +13,11 @@ body,html{
 .li:nth-child(3){
     background: url("yc_images/3_02.png") top center/cover no-repeat;
 }
+.li a{
+    display:block;
+    width:100%;
+    height:100%;
+}
 .btnbox{
     position: absolute;
     left:50%;
