@@ -1,0 +1,96 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-29 18:57:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-30 14:19:22
+*/
+body{
+    font-size: 16px;
+}
+a{
+    color:#666;
+}
+.hyb-top{
+    width: 100%;
+    height: 1.9rem;
+    position: absolute;
+    left: 0;top: 0;
+    z-index: -1;
+    background: url(../../images/1.jpg) right 35%/cover;
+}
+.hyb-content-box{
+    border-top: 0.01rem solid #fff;
+    margin: 0.03rem 0.25rem 0;
+    position: relative;
+}
+.hyb-dian{
+    height: 3px;
+    width: 3px;
+    background:#fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.5px;
+    border-left:1px solid #DDF4E2;
+    border-right:1px solid #DDF4E2;
+}
+.hyb-t1{
+    left: 0;
+}
+.hyb-t2{
+    left: 50%;
+    margin-left: -0.02rem;
+}
+.hyb-t3{
+    left: 100%;
+}
+.hyb-con-title{
+    margin: 0.2rem auto 0.45rem;
+    overflow:hidden;
+    background:url(../../images/title.png) center/contain no-repeat;
+}
+.hyb-more{
+    width: 0.65rem;
+    height: 0.65rem;
+    float: left;
+    background:url(../../images/more.png) center/contain no-repeat;
+    display: block;
+}
+
+
+
+
+.hyb-list-box{
+    padding: 0.3rem 0.2rem;
+    border-radius: 5px;
+    margin-bottom: 0.1rem;
+    background:#fff;
+    box-shadow: 0 0 0.1rem 1px rgba(59, 59, 59, 0.25);
+    overflow:hidden;
+}
+.hyb-list-left{
+    width: 0.8rem;
+    height: 0.75rem;
+    margin-right: 0.1rem;
+    float:left;
+    background:url(../../images/xl.png) center/cover no-repeat;
+}
+.hyb-list-con{
+    width: 4.5rem;
+    height: 0.75rem;
+    float: left;
+}
+.hyb-list-con h2{
+    font-size: 0.26rem;
+    color:#636363;
+}
+.hyb-list-con h3{
+    font-size: 0.22rem;
+    color:#303030;
+    font-weight: 200;
+}
+.hyb-list-right{
+    height: 0.25rem;
+    margin: 0.25rem 0;
+    float:right;
+    font-size: 0.22rem;
+}
