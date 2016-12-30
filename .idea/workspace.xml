@@ -2,11 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ad049f2-5a79-48d7-a98e-b4f4273c5807" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/login/login3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/login/login4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/login/login5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/login/login.css" afterPath="$PROJECT_DIR$/pages/login/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bluebtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bluebtnd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/greybtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/redbtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/renbtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lhy-bg_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lhy-line_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lhy-tab_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lhy-tab_06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lhy-tab_09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lhy-tab_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lhy-tab_15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lhy-title1_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lx_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lx_06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lx_09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lx_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lx_14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/lximg_27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/images/mood_35.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/life/images/life_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/life/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/life/images/zyp_circle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/life/images/zyp_dengji.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/life/images/zyp_tx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/bg_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/bg_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/hbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/images/jd2_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/images/jd2_07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/images/jd2_09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/jd2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/pg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/pic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/return.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/td.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/tx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/txbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/txbg_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/wb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/wx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/xl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/images/yt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/directives/directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/home/item.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/life/life.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/life/life.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/sccg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/shibai.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/tanch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/tanch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/touxiang.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/register/touxiang.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/search/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/search/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/ZypInput/ZypInput.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/ZypInput/ZypInput.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/directive/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tpl/bg.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/route.js" afterPath="$PROJECT_DIR$/route.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/directive/button.js" afterPath="$PROJECT_DIR$/pages/home/item1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/home.html" afterPath="$PROJECT_DIR$/pages/life/life.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tpl/tpl.html" afterPath="$PROJECT_DIR$/pages/search/search.css" />
     </list>
     <ignored path="feeling.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +113,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="372">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login/login.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -52,7 +136,7 @@
       <file leaf-file-name="login5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login/login5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="660">
               <caret line="22" column="35" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -64,7 +148,7 @@
       <file leaf-file-name="login1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login/login1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="120">
               <caret line="4" column="120" selection-start-line="4" selection-start-column="120" selection-end-line="4" selection-end-column="120" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -76,7 +160,7 @@
       <file leaf-file-name="login3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login/login3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="900">
               <caret line="30" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="7" />
               <folding>
                 <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -88,7 +172,7 @@
       <file leaf-file-name="login2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login/login2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="600">
               <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
                 <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -100,7 +184,7 @@
       <file leaf-file-name="login4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login/login4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="450">
               <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -232,8 +316,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,11 +476,12 @@
       <workItem from="1483016849432" duration="9039000" />
       <workItem from="1483059615316" duration="3277000" />
       <workItem from="1483067117647" duration="5580000" />
+      <workItem from="1483076436262" duration="239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43162000" />
+    <option name="totallyTimeSpent" value="43401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1368" height="745" extended-state="0" />
@@ -436,6 +521,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/login/login4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/Super Bran/Documents/笔记/angularJs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="7410">
+            <caret line="247" column="17" selection-start-line="247" selection-start-column="17" selection-end-line="247" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/flash/flash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/login/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -667,27 +798,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controller.js" />
     <entry file="file://$PROJECT_DIR$/directive/input.css" />
-    <entry file="file://$PROJECT_DIR$/directive/bg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/bg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/directive/bg.js" />
+    <entry file="file://$PROJECT_DIR$/pages/home.html" />
+    <entry file="file://$PROJECT_DIR$/tpl/bg.html" />
     <entry file="file://$PROJECT_DIR$/pages/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -780,7 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/login/login2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="600">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -790,7 +903,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/login/login4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="450">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -800,7 +913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/login/login3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="900">
           <caret line="30" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="7" />
           <folding>
             <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -810,7 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/login/login5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="660">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -820,7 +933,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/login/login1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="120">
           <caret line="4" column="120" selection-start-line="4" selection-start-column="120" selection-end-line="4" selection-end-column="120" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -828,18 +941,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login/login.html">
+    <entry file="file://$PROJECT_DIR$/pages/login/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login/login.css">
+    <entry file="file://$PROJECT_DIR$/pages/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="372">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding />
         </state>
       </provider>

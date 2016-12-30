@@ -1,0 +1,40 @@
+.sly-input{
+    height:1.26rem;
+    width:100%;
+    border-bottom:1px dashed #b7b7b7;
+    
+}
+.sly-input>img{
+    float: left;
+    width:.64rem;
+    height:.66rem;
+    margin-left: .2rem;
+    vertical-align: middle;
+    margin-top: 0.3rem;
+}
+.sly-input>input{
+    float:left;
+    width:3rem;
+    height:.66rem;
+    margin:0.3rem .4rem 0;
+    outline:none;
+    border:0;
+}
+.sly-input>.pg{
+    float:left;
+    width:.66rem;
+    height:.8rem;
+    margin-top: 0.23rem;
+}
+.sly-quan{
+    float:right;
+    width:0.16rem;
+    height:0.16rem;
+    border-radius: 50%;
+    margin-right: .25rem;
+    border:1px solid #333;
+    padding:0.04rem;
+    background:green;
+    background-clip: content-box;
+    margin-top: 0.51rem;
+}

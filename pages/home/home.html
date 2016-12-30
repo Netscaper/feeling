@@ -1,0 +1,116 @@
+<!--<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="../../js/angular.min.js"></script>
+    <script src="../../js/rem.js"></script>
+    <script src="home.js"></script>
+    <title>首页</title>
+</head>
+<body ng-controller="c">-->
+<!--banner-->
+<!--<link rel="stylesheet" href="pages/home/home.css">
+<script src="pages/home/home.js"></script>-->
+<div ng-controller='c'>
+<div class="lhy-banner">
+    <img src="pages/home/images/lhy-bg_02.png" alt="">
+</div>
+<!--热门推荐-->
+<div class="lhy-rmtj">
+    <div class="lhy-title">
+        <img src="pages/home/images/lhy-title1_03.png" alt="">
+    </div>
+    <ul class="lhy-lx"  >
+        <lx-lan ng-repeat="v in data" data="v"></lx-lan>
+    </ul>
+</div>
+<!--fashion-->
+<div class="lhy-fashion">
+    <div class="lhy-fashion-title">
+        <img src="pages/home/images/lximg_03.png" alt="" class="lhy-fashionimg">
+        <img src="pages/home/images/lximg_06.png" alt="" class="lhy-fashion-more">
+    </div>
+    <ul class="lhy-fashion-imglist">
+        <li ng-repeat="v in lximg">
+            <a href=""><img src="pages/home/{{v.src}}" alt=""></a>
+        </li>
+    </ul>
+</div>
+<!--mood-->
+<div class="lhy-mood">
+    <div class="lhy-mood-title">
+        <img src="pages/home/images/lximg_27.png" alt="">
+    </div>
+    <div class="lhy-mood-content">
+        <div class="lhy-mood-content-left">
+            <li  ng-repeat="v in mood1">
+                <div class="lhy-mood-top">
+                    <img src="pages/home/{{v.img1}}" alt="">
+                    <div class="lhy-mood-top-middle">
+                        <h3>{{v.title1}}</h3>
+                        <h4>{{v.title2}}</h4>
+                    </div>
+                    <span class="lhy-mood-top-right">{{v.min}}</span>
+                </div>
+                <img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt="">
+                <div class="lhy-mood-bottom">
+                    <h4>{{v.content}}</h4>
+                    <h2>{{v.contentYin}}</h2>
+                    <div class="lhy-mood-scpl">
+                        <span class="lhy-mood-sc"></span>
+                        <span>{{v.sc}}</span>
+                        <span class="lhy-mood-pl"></span>
+                        <span>{{v.pl}}</span>
+                    </div>
+                </div>
+            </li>
+        </div>
+        <div class="lhy-mood-content-right">
+            <li  ng-repeat="v in mood2">
+                <div class="lhy-mood-top">
+                    <img src="pages/home/{{v.img1}}" alt="">
+                    <div class="lhy-mood-top-middle">
+                        <h3>{{v.title1}}</h3>
+                        <h4>{{v.title2}}</h4>
+                    </div>
+                    <span class="lhy-mood-top-right">{{v.min}}</span>
+                </div>
+                <img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt="">
+                <div class="lhy-mood-bottom">
+                    <h4>{{v.content}}</h4>
+                    <h2>{{v.contentYin}}</h2>
+                    <div class="lhy-mood-scpl">
+                        <span class="lhy-mood-sc"></span>
+                        <span>{{v.sc}}</span>
+                        <span class="lhy-mood-pl"></span>
+                        <span>{{v.pl}}</span>
+                    </div>
+                </div>
+            </li>
+        </div>
+    </div>
+</div>
+<!--tab栏-->
+<ul class="lhy-tab">
+    <li>
+        <a href=""><img src="pages/home/images/lhy-tab_03.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="pages/home/images/lhy-tab_15.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="pages/home/images/lhy-tab_06.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="pages/home/images/lhy-tab_12.png" alt=""></a>
+    </li>
+</ul>
+</div>
+
+<!--</body>
+</html>   -->
