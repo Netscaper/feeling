@@ -113,28 +113,10 @@ var mood2=[
         img2:"images/mood_12.png"
     }
 ]
-var app=angular.module("app",[]);
-app.controller("c",function($scope){
+var home=angular.module("home",[]);
+home.controller("c",function($scope){
     $scope.data=data;
     $scope.lximg=lximg;
     $scope.mood1=mood1;
     $scope.mood2=mood2;
-})
-app.directive("lx",function(){
-    return {
-        replace:true,
-        templateUrl:"item.html",
-        scope:{
-            data:"=data"
-        }
-    }
-})
-app.directive("lximg",function(){
-    return {
-        replace:true,
-        templateUrl:"item1.html",
-        scope:{
-            lximg:"=data"
-        }
-    }
 })
