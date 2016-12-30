@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="search">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -40,9 +40,22 @@
         <div class="lhy-rmss">
             <h2><img src="images/lhy-search_17.png" alt=""></h2>
             <div class="lhy-rmss-list">
-                <a href="#" ng-repeat="v in search">{{v.title}}</a>
+                <div ng-repeat="t in data">
+                    <a href="#">{{t.title}}</a>
+                </div>
             </div>
         </div>
+    <!--热门推荐-->
+    <div class="lhy-rmtj">
+        <h2><img src="images/zxtj_03.png" alt=""></h2>
+        <div class="lhy-rmtj-content">
+            <div ng-repeat="v in rmtjimg">
+                <a href="">
+                    <img src="{{v.src}}" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>

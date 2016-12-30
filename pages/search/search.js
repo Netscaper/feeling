@@ -1,17 +1,49 @@
-var search=[
+var data=[
     {
         title:"温柔的小太阳"
     },
     {
         title:"温柔的小太阳"
-    },{
-        title:"温柔的小太阳"
-    },{
+    },
+    {
         title:"温柔的小太阳"
     },
+    {
+        title:"温柔的小太阳"
+    },
+    {
+        title:"温柔的小太阳"
+    },
+    {
+        title:"温柔的小太阳"
+    },
+    {
+        title:"温柔的小太阳"
+    }
 ];
-
+var rmtjimg=[
+    {
+        src:"images/zxtj_07.png"
+    },
+    {
+        src:"images/zxtj_09.png"
+    },
+    {
+        src:"images/zxtj_11.png"
+    },
+    {
+        src:"images/zxtj_15.png"
+    },
+    {
+        src:"images/zxtj_17.png"
+    },
+    {
+        src:"images/zxtj_18.png"
+    }
+]
 var search=angular.module("search",[]);
 search.controller("ss",function($scope){
-    $scope.search=search;
+    $scope.data=data;
+    $scope.rmtjimg=rmtjimg;
 })
+

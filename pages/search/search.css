@@ -73,7 +73,7 @@ body,html{
     width:100%;
     height:3.56rem;
 }
-.lhy-rmss h2{
+.lhy-rmss h2,.lhy-rmtj h2{
     width:100%;
     height:.52rem;
     margin-bottom:.37rem;
@@ -83,10 +83,80 @@ body,html{
     height:.52rem;
     display: block;
 }
+.lhy-rmss-list div{
+    width:2.09rem;
+    height:.52rem;
+    float:left;
+    margin:.1rem;
+}
+.lhy-rmss-list div:first-child{
+    margin-left:1.1rem;
+}
+.lhy-rmss-list div:nth-child(6){
+    margin-left:1.1rem;
+}
 .lhy-rmss-list a{
     width:2.09rem;
     height:.52rem;
-    padding:.1rem;
     display: block;
     float:left;
+    background:url("images/lhy-search_21.png") 0 0 no-repeat;
+    background-size:contain;
+    font-size:.22rem;
+    color:#484848;
+    text-align:center;
+    line-height:.52rem;
 }
+/***************最新推荐********************/
+.lhy-rmtj{
+    width:100%;
+    height:4.17rem;
+}
+.lhy-rmtj h2 img{
+    width:2.53rem;
+    height:.55rem;
+    display: block;
+}
+.lhy-rmtj-content div:first-child{
+    width:2.1rem;
+    height:3.13rem;
+    float:left;
+    margin-right:.1rem;
+}
+.lhy-rmtj-content div:nth-child(2){
+    width:3.17rem;
+    height:1.53rem;
+    float:left;
+    margin-right:.1rem;
+    margin-bottom:.08rem;
+}
+.lhy-rmtj-content div:nth-child(3){
+    width:1.54rem;
+    height:1.53rem;
+    float:left;
+    margin-bottom:.08rem;
+}
+.lhy-rmtj-content div:nth-child(4){
+    width:1.54rem;
+    height:1.53rem;
+    float:left;
+    margin-bottom:.08rem;
+    margin-right:.1rem;
+}
+.lhy-rmtj-content div:nth-child(5){
+    width:1.54rem;
+    height:1.53rem;
+    float:left;
+    margin-bottom:.08rem;
+    margin-right:.1rem;
+}
+/*.lhy-rmtj-content div:first-child a,.lhy-rmtj-content div:first-child img{*/
+    /*width:2.1rem;*/
+    /*height:3.13rem;*/
+    /*display: block;*/
+/*}*/
+/*.lhy-rmtj-content div:nth-child(2) a,.lhy-rmtj-content div:nth-child(2) img{*/
+    /*width:3.17rem;*/
+    /*height:1.53rem;*/
+    /*display: block;*/
+/*}*/
