@@ -2,10 +2,11 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 14:19:22
+* @Last Modified time: 2016-12-30 16:44:15
 */
 body{
-    font-size: 16px;
+    font-size: 0.16rem;
+    background:#f6f6f6;
 }
 a{
     color:#666;
@@ -64,7 +65,10 @@ a{
     border-radius: 5px;
     margin-bottom: 0.1rem;
     background:#fff;
-    box-shadow: 0 0 0.1rem 1px rgba(59, 59, 59, 0.25);
+    box-shadow: 0 0 0.1rem 1px rgba(59, 59, 59, 0.1);
+    overflow:hidden;
+}
+.hyb-list-box li{
     overflow:hidden;
 }
 .hyb-list-left{
@@ -75,22 +79,147 @@ a{
     background:url(../../images/xl.png) center/cover no-repeat;
 }
 .hyb-list-con{
-    width: 4.5rem;
-    height: 0.75rem;
+    width: 4.6rem;
+    height: 0.9rem;
     float: left;
 }
 .hyb-list-con h2{
     font-size: 0.26rem;
     color:#636363;
+    float: left;
+    border-bottom: 1px dashed #50cea6;
+    position: relative;
+    padding-bottom: 0.1rem;
+}
+.hyb-list-con h2:before{
+    content:'';
+    height: 3px;
+    width: 3px;
+    background:#50cea6;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2px;
+    left: -3px;
+}
+.hyb-list-con h2:after{
+    content:'';
+    height: 3px;
+    width: 3px;
+    background:#50cea6;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2px;
+    right:-3px;
+}
+.hyb-s1,.hyb-s2{
+    border:0;
+    background:#ffe829;
+    top: 50%;
+    right: -0.2rem;
+}
+.hyb-s2{
+    background:#f52b7c;
+    right: -0.3rem;
 }
 .hyb-list-con h3{
-    font-size: 0.22rem;
+    font-size: 0.2rem;
     color:#303030;
+    float:left;
     font-weight: 200;
+    margin-top: 0.1rem;
 }
 .hyb-list-right{
     height: 0.25rem;
     margin: 0.25rem 0;
     float:right;
-    font-size: 0.22rem;
+    color:#FF62A6;
 }
+.hyb-list-right span{
+    font-size: 0.26rem;
+}
+.hyb-border{
+    width: 100%;
+    height: 0.06rem;
+    margin: 0.2rem 0; 
+    background:url(../../images/hyb-xian.png) center /cover no-repeat;
+}
+.hyb-list-right b{
+    width: 0.5rem;
+    height: 0.18rem;
+    background:url(../../images/hyb-pay_07.png) center /cover no-repeat;
+    display:inline-block;
+    margin-left: 0.05rem;
+}
+.hyb-list-nub{
+    float:right;
+}
+.hyb-all{
+    margin: 0.1rem 0;
+}
+.hyb-list-nub input,.hyb-list-nub button{
+    margin: 0;
+    border:0;
+    line-height: 0.5rem;
+    text-align:center;
+    background:rgba(0, 0, 0, 0.0);
+    vertical-align: middle;
+}
+.hyb-list-nub button{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    border:1px solid #d6d6d6;
+    font-size: 0.2rem;
+    color:#646464;
+    margin: 0.1rem;
+    padding: 0;
+    line-height: 0.3rem;
+}
+.hyb-list-num{
+    font-size: 0.22rem ;
+    margin-left: 0.18rem;
+    float:left;
+    line-height: 0.5rem;
+    position: relative;
+    color:#6A6A6A;
+}
+.hyb-list-more{
+    float:right;
+    color:#2E2E2E;
+    line-height: 0.5rem;
+}
+.hyb-list-more button{
+    vertical-align: middle;
+    border:0;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0.05rem;
+    background:url(../../images/hyb-pay_11.png) center /cover no-repeat;
+}
+.hyb-btn a{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.hyb-btn{
+    width: 2.42rem;
+    padding-left: 1.8rem;
+    margin: 0.5rem auto;
+    padding-top: 0.05rem;
+    height: 0.63rem;
+    position: relative;
+    background:url('../../images/hyb-pay_15.png')center /cover no-repeat;
+}
+.hyb-btn a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.hyb-btn p{
+    color:#FFDCE9;
+    font-size: 0.22rem;
+    font-weight: normal;
+}
+
