@@ -1,0 +1,20 @@
+body,html{
+    height:100%;
+}
+.swiper-container{
+    height:100%;
+}
+.li:nth-child(1){
+    background: url("yc_images/1_02.png") top center/cover no-repeat;
+}
+.li:nth-child(2){
+    background: url("yc_images/2_02.png") top center/cover no-repeat;
+}
+.li:nth-child(3){
+    background: url("yc_images/3_02.png") top center/cover no-repeat;
+}
+.btnbox{
+    position: absolute;
+    left:50%;
+    bottom:.1rem;
+}
