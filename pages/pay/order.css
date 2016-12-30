@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 16:44:15
+* @Last Modified time: 2016-12-30 17:28:37
 */
 body{
     font-size: 0.16rem;
@@ -202,13 +202,13 @@ a{
     height: 100%;
 }
 .hyb-btn{
-    width: 2.42rem;
+    width: 2.6rem;
     padding-left: 1.8rem;
     margin: 0.5rem auto;
     padding-top: 0.05rem;
-    height: 0.63rem;
+    height: 0.7rem;
     position: relative;
-    background:url('../../images/hyb-pay_15.png')center /cover no-repeat;
+    background:url('../../images/hyb-pay_15.png')center /contain no-repeat;
 }
 .hyb-btn a{
     position: absolute;
@@ -217,9 +217,17 @@ a{
     width: 100%;
     height: 100%;
 }
-.hyb-btn p{
+.hyb-btn p,.hyb-con-title p{
     color:#FFDCE9;
     font-size: 0.22rem;
     font-weight: normal;
 }
-
+.hyb-con-title p{
+    color:#717171;
+    padding-left: 2.7rem;
+    padding-top: 0.2rem;
+    font-size: 0.26rem;
+}
+.hyb-btn p span,.hyb-con-title p span{
+    font-size: 0.16rem;
+}
