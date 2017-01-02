@@ -1,0 +1,194 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-29 18:57:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-02 14:50:34
+*/
+body{
+    font-size: 0.16rem;
+    background:#f6f6f6;
+}
+a{
+    color:#666;
+}
+.hyb-top{
+    width: 100%;
+    height: 5.3rem;
+    position: absolute;
+    left: 0;top: 0;
+    z-index: -1;
+    background: url(../../images/1.jpg) right 35%/cover;
+}
+.hyb-content-box{
+    border-top: 0.01rem solid #fff;
+    margin: 0.03rem 0.25rem 0;
+    position: relative;
+}
+.hyb-dian{
+    height: 3px;
+    width: 3px;
+    background:#fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.5px;
+    border-left:1px solid #DDF4E2;
+    border-right:1px solid #DDF4E2;
+}
+.hyb-t1{
+    left: 0;
+}
+.hyb-t2{
+    left: 50%;
+    margin-left: -0.02rem;
+}
+.hyb-t3{
+    left: 100%;
+}
+.hyb-con-title{
+    margin: 0.2rem auto 0.45rem;
+    overflow:hidden;
+    position:relative;
+}
+
+.hyb-more{
+    width: 0.65rem;
+    height: 0.65rem;
+    float: left;
+    background:url(../../images/more.png) center/contain no-repeat;
+    display: block;
+}
+.hyb-add{
+    float:right;
+    background:url(../../images/add.png) center/contain no-repeat;
+}
+
+.hyb-head-box{
+    text-align: center;
+}
+.hyb-head-box img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    margin: 0.5rem auto 0.4rem;
+    display:block;
+}
+.hyb-head-box h3{
+    color:#2a2a2a;
+    font-size: 0.32rem;
+    font-weight: 200;
+}
+.hyb-head-box h3 b{
+    font-weight: 700;
+}
+.hyb-head-box p{
+    font-size: 0.22rem;
+    color:#4d4d4d;
+}
+.hyb-head-box p span{
+    color:#f20b2c;
+    font-size: 0.28rem;
+}
+
+.hyb-ban-box{
+    overflow: hidden;
+    height: 4rem;
+    width: 100%;
+}
+.hyb-ban{
+    width: 17.2rem;
+    margin-right: -0.5rem;
+    overflow:hidden;
+    padding: 0 1rem;
+}
+.hyb-ban li{
+    width: 4.2rem;
+    height: 2.2rem;
+    padding: 0.55rem 0.6rem 0.45rem;
+    border-radius: 5px;
+    margin-bottom: 0.1rem;
+    margin-right: 0.1rem;
+    background:#fff;
+    box-shadow: 0 0 0.1rem 1px rgba(59, 59, 59, 0.1);
+    overflow:hidden;
+    float:left;
+    transform: scale(0.8);
+    transition: all 1s;
+}
+.hyb-ban .hyb-active{
+    transform: scale(1);
+}
+.hyb-ban li img{
+    width: 1rem;
+    height: 0.35rem;
+    margin-bottom: 0.25rem;
+}
+.hyb-ban li h1{
+    font-size: 0.28rem;
+    color:#555;
+    margin-bottom: 0.45rem;
+}
+.hyb-ban li h2{
+    text-align: center;
+    font-size: 0.18rem;
+    font-weight: 200;
+    margin-bottom: 0.15rem;
+}
+.hyb-ban li b{
+    font-size: 0.22rem;
+    font-weight: 700;
+}
+.hyb-desc{
+    height: 0.5rem;
+}
+.hyb-desc p{
+    font-size: 0.18rem;
+    float:left;
+}
+.hyb-ban li .hyb-desc-right{
+    height: 0.5rem;
+    width: 0.7rem;
+    float:right; 
+    margin-top: -0.25rem;
+    margin-bottom: 0;
+}
+.hyb-ban-btn{
+    width: 0.9rem;
+    margin: 0 auto;
+}
+.hyb-ban-btn li{
+    
+}
+
+
+
+
+
+.hyb-btn a{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.hyb-btn{
+    width: 2.6rem;
+    padding-left: 1.8rem;
+    margin: 0.5rem auto;
+    padding-top: 0.05rem;
+    height: 0.7rem;
+    position: relative;
+    background:url('../../images/hyb-pay_15.png')center /contain no-repeat;
+}
+.hyb-btn a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.hyb-btn p{
+    color:#FFDCE9;
+    font-size: 0.22rem;
+    font-weight: normal;
+}
+.hyb-btn p span{
+    font-size: 0.16rem;
+}
