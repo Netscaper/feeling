@@ -23,22 +23,22 @@ var data=[
 ];
 var rmtjimg=[
     {
-        src:"images/zxtj_07.png"
+        src:"../images/zxtj_07.png"
     },
     {
-        src:"images/zxtj_09.png"
+        src:"../images/zxtj_09.png"
     },
     {
-        src:"images/zxtj_11.png"
+        src:"../images/zxtj_11.png"
     },
     {
-        src:"images/zxtj_15.png"
+        src:"../images/zxtj_15.png"
     },
     {
-        src:"images/zxtj_17.png"
+        src:"../images/zxtj_17.png"
     },
     {
-        src:"images/zxtj_18.png"
+        src:"../images/zxtj_18.png"
     }
 ]
 var search=angular.module("search",[]);
