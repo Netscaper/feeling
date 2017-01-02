@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ad049f2-5a79-48d7-a98e-b4f4273c5807" name="Default" comment="">
-<<<<<<< HEAD
+
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/search/search.css" afterPath="$PROJECT_DIR$/pages/search/search.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/search/search.html" afterPath="$PROJECT_DIR$/pages/search/search.html" />
-=======
-<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bluebtn.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bluebtnd.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/greybtn.png" />
@@ -100,12 +98,9 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/directive/button.js" afterPath="$PROJECT_DIR$/pages/home/item1.html" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/pages/home.html" afterPath="$PROJECT_DIR$/pages/life/life.js" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/tpl/tpl.html" afterPath="$PROJECT_DIR$/pages/search/search.css" />
-=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/search/search.css" afterPath="$PROJECT_DIR$/pages/search/search.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/search/search.html" afterPath="$PROJECT_DIR$/pages/search/search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/search/search.js" afterPath="$PROJECT_DIR$/pages/search/search.js" />
->>>>>>> e3da80d0f1cbd63909bfd1952c4907061d004b05
->>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
     </list>
     <ignored path="feeling.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,17 +123,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
       <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
-=======
-<<<<<<< HEAD
       <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
               <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
               <folding />
-=======
       <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/home/home.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -160,12 +151,10 @@
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
->>>>>>> e3da80d0f1cbd63909bfd1952c4907061d004b05
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/search/search.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -175,13 +164,10 @@
       <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login/login.css">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="240">
               <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-=======
             <state relative-caret-position="194">
               <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
->>>>>>> e3da80d0f1cbd63909bfd1952c4907061d004b05
               <folding />
             </state>
           </provider>
@@ -250,7 +236,6 @@
       <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login/login.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
@@ -259,13 +244,11 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="search.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/search/search.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
               <caret line="223" column="26" lean-forward="false" selection-start-line="223" selection-start-column="26" selection-end-line="223" selection-end-column="26" />
-=======
       <file leaf-file-name="angularJs.md" pinned="false" current-in-tab="false">
         <entry file="file://D:/Users/Super Bran/Documents/笔记/angularJs.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -293,11 +276,8 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="120" />
-=======
             <state relative-caret-position="256">
               <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
->>>>>>> e3da80d0f1cbd63909bfd1952c4907061d004b05
->>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
               <folding />
             </state>
           </provider>
@@ -326,7 +306,6 @@
         <option value="$PROJECT_DIR$/directive/input.js" />
         <option value="$PROJECT_DIR$/tpl/label.html" />
         <option value="$PROJECT_DIR$/index.js" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/directive/ctrl.js" />
         <option value="$PROJECT_DIR$/pages/flash/flash.html" />
         <option value="$PROJECT_DIR$/pages/flash/flash.css" />
@@ -340,7 +319,6 @@
         <option value="$PROJECT_DIR$/pages/login/login3.html" />
         <option value="$PROJECT_DIR$/pages/login/login5.html" />
         <option value="$PROJECT_DIR$/pages/login/login.css" />
-=======
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/home.html" />
         <option value="$PROJECT_DIR$/pages/home/item1.html" />
@@ -352,7 +330,6 @@
         <option value="$PROJECT_DIR$/pages/search/search.js" />
         <option value="$PROJECT_DIR$/pages/search/search.css" />
         <option value="$PROJECT_DIR$/pages/search/search.html" />
->>>>>>> e3da80d0f1cbd63909bfd1952c4907061d004b05
       </list>
     </option>
   </component>
@@ -398,10 +375,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
       <pane id="Scratches" />
->>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -478,7 +452,6 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="jsx.switch.disabled" value="true" />
-<<<<<<< HEAD
 =======
     <property name="last_opened_file_path" value="F:/feeling" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -564,7 +537,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482982650659</updated>
       <workItem from="1482982654437" duration="1715000" />
-<<<<<<< HEAD
       <workItem from="1482987367093" duration="23551000" />
       <workItem from="1483016849432" duration="9039000" />
       <workItem from="1483059615316" duration="3277000" />
@@ -583,10 +555,8 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="53258000" />
 =======
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="43401000" />
 =======
     <option name="totallyTimeSpent" value="41941000" />
@@ -610,12 +580,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-=======
       <window_info id="Hierarchy" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
->>>>>>> e3da80d0f1cbd63909bfd1952c4907061d004b05
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -638,28 +605,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/login/login4.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-=======
         <state relative-caret-position="450">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="n#ol#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
->>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/login/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
           <folding />
         </state>
       </provider>
@@ -738,7 +700,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/input.html" />
     <entry file="file://$PROJECT_DIR$/directive/button.js" />
     <entry file="file://$PROJECT_DIR$/tpl/tpl.html" />
@@ -787,7 +748,6 @@
       </provider>
     </entry>
     <entry file="file://D:/Users/Super Bran/Documents/笔记/angularJs.md">
->>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="7410">
@@ -861,13 +821,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/flash/flash.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="384">
           <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
 =======
         <state relative-caret-position="120">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="120" />
->>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
           <folding />
         </state>
       </provider>
@@ -935,11 +893,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controller.js" />
     <entry file="file://$PROJECT_DIR$/directive/input.css" />
-<<<<<<< HEAD
     <entry file="file://D:/Users/Super Bran/Documents/笔记/angularJs.md" />
     <entry file="file://$PROJECT_DIR$/directive/input.js" />
     <entry file="file://$PROJECT_DIR$/pages/login.html">
-=======
     <entry file="file://$PROJECT_DIR$/directive/bg.js" />
     <entry file="file://$PROJECT_DIR$/pages/home.html" />
     <entry file="file://$PROJECT_DIR$/tpl/bg.html" />
@@ -992,7 +948,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tpl/label.html" />
     <entry file="file://$PROJECT_DIR$/pages/home.html" />
     <entry file="file://$PROJECT_DIR$/js/rem.js">
@@ -1019,7 +974,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
 =======
     <entry file="file://$PROJECT_DIR$/pages/flash/flash.html">
@@ -1030,7 +984,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pages/login/login.js">
 >>>>>>> 9781098e81f78c4a07a8591fffb88dadaa3d324e
       <provider selected="true" editor-type-id="text-editor">
