@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-02 14:50:34
+* @Last Modified time: 2017-01-02 20:09:34
 */
 body{
     font-size: 0.16rem;
@@ -153,13 +153,79 @@ a{
 }
 .hyb-ban-btn{
     width: 0.9rem;
-    margin: 0 auto;
+    height: 0.2rem;
+    margin: 0.35rem  auto 0.3rem;
 }
 .hyb-ban-btn li{
-    
+    float:left;
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-right: 0.1rem;
+    background-color: #ababab;
+    border-radius: 50%;
+}
+.hyb-ban-btn  .hyb-ban-btn-active{
+    background-color: #192889;
 }
 
 
+
+.hyb-bank-card{
+    padding: 0.75rem 0.7rem 0.5rem 0.75rem ;
+    background-color: #fff;
+}
+.hyb-bank-line{
+    border-top:1px dashed #bfbfbf;
+}
+.hyb-bank{
+    position: relative;
+    height: 0.85rem;
+    margin-top: 0.25rem;
+}
+.hyb-bank-cir{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -0.3rem;
+    top: 0.1rem;
+}
+.hyb-bc1{
+    background-color: #094;
+}
+.hyb-bc2{
+    background-color: #fff114;
+}
+.hyb-bc3{
+    background-color: #ff1425;
+}
+
+
+
+
+
+.hyb-bank-left{
+    width: 1.85rem;
+    float:left;
+}
+.hyb-bank-left span{
+    font-size: 0.18rem;
+    color:#555;
+}
+.hyb-bank-left h1,.hyb-bank-right p{
+    font-size: 0.22rem  ;
+    color:#555;
+}
+.hyb-bank-right{
+    float:left;
+}
+.hyb-bank button{
+    float:right;
+    border-radius: 0.3rem;
+    background-color: #26b9b0;
+    border:0;
+    color:#fff;
+}
 
 
 
