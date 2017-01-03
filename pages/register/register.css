@@ -9,7 +9,12 @@ ul{
 html,body{
     height:100%;
 }
-
+a{
+    text-decoration: none;
+}
+input,button{
+    outline: none;
+}
 .sly-bg{
     width:100%;
     height: 6.06rem;
@@ -73,7 +78,7 @@ html,body{
     margin-right: .25rem;
     border:1px solid #333;
     padding:0.04rem;
-    background:green;
+    background:#333;
     background-clip: content-box;
     margin-top: 0.51rem;
 }
@@ -122,6 +127,7 @@ html,body{
     position: absolute;
     top: 9.44rem;
     left:0.8rem;
+    display:none;
 }
 .sly-next{
     width:3.26rem;
@@ -132,6 +138,9 @@ html,body{
     left:50%;
     margin-left: -1.63rem;
     font-size: 0.26rem;
+    color:#fff;
+}
+.sly-next>a{
     color:#fff;
 }
 .sly-next:before{

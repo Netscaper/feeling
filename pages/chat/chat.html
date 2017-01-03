@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="chat">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="chat.css" />
+    <script src="angular.min.js"></script>
+    <script src="rem.js"></script>
+    <script src="chat.js"></script>
+</head>
+<body>
+    <header class="sly-head">
+        <div class="sly-return"></div>
+    </header>
+    <ul class="sly-ul" ng-controller='c'>
+        <p-list ng-repeat="v in listdata" listdata="v"></p-list>
+    </ul>
+    <div class="sly-nk">
+        <p class="sly-plist">The <span>friends list</span></p>
+        <div class="sly-yline"></div>
+        <p class="sly-person">好友列表</p>
+        <p class="sly-pernum">您当前的好友数量为<span>128</span>是大家心中的小可爱</p>
+        <input type="text" class="sly-inp" placeholder="search"/>
+        <button class="sly-buttom">
+            <i></i>
+        </button>
+    </div>
+    <div class="sly-peritem">
+        <p class="sly-cont">A .36</p>
+        <ul>
+            <li class="sly-zlbox">
+                <a href="##">
+                    <img src="images/{{listdata.src}}"alt="" />
+                    <div class="sly-commit">
+                        <p class="sly-title">GREEN · DAVE</p>
+                        <div class="sly-line"></div>
+                        <p class="sly-remark">愿我们都是最初的样子，听着歌甜甜的笑了。</p>
+                    </div>
+                    <div class="sly-border-bot"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

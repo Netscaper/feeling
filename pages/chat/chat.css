@@ -1,0 +1,228 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-30 14:29:45
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-03 00:27:54
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+    outline: none;
+}
+body{
+    color:#303030;
+    font-size: 0.24rem;
+    background-color: #f6f6f6;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#303030;
+}
+
+.sly-head{
+    height:0.91rem;
+    width:100%;
+    background:url("images/bg.png") center center/cover ;
+}
+.sly-return{
+    width:.54rem;
+    height:.58rem;
+    background:url("images/return.png") center center/cover;
+    position: absolute;
+    left: .24rem;
+    top: .18rem;
+}
+.sly-ul{
+    margin-top: 0.24rem;
+    margin-bottom: 0.34rem;
+}
+.sly-list{
+    width:7.02rem;
+    height: 1.24rem;
+    margin:.12rem auto;
+    box-shadow: 0 0 0.1rem #d0d0d0;
+    border-radius: 0.15rem;
+}
+
+.sly-list:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.sly-list img{
+    display:block;
+    width:0.66rem;
+    height:0.73rem;
+    margin-left:0.15rem ;
+    margin-right:.3rem;
+    float:left;
+    margin-top: 0.24rem;
+}
+.sly-commit{
+    width:4.5rem;
+    float:left;
+    margin-top: .22rem;
+}
+.sly-title{
+    font-size: .26rem;
+    /*line-height: 0.6rem;*/
+}
+.sly-line{
+    width:1.05rem;
+    height:1px;
+    border-bottom:1px dashed #50cea6;
+    margin: .1rem 0 .14rem;
+}
+
+.sly-line:before{
+    content:"";
+    display: block;
+    width:.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #50cea6;
+    float: left;
+}
+.sly-line:after{
+    content:"";
+    display: block;
+    width:0.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #50cea6;
+    float:right;
+}
+.sly-remark{
+    font-size: 0.22rem;
+    white-space: nowrap;
+}
+.sly-border{
+    width:0.9rem;
+    height:0.4rem;
+    border-radius: 0.2rem;
+    background:#ff539f;
+    float:right;
+    margin-top: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    color:#fff;
+    margin-right: 0.3rem;
+}
+/*haoyoulist*/
+.sly-plist{
+    font-family: 'San Francisco Display';
+    font-size: .36rem;
+    color:#f21549;
+    text-transform: uppercase;
+}
+.sly-nk{
+    width:7.02rem;
+    margin: 0 auto;
+}
+.sly-nk:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.sly-plist>span{
+    color:#424242;
+    font-size: .26rem;
+}
+.sly-yline{
+    /*height:1px;*/
+    border-bottom: 1px dashed #50cea6;
+    width:1.86rem;
+    margin: 0.1rem 0;
+}
+.sly-yline:before{
+    content:"";
+    display: block;
+    width:.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #ffe326;
+    float: left;
+}
+.sly-yline:after{
+    content:"";
+    display: block;
+    width:0.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #ffe326;
+    float:right;
+}
+.sly-person{
+    color:#686868;
+}
+.sly-pernum{
+    color:#686868;
+    font-weight: bold;
+    margin: 0.3rem 0;
+}
+.sly-pernum>span{
+    color:#ff539f;
+    
+}
+.sly-inp{
+    width:4.65rem;
+    height:0.84rem;
+    border-radius: 0.40rem;
+    box-shadow: 0 0 0.10rem #bfbfbf;
+    color:#60abbe;
+    padding-left: 0.85rem;
+    float:left;
+}
+.sly-buttom{
+    width:1.42rem;
+    height:0.84rem;
+    border-radius: 0.40rem;
+    float:right;
+    text-align: center;
+    background:#fff;
+}
+.sly-buttom>i{
+    display: inline-block;
+    font-style: normal;
+    width:0.5rem;
+    height:0.5rem;
+    background:url("images/fdj.png") center center/cover;
+}
+/**/
+.sly-peritem{
+    width:7.02rem;
+    margin: 0 auto;
+}
+.sly-cont{
+    color:#606060;
+    font-size: 0.28rem;
+    font-weight: bold;
+    margin: 0.32rem 0 0.26rem;
+}
+.sly-zlbox{
+    width:7rem;
+    height:1.4rem;
+    box-shadow: 0 0 0.1rem #d0d0d0;
+    border-radius: 0.15rem;
+    padding-top: 0.3rem;
+}
+.sly-zlbox img{
+    height:1.1rem;
+    width:1.1rem;
+    float: left;
+    margin: 0 0.3rem;
+}
+.sly-border-bot{
+    width:0.16rem;
+    height:0.26rem;
+    background:url("images/phone.png") center center/cover;
+    float:right;
+    margin-top: .5rem;
+    margin-right: 0.3rem;
+}
