@@ -1,7 +1,8 @@
 var data=[
     {
         src:"images/lx_06.png",
-        title:"聊天表情"
+        title:"聊天表情",
+        href:'pages/pay/order.html'
     },
     {
         src:"images/lx_09.png",
