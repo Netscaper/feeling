@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-02 22:02:32
+* @Last Modified time: 2017-01-03 14:00:29
 */
 body{
     font-size: 0.16rem;
@@ -178,12 +178,17 @@ a{
     margin-top: 0.45rem;
 }
 .hyb-dui{
-    width: 0.3rem;
-    height: 0.3rem;
+    width: 0.28rem;
+    height: 0.28rem;
     border-radius: 50%;
+    border:1px solid #fff;
     background:url(../../images/dui.png) center/70% #2eb071 no-repeat;
     float:left;
     margin-right: 0.15rem;
+}
+.hyb-kong{
+    background:#FFF;
+    border:1px solid #2eb071;
 }
 .hyb-agree a{
     color:#555;
