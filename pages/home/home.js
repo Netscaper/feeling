@@ -2,7 +2,7 @@ var data=[
     {
         src:"images/lx_06.png",
         title:"聊天表情",
-        href:'pages/pay/order.html'
+        href:"#pay"
     },
     {
         src:"images/lx_09.png",
