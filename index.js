@@ -1,3 +1,3 @@
 
-var app = angular.module("app",['ngRoute','ctrl']);
+var app = angular.module("app",['ngRoute']);
 
