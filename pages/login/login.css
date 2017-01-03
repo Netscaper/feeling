@@ -4,6 +4,9 @@
     padding:0;
     font-family:苹方;
 }
+input{
+    outline:none;
+}
 body,html{
     height:100%;
     /*overflow: hidden;*/
@@ -154,6 +157,23 @@ header{
     display: flex;
     align-items: center;
     background: #fff;
+    position:relative;
+}
+.zyp_status{
+    position:absolute;
+    right:0;
+    top:0;
+    display:block;
+    width:0.16rem;
+    height:0.16rem;
+    box-sizing:content-box;
+    border-radius: 50%;
+    margin-right: .25rem;
+    border:1px solid #333;
+    padding:0.04rem;
+    background:#333;
+    background-clip: content-box!important;
+    margin-top: 0.51rem;
 }
 #yc_userInfo>li:nth-child(1) label {
     border-bottom: .01rem dashed #B9B9B9;
@@ -247,6 +267,7 @@ header{
     position: absolute;
     right:0;
     top: .8rem;
+    z-index:1;
     display: flex;
     justify-content: space-around;
     align-items: center;
