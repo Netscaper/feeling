@@ -14,6 +14,7 @@ dir.directive('zypInput',function(){
 })
 dir.directive("lxLan",function(){
     return {
+        restrict:'ECMA',
         replace:true,
         templateUrl:"../pages/home/item.html",
         scope:{

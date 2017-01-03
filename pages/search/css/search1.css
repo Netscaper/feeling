@@ -53,7 +53,7 @@ h2,h3,h4,h5{
     background:#fff;
     padding-left:.6rem;
     box-sizing:border-box;
-    box-shadow: 0 0 10px 0 #eee;
+    box-shadow: 0 0 15px 0 #ccc;
 }
 .lhy-sear span{
     width:.18rem;
@@ -165,7 +165,7 @@ h2,h3,h4,h5{
     display: block;
 }
 /**********好友列表**********************/
-.lhy-haoyou{
+/*.lhy-haoyou{
     width:100%;
     height:2.24rem;
     border-radius:4px;
@@ -257,8 +257,8 @@ h2,h3,h4,h5{
 }
 .lhy-hy-right h4 b:nth-child(3){
     margin-left:.53rem;
-}
-.lhy-hobby span{
+}*/
+/*.lhy-hobby span{
     width:.3rem;
     height:.3rem;
     display: inline-block;
@@ -270,4 +270,4 @@ h2,h3,h4,h5{
 }
 .lhy-hobby span:nth-child(3){
     background:url("../images/lhy-hylb_19.png") center center no-repeat;
-}
+}*/
