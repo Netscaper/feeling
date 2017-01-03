@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="pages/login/login.css">
-<body>
 <header class="yc_header">
     <div class="yc_head">
     </div>
@@ -7,10 +6,25 @@
 </header>
 <div class="yc_logo">
 </div>
-<section>
+<div ng-controller="loginCtrl">
     <ul id="yc_userInfo">
-        <li><label ><input type="email" value="Email"></label></li>
-        <li><label ><input type="password" value="Password"></label></li>
+        <li>
+            <label >
+                <input type="text" placeholder="Email" ng-blur="zhBlur($event)" ng-change="zhChange($event)" ng-model="zhanghao" name="zhanghao">
+                <span class="zyp_status" ng-style="status1"></span>
+            </label>
+            <div class="yc_history" ng-show="zhStatus">
+                <div class="yc_account" ng-repeat="v in data | filter:{name:zhanghao}:false | limitTo:3">{{v.name}}</div>
+                <div class="yc_more">
+                </div>
+            </div>
+        </li>
+        <li>
+            <label >
+                <input type="password" placeholder="Password" name="mima" ng-model="pwd" ng-change="pwdBlur()">
+                <span class="zyp_status" ng-style="status2"></span>
+            </label>
+        </li>
     </ul>
     <ol class="yc_nav">
         <li><a href="#">忘记密码</a></li>
@@ -21,5 +35,4 @@
         <span class="yc_btnLogin">登录</span>
         <em></em>
     </a>
-</section>
-<script src="pages/login/login.js"></script>
+</div>
