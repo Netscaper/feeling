@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 app.config(['$routeProvider', function($routeProvider){
     $routeProvider
     .when('/',{templateUrl:'pages/home/home.html'})
-    .when('/login',{templateUrl:'pages/login/login1.html'})
+    .when('/login',{templateUrl:'pages/login/login.html'})
     .when('/chat',{templateUrl:'pages/chat/chat.html'})
     .when('/order',{templateUrl:'pages/pay/order.html'})
     .when('/albo',{templateUrl:'pages/pay/albo.html'})
@@ -16,5 +15,4 @@ app.config(['$routeProvider', function($routeProvider){
         controller:'ss'
     })
 }])
-=======
->>>>>>> 040d26b9cf239eb8aaef84fd308f956df3817d21
+
