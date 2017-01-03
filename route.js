@@ -13,4 +13,8 @@ app.config(['$routeProvider', function($routeProvider){
         templateUrl:'pages/search/html/search2.html',
         controller:'ss'
     })
+    .when("/search4",{
+        templateUrl:'pages/search/html/search4.html',
+        controller:'ss'
+    })
 }])

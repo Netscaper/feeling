@@ -50,7 +50,8 @@ var hylb=[
        eng2:"Chen Chen who love to eat",
        gx:"山西晋城",
        age:"22",
-       gxqm:"有没有冬瓜，在温暖的午后，一杯冰凉的冬瓜汁"
+       gxqm:"有没有冬瓜，在温暖的午后，一杯冰凉的冬瓜汁",
+       src:"#/search4"
     },
     {
        headerimg:"images/lhy-header_03.png" ,
@@ -60,7 +61,8 @@ var hylb=[
        eng2:"Chen Chen who love to eat",
        gx:"山西太原",
        age:"20",
-       gxqm:"有没有冬瓜，在温暖的午后"
+       gxqm:"有没有冬瓜，在温暖的午后",
+       src:"#/search4"
     }
 ]
 var newhylb=[];
@@ -81,8 +83,8 @@ search.controller("ss",function($scope){
         $scope.jgshow=false;
       }
     }
-    $scope.num=function(){
-      
+    $scope.searchsubmit=function(){
+      $scope.searchdisplay=$scope.searchdisplay;
     }
 })
 

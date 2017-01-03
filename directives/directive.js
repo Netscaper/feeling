@@ -22,3 +22,11 @@ dir.directive("lxLan",function(){
         }
     }
 })
+dir.directive("lhyssjg",function(){
+    return {
+        restrict:'ECMA',
+        // replace:true,
+        templateUrl:"../tpl/lhyssjg/lhyssjg.html",
+        scope:true
+    }    
+})
