@@ -66,7 +66,7 @@ var hylb=[
 var newhylb=[];
 var search=angular.module("search",[]);
 search.controller("ss",function($scope){
-    $scope.data=data;
+    $scope.searchdata=searchdata;
     $scope.rmtjimg=rmtjimg;
     $scope.hylb=hylb;
     $scope.searchdisplay=false;
@@ -80,6 +80,9 @@ search.controller("ss",function($scope){
       if($scope.sea.length==0){
         $scope.jgshow=false;
       }
+    }
+    $scope.num=function(){
+      
     }
 })
 
