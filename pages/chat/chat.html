@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" type="text/css" href="chat.css" />
-    <script src="angular.min.js"></script>
-    <script src="rem.js"></script>
-    <script src="chat.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/chat.css" />
+    <script src="js/angular.min.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/chat.js"></script>
 </head>
 <body>
     <header class="sly-head">
-        <div class="sly-return"></div>
+        <a href="##">
+            <div class="sly-return"></div>
+        </a>
     </header>
     <ul class="sly-ul" ng-controller='c'>
         <p-list ng-repeat="v in listdata" listdata="v"></p-list>
@@ -21,6 +23,11 @@
         <div class="sly-yline"></div>
         <p class="sly-person">好友列表</p>
         <p class="sly-pernum">您当前的好友数量为<span>128</span>是大家心中的小可爱</p>
+        <div class="sly-posimg"></div>
+        <div class="sly-posquan">
+            <span class="yquan"></span>
+            <span class="rquan"></span>
+        </div>
         <input type="text" class="sly-inp" placeholder="search"/>
         <button class="sly-buttom">
             <i></i>
@@ -31,11 +38,32 @@
         <ul>
             <li class="sly-zlbox">
                 <a href="##">
-                    <img src="images/{{listdata.src}}"alt="" />
-                    <div class="sly-commit">
-                        <p class="sly-title">GREEN · DAVE</p>
-                        <div class="sly-line"></div>
-                        <p class="sly-remark">愿我们都是最初的样子，听着歌甜甜的笑了。</p>
+                    <div class="sly-cbj">
+                        <div>
+                            <img src="images/pic.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="sly-commit-bot">
+                        <div class="sly-one-bot">
+                            <p class="sly-title-bot">GREEN<span> · </span><i>DAVE</i></p>
+                            <div class="sly-star">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <div class="sly-vip"></div>
+                        </div>
+                        <div class="sly-line-bot"></div>
+                        <p class="sly-remark-bot">愿我们都是最初的样子，听着歌甜甜的笑了。</p>
+                        <div class="sly-like left5">
+                            <img src="images/add.png" alt="" />
+                            <span>山西太原</span>
+                        </div>
+                        <div class="sly-like">
+                            <img src="images/yf.png" alt="" />
+                            <span>逛大街</span>
+                        </div>
                     </div>
                     <div class="sly-border-bot"></div>
                 </a>
