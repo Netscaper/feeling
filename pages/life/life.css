@@ -87,4 +87,91 @@ body{
     width:3.2rem;
     height:.5rem;
     margin:0 auto;
+    line-height:.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zyp_dengji span{
+    display:block;
+    font-family:'平方';
+    font-size:.24rem;
+    color:#313131;
+}
+.zyp_dengji_span i{
+    display:inline-block;
+    width:.23rem;
+    height:.16rem;
+    margin-right:.08rem;
+    background:url(images/zyp_dengji.png) no-repeat center center/cover; 
+}
+.zyp_gxqm{
+    width:5.8rem;
+    height:.4rem;
+    margin:0 auto;
+    line-height:.4rem;
+    overflow:hidden;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.zyp_gxqm span{
+    display:block;
+    width:auto;
+    height:100%;
+    font-size:.18rem;
+}
+.zyp_gxqm .zyp_gxqm_span{
+    padding-left:.5rem;
+    position:relative;
+}
+.zyp_gxqm_span:after{
+    content:'';
+    display:block;
+    position:absolute;
+    left:.3rem;
+    top:.18rem;
+    width:.06rem;
+    height:.06rem;
+    border-radius:50%;
+    background-color:#14C621;
+}
+.zyp_gxqm_span:before{
+    content:'';
+    display:block;
+    position:absolute;
+    left:.2rem;
+    top:.18rem;
+    width:.04rem;
+    height:.04rem;
+    border-radius:50%;
+    background-color:#E91D3F;
+}
+.zyp_get{
+    width:5.8rem;
+    height:.62rem;
+    margin:0 auto;
+    margin-top:.45rem;
+    margin-bottom:.84rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.zyp_get_flower{
+    width:2.6rem;
+    height:.6rem;
+    background:url(images/flower.png) no-repeat left top;
+    background-size:1.44rem auto;
+    border-bottom:1px dashed #40D18D;
+    line-height:.1rem;
+    text-align:right;
+}
+.zyp_get_lizhi{
+    background:url(images/lizhi.png) no-repeat left top;
+    background-size:1.2rem auto;
+}
+.zyp_get_flower span{
+    font-size:.36rem;
+    font-family:'San Francisco Display';
+    color:#5988E6;
 }

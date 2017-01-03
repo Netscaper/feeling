@@ -1,1 +1,2 @@
-var app = angular.module("app",['ngRoute','search','home','dir','ctrl']);
+var app = angular.module("app",['ngRoute','search','home','dir','ctrl','login']);
+

@@ -1,33 +1,58 @@
-var list=[
-    {
-        title:"登录",
-        imgUrl:"yc_login_images/login_04.png"
-    },
-    {
-        title:"注册",
-        imgUrl:"yc_login_images/login_06.png"
-    },
-    {
-        title:"登录",
-        imgUrl:"yc_login_images/button1_03.png"
-    }
-]
-var login=angular.module("login",[])
-login.controller("c",function ($scope) {
-    $scope.login=function (v) {
-        console.log(v)
-    }
-})
-login.directive("newButton",function () {
+var login=angular.module("login",[]);
+login.factory('localS',function(){
     return {
-        restrict: "ECMA",
-        templateUrl: "../../tpl/label.html",
-        replace: true,
-        scope:true,
-        controller:"n"
+        getdata:function(){
+            var arr=[];
+            var st=localStorage.getItem("data");
+            return JSON.parse(st);
+        },
+        savedata:function (data) {
+            localStorage.setItem("data",JSON.stringify(data));
+        }
     }
 })
-login.controller("n",function ($scope) {
-    $scope.list=list;
-    console.log($scope)
+login.controller('loginCtrl',function($scope,localS,$filter){
+    console.log(1);
+    $scope.zhanghao;
+    $scope.pwd;
+    $scope.xinxi;
+    $scope.data = localS.getdata();
+    $scope.zhStatus=false;
+    $scope.status;
+    console.log(localS.getdata());
+    $scope.zhBlur=function(){
+        $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true);
+        console.log($scope.xinxi);
+        if($scope.xinxi.length){
+            $scope.status1={
+                'background':'#28DB67'
+            }
+        }else{
+            $scope.status1={
+                'background':'#FF0000'
+            }
+        }
+    }
+    $scope.pwdBlur = function(){
+        console.log($scope.pwd,$scope.xinxi[0].pwd);
+        if($scope.pwd==$scope.xinxi[0].pwd){
+            $scope.status2={
+                'background':'#28DB67'
+            }
+        }else{
+            $scope.status2={
+                'background':'#FF0000'
+            }
+        }
+    }
+    $scope.zhChange = function(){
+        $scope.data.forEach(function(v){
+            if(v.name.slice(0,1)==$scope.zhanghao.slice(0,1)){
+                $scope.zhStatus=true;
+            }
+        })
+        if($scope.zhanghao.length==0){
+            $scope.zhStatus=false;
+        }
+    }
 })
