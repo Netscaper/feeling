@@ -1,0 +1,232 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-29 18:57:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-03 14:00:29
+*/
+body{
+    font-size: 0.16rem;
+    background:#f6f6f6;
+}
+a{
+    color:#666;
+}
+.hyb-top{
+    width: 100%;
+    height: 4.7rem;
+    position: absolute;
+    left: 0;top: 0;
+    z-index: -1;
+    background: url(../../images/4.jpg) right 35%/cover;
+}
+.hyb-content-box{
+    border-top: 0.01rem solid #fff;
+    margin: 0.03rem 0.25rem 0;
+    position: relative;
+}
+.hyb-dian{
+    height: 3px;
+    width: 3px;
+    background:#fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.5px;
+    border-left:1px solid #DDF4E2;
+    border-right:1px solid #DDF4E2;
+}
+.hyb-t1{
+    left: 0;
+}
+.hyb-t2{
+    left: 50%;
+    margin-left: -0.02rem;
+}
+.hyb-t3{
+    left: 100%;
+}
+.hyb-con-title{
+    margin: 0.2rem auto 0.45rem;
+    padding-left: 2.6rem;
+    overflow:hidden;
+    position:relative;
+    background:url(../../images/hyb-pay2_03.png) center/contain no-repeat;
+}
+.hyb-con-title h1{
+    font-size: 0.32rem;
+    font-weight: 200;
+    color:#717171;
+}
+.hyb-con-title h2{
+    font-size: 0.16rem;
+    font-weight: 200;
+    color:#717171;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.hyb-con-title h2 strong{
+    font-weight: 700;
+}
+.hyb-con-title a{
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+.hyb-more{
+    width: 0.65rem;
+    height: 0.65rem;
+    float: left;
+    background:url(../../images/more.png) center/contain no-repeat;
+    display: block;
+}
+
+.hyb-head-box{
+    text-align: center;
+}
+.hyb-head-box img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    margin: 0.5rem auto 0.4rem;
+    display:block;
+}
+.hyb-head-box h3{
+    color:#2a2a2a;
+    font-size: 0.32rem;
+    font-weight: 200;
+}
+.hyb-head-box h3 b{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.hyb-list-box{
+    padding: 0.6rem 0.45rem  0.5rem 0.2rem;
+    border-radius: 5px;
+    margin: 0.45rem auto 0.1rem;
+    background:#fff;
+    box-shadow: 0 0 0.1rem 1px rgba(59, 59, 59, 0.1);
+    overflow:hidden;
+}
+
+.hyb-list-box h1{
+    font-size: 0.24rem;
+    color:#333;
+    margin-bottom: 0.1rem;
+}
+.hyb-list-box h2{
+    font-size: 0.18rem;
+    color:#333;
+}
+.hyb-info{
+    margin-top: 0.3rem;
+    padding-left: 0.4rem;
+}
+.hyb-info li{
+    height: 1.12rem;
+    border-bottom: 1px solid #b9b9b9; 
+    position: relative;
+}
+.hyb-info li:before{
+    content:'';
+    display:block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 5px;
+    height: 1px;
+    background-color: #8b8b8b;
+}
+.hyb-info li:after{
+    content:'';
+    display:block;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    width: 5px;
+    height: 1px;
+    background-color: #8b8b8b;
+}
+.hyb-info-icon{
+    width: 0.72rem;
+    height: 0.72rem;
+    margin: 0.2rem 0;
+    background-color: #ff539f;
+    border-radius: 50%;
+    float:left;
+}
+.hyb-info-icon img{
+    width: 60%;
+    height: 60%;
+    margin: 20%;
+}
+.hyb-info li input{
+    margin-left: 0.48rem;
+    border:0;
+    background-color: rgba(0, 0, 0, 0.0);
+    height: 100%;
+    outline: none;
+    font-size: 0.22rem;
+    color:#333;
+}
+.hyb-agree{
+    margin-left: 0.4rem;
+    margin-top: 0.45rem;
+}
+.hyb-dui{
+    width: 0.28rem;
+    height: 0.28rem;
+    border-radius: 50%;
+    border:1px solid #fff;
+    background:url(../../images/dui.png) center/70% #2eb071 no-repeat;
+    float:left;
+    margin-right: 0.15rem;
+}
+.hyb-kong{
+    background:#FFF;
+    border:1px solid #2eb071;
+}
+.hyb-agree a{
+    color:#555;
+    font-size: 0.18rem;
+}
+.hyb-agree a span{
+    color:#6f6f6f;
+}
+
+
+
+
+.hyb-btn a{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.hyb-btn{
+    width: 2.6rem;
+    padding-left: 1.8rem;
+    margin: 0.5rem auto;
+    padding-top: 0.05rem;
+    height: 0.7rem;
+    position: relative;
+    background:url('../../images/hyb-pay_15.png')center /contain no-repeat;
+}
+.hyb-btn a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.hyb-btn p{
+    color:#FFDCE9;
+    font-size: 0.22rem;
+    font-weight: normal;
+}
+.hyb-btn p span{
+    font-size: 0.16rem;
+}

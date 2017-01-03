@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 17:28:37
+* @Last Modified time: 2017-01-03 14:17:24
 */
 body{
     font-size: 0.16rem;
@@ -46,8 +46,29 @@ a{
 }
 .hyb-con-title{
     margin: 0.2rem auto 0.45rem;
+    padding-left: 2.6rem;
     overflow:hidden;
-    background:url(../../images/title.png) center/contain no-repeat;
+    position:relative;
+    background:url(../../images/hyb-pay2_03.png) center/contain no-repeat;
+}
+.hyb-con-title h1{
+    font-size: 0.32rem;
+    font-weight: 200;
+    color:#717171;
+}
+.hyb-con-title h2{
+    font-size: 0.16rem;
+    font-weight: 200;
+    color:#717171;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.hyb-con-title h2 strong{
+    font-weight: 700;
+}
+.hyb-con-title a{
+    position:absolute;
+    left: 0;
+    top: 0;
 }
 .hyb-more{
     width: 0.65rem;
@@ -99,7 +120,7 @@ a{
     border-radius: 50%;
     position: absolute;
     bottom: -2px;
-    left: -3px;
+    left: 0;
 }
 .hyb-list-con h2:after{
     content:'';
@@ -109,7 +130,7 @@ a{
     border-radius: 50%;
     position: absolute;
     bottom: -2px;
-    right:-3px;
+    right:0;
 }
 .hyb-s1,.hyb-s2{
     border:0;
@@ -163,17 +184,18 @@ a{
     text-align:center;
     background:rgba(0, 0, 0, 0.0);
     vertical-align: middle;
+    outline: none;
 }
 .hyb-list-nub button{
     width: 0.3rem;
     height: 0.3rem;
     border-radius: 50%;
     border:1px solid #d6d6d6;
-    font-size: 0.2rem;
+    font-size: 0.21rem;
     color:#646464;
-    margin: 0.1rem;
     padding: 0;
-    line-height: 0.3rem;
+    line-height: 1;
+
 }
 .hyb-list-num{
     font-size: 0.22rem ;
@@ -217,17 +239,11 @@ a{
     width: 100%;
     height: 100%;
 }
-.hyb-btn p,.hyb-con-title p{
+.hyb-btn p{
     color:#FFDCE9;
     font-size: 0.22rem;
     font-weight: normal;
 }
-.hyb-con-title p{
-    color:#717171;
-    padding-left: 2.7rem;
-    padding-top: 0.2rem;
-    font-size: 0.26rem;
-}
-.hyb-btn p span,.hyb-con-title p span{
+.hyb-btn p span{
     font-size: 0.16rem;
 }

@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
         <link rel="stylesheet" type="text/css" href="albo.css" />
         <link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/idangerous.swiper.css" />
         <script type="text/javascript" src='../../js/zepto.js'></script>
         <script type="text/javascript" src='../../js/angular.min.js'></script>
         <script type="text/javascript" src='../../js/rem.js'></script>
@@ -21,13 +22,14 @@
                 <div class="hyb-head-box">
                     <img src="../../images/lhy-header_06.png" alt="" />    
                     <h3><b>SUSAN</b> GREEN</h3>
-                    <p>使用银行卡成功支付 <span>125</span> 次，信誉度 <span>98</span> </p>   
+                    <p>使用银行卡成功支付 <span>125</span> 次，信誉度 <span>98</span> </p>
                 </div>
             </div>
         </div>
         <div class="hyb-ban-box">
-            <ul class="hyb-ban">
-                <li class='hyb-active'>
+            <div class="swiper-container hyb-ban">
+              <ul class="swiper-wrapper">
+                <li class='swiper-slide'>
                     <img src="../../images/albo.png" height="34" width="98" alt="" />
                     <h1>6025 &nbsp;0003 &nbsp;  3002  &nbsp; 2689  &nbsp; 047</h1>
                     <h2>DATE <b>10/19</b></h2>
@@ -36,7 +38,7 @@
                         <img src="../../images/card.png" alt="" class="hyb-desc-right" />
                     </div>
                 </li>
-                <li>
+                <li class='swiper-slide'>
                     <img src="../../images/albo.png" height="34" width="98" alt="" />
                     <h1>6025 &nbsp;0003 &nbsp;  3002  &nbsp; 2689  &nbsp; 047</h1>
                     <h2>DATE <b>10/19</b></h2>
@@ -45,7 +47,7 @@
                         <img src="../../images/card.png" alt="" class="hyb-desc-right" />
                     </div>
                 </li>
-                <li>
+                <li class='swiper-slide'>
                     <img src="../../images/albo.png" height="34" width="98" alt="" />
                     <h1>6025 &nbsp;0003 &nbsp;  3002  &nbsp; 2689  &nbsp; 047</h1>
                     <h2>DATE <b>10/19</b></h2>
@@ -54,12 +56,9 @@
                         <img src="../../images/card.png" alt="" class="hyb-desc-right" />
                     </div>
                 </li>
-            </ul>
-            <ul class="hyb-ban-btn">
-                <li class="hyb-ban-btn-active"></li>
-                <li></li>
-                <li></li>
-            </ul>
+              </ul>
+            </div>
+            <div class="pagination hyb-bank-btn"></div>
         </div>
         <div class="hyb-bank-card">
             <div class="hyb-bank">
@@ -96,13 +95,27 @@
                 </div>
             </div>
             <div class="hyb-btn">
-                <a href="#"></a>
                 <p>银行卡支付<br />
                     <span><strong>Bank card</strong> payment</span>
                 </p>
             </div>
         </div>
-        
+        <div class="hyb-msk">
+            <div class="hyb-topay">
+                <div class="hyb-topay-title">
+                    <h1>订单号：<span>2963865270192753</span></h1>
+                </div>
+                <div class="hyb-topay-con">
+                    <h2>¥<span> 68.00</span></h2>
+                </div>
+                <p>Little master, immediately to pay expression</p>
+                <div class="hyb-topay-btn">
+                    <a href="" class="hyb-go">立即支付</a>
+                    <a href="" class="hyb-cacel">取消支付</a>
+                </div>
+            </div>
+        </div>
     </body>
+    <script type="text/javascript" src="../../js/idangerous.swiper.min.js"></script>
     <script type="text/javascript" src='albo.js'></script>
 </html>

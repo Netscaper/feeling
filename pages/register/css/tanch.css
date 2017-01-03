@@ -43,19 +43,19 @@ ul{
     left:50%;
     margin-left: -0.47rem;
     top: 0.18rem;
-    background:url("images/yt.png") center center /cover ;
+    background:url("../images/yt.png") center center /cover ;
 }
 .sly-top{
     height: 1.44rem;
     width:100%;
-    background:url("images/hbg.png");
+    background:url("../images/hbg.png");
     box-shadow:0 0 3px #c5c5c5;
     border-radius: 30px 30px 0 0;
 }
 .sly-bg{
     height:1.56rem;
     width:100%;
-    background:url("images/share.png") center center/cover  no-repeat;
+    background:url("../images/share.png") center center/cover  no-repeat;
     text-align: center;
     border-top:1px solid transparent;
 }
@@ -111,19 +111,19 @@ ul{
     display: block;
     width:.7rem;
     height:.7rem;
-    background:url("images/qq.png") center center/cover;
+    background:url("../images/qq.png") center center/cover;
 }
 .sly-li2{
     display: block;
     width:.7rem;
     height:.7rem;
-    background:url("images/wx.png") center center/cover;
+    background:url("../images/wx.png") center center/cover;
 }
 .sly-li3{
     display: block;
     width:.7rem;
     height:.7rem;
-    background:url("images/wb.png") center center/cover;
+    background:url("../images/wb.png") center center/cover;
 }
 .sly-li4{
     display: block;
