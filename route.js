@@ -3,7 +3,8 @@ app.config(['$routeProvider', function($routeProvider){
     .when('/',{templateUrl:'pages/home/home.html'})
     .when('/login',{templateUrl:'pages/login/login1.html'})
     .when('/chat',{templateUrl:'pages/chat/chat.html'})
-    .when('/pay',{templateUrl:'pages/pay/order.html'})
+    .when('/order',{templateUrl:'pages/pay/order.html'})
+    .when('/albo',{templateUrl:'pages/pay/albo.html'})
     .when('/register',{templateUrl:'pages/register/register.html'})
 	.when("/search1",{
         templateUrl:'pages/search/html/search1.html',
