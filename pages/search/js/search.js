@@ -70,9 +70,16 @@ search.controller("ss",function($scope){
     $scope.rmtjimg=rmtjimg;
     $scope.hylb=hylb;
     $scope.searchdisplay=false;
+    $scope.jgshow=false;
+    $scope.sea;
     $scope.searchshow=function(){
-      console.log(1);
       $scope.searchdisplay=true;
+    }
+    $scope.changeshow=function(){
+      $scope.jgshow=true;
+      if($scope.sea.length==0){
+        $scope.jgshow=false;
+      }
     }
 })
 
