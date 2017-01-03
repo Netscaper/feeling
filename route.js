@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 app.config(['$routeProvider', function($routeProvider){
     $routeProvider
     .when('/',{templateUrl:'pages/home/home.html'})
@@ -14,4 +12,3 @@ app.config(['$routeProvider', function($routeProvider){
         controller:'ss'
     })
 }])
->>>>>>> 2297a40ec988c3c02e0021955984dc703de9e083

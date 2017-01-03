@@ -1,4 +1,4 @@
-var data=[
+var searchdata=[
     {
         title:"温柔的小太阳"
     },
@@ -73,7 +73,7 @@ search.controller("ss",function($scope){
     $scope.jgshow=false;
     $scope.sea;
     $scope.searchshow=function(){
-      $scope.searchdisplay=true;
+      $scope.searchdisplay=!$scope.searchdisplay;
     }
     $scope.changeshow=function(){
       $scope.jgshow=true;
