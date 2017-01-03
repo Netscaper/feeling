@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 17:08:22
+* @Last Modified time: 2017-01-01 18:30:35
 */
 body{
     font-size: 0.16rem;
@@ -46,8 +46,29 @@ a{
 }
 .hyb-con-title{
     margin: 0.2rem auto 0.45rem;
+    padding-left: 2.6rem;
     overflow:hidden;
-    background:url(../../images/title.png) center/contain no-repeat;
+    position:relative;
+    background:url(../../images/hyb-pay2_03.png) center/contain no-repeat;
+}
+.hyb-con-title h1{
+    font-size: 0.32rem;
+    font-weight: 200;
+    color:#717171;
+}
+.hyb-con-title h2{
+    font-size: 0.16rem;
+    font-weight: 200;
+    color:#717171;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.hyb-con-title h2 strong{
+    font-weight: 700;
+}
+.hyb-con-title a{
+    position:absolute;
+    left: 0;
+    top: 0;
 }
 .hyb-more{
     width: 0.65rem;
@@ -67,7 +88,126 @@ a{
     background:#fff;
     box-shadow: 0 0 0.1rem 1px rgba(59, 59, 59, 0.1);
     overflow:hidden;
+    position: relative;
 }
+.hyb-etitle{
+    text-align: center;
+    font-size: 0.28rem;
+    color:#595959;
+    font-weight: 200;
+}    
+.hyb-etitle strong{
+    font-weight: 700;
+}
+.hyb-ctitle{
+    width: 2.6rem;
+    margin: 0.15rem auto 0.45rem;
+    display:flex;
+    justify-content: space-around;
+    font-size: 0.22rem;
+    color:#7b7b7b;
+}
+.hyb-ctitle:before,.hyb-ctitle:after{
+    content:'';
+    display:block;
+    float:left;
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background:#25ab6c;
+    margin: 0.12rem  0;
+}
+.hyb-ctitle li,.hyb-ctitle span{
+    float:left;
+}
+.hyb-pay-style {
+    display:flex;
+    justify-content: space-around;
+}
+.hyb-pay-style a{
+    display:block;
+    float:left;
+    width: 2.7rem;
+    height: 0.8rem;
+}
+.hyb-wx{
+    background:url(../../images/hyb-pay2_07.png) center/contain no-repeat;
+}
+.hyb-zfb{
+    background:url(../../images/hyb-pay2_09.png) center/contain no-repeat;
+}
+
+.hyb-other{
+    margin-top: 0.4rem;
+}
+
+
+
+.hyb-href{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hyb-pay-icon{
+    margin-left: 0.25rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0.1rem;
+    border-radius: 50%;
+    background-clip: content-box;
+    border:2px solid #b2b2b2;
+    float:left;
+}
+.hyb-pay1{
+    background:url(../../images/hyb-pay2_14.png) center/contain no-repeat;
+}
+.hyb-pay2{
+    background:url(../../images/hyb-pay2_17.png) center/contain no-repeat;
+}
+.hyb-pay3{
+    background:url(../../images/hyb-pay2_19.png) center/contain no-repeat;
+}
+.hyb-pay-con{
+    float:left;
+    margin-left: 0.5rem;
+}
+.hyb-pay-con h2{
+    font-size: 0.26rem;
+    color:#595959;
+    margin-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid #c6c6c6;
+    display:inline-block;
+    position: relative;
+}
+.hyb-pay-con h2:before{
+    content:'';
+    width: 0.05rem;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #919191;
+}
+.hyb-pay-con h2:after{
+    content:'';
+    width: 0.05rem;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    background-color: #919191;
+    bottom: -1px;
+}
+.hyb-pay-con h3{
+    font-size: 0.22rem;
+    color:#828282;
+    margin-top: 0.1rem;
+}
+
+
+
 
 .hyb-btn a{
     display:block;
