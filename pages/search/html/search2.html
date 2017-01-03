@@ -1,42 +1,31 @@
-<!doctype html>
-<html lang="en" ng-app="search">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../../css/normalize.css">
-    <link rel="stylesheet" href="../css/search2.css">
-   <!-- // <script src="../../../js/angular.min.js"></script> -->
-    <script src="../../../js/rem.js"></script>
-    <!-- // <script src="search.js"></script> -->
-    <title>点击搜索按钮之后</title>
-</head>
-<body ng-controller="ss">
-<!--头部-->
-<div class="lhy-top">
-    <div class="lhy-return">
-       <a href=""><img src="../images/lhy-search_03.png" alt=""></a> 
+<link rel="stylesheet" href="pages/search/css/search2.css">
+<script src="pages/search/js/search.js"></script>
+<div ng-controller="ss">
+    <!--头部-->
+    <div class="lhy-top" ng-class="{true:'lhy-active-top',false:''}[searchdisplay]">
+        <div class="lhy-return">
+           <a href="#/search1"><img src="pages/search/images/lhy-search_03.png" alt=""></a>
+        </div>
+        <div class="lhy-title">
+            <img src="pages/search/images/lhy-search_08.png" alt="">
+        </div>
+        <div class="lhy-shaixuan">
+            <a href="#/search2"></a>
+        </div>
     </div>
-    <div class="lhy-title">
-        <img src="../images/lhy-search_08.png" alt="">
+    <div class="lhy-content">
+       <!--search-->
+    <div class="lhy-search" ng-class="{true:'lhy-active-search',false:''}[searchdisplay]">
+        <div class="lhy-sear"  ng-click="searchshow()">        
+                <span></span>
+                <input type="text" ng-model="sea" ng-change="changeshow()">  
+        </div>
+        <div class="lhy-yuyin">
+            <img src="pages/search/images/lhy-search_14.png" alt="">
+        </div>
     </div>
-    <div class="lhy-shaixuan">
-        <a href=""><img src="../images/lhy-search_05.png" alt=""></a>
-    </div>
-</div>
- <!--search-->
-<div class="lhy-search">
-    <div class="lhy-sear">
-        <span></span>
-        <input type="text">
-    </div>
-    <div class="lhy-yuyin">
-        <img src="../images/lhy-search_14.png" alt="">
-    </div>
-</div>
-<!-- search 分类 -->
-<div class="lhy-sear-lx">
+    <!-- search 分类 -->
+    <div class="lhy-sear-lx" ng-class="{true:'lhy-active-lx',false:''}[searchdisplay]">
     <div class="lhy-sear-circle"></div>
     <ul>
         <li class="lhy-lx-list">
@@ -67,15 +56,15 @@
             </a>
         </li>
     </ul>
-</div>
-<div class="lhy-content">
+    </div>
+    <div class="lhy-content">
     <!-- 最近搜索 -->
     <div class="lhy-zjss">
-        <img src="../images/lhy-sea2_03.png" alt="">
+        <img src="pages/search/images/lhy-sea2_03.png" alt="">
         <ul>
             <li class="lhy-sslist">
                 <div class="lhy-sslist-left">
-                    <img src="../images/lhy-sea2_07.png" alt="">
+                    <img src="pages/search/images/lhy-sea2_07.png" alt="">
                 </div>
                  <div class="lhy-sslist-middle">
                     <h3>木子</h3>
@@ -87,7 +76,7 @@
             </li>
             <li class="lhy-sslist">
                 <div class="lhy-sslist-left">
-                    <img src="../images/lhy-sea2_07.png" alt="">
+                    <img src="pages/search/images/lhy-sea2_07.png" alt="">
                 </div>
                  <div class="lhy-sslist-middle">
                     <h3>木子</h3>
@@ -99,7 +88,7 @@
             </li>
             <li class="lhy-sslist">
                 <div class="lhy-sslist-left">
-                    <img src="../images/lhy-sea2_07.png" alt="">
+                    <img src="pages/search/images/lhy-sea2_07.png" alt="">
                 </div>
                  <div class="lhy-sslist-middle">
                     <h3>木子</h3>
@@ -113,57 +102,62 @@
     </div>
     <!--热门推荐-->
     <div class="lhy-rmtj">
-        <h2><img src="../images/lhy-sea2_14.png" alt=""></h2>
+        <h2><img src="pages/search/images/lhy-sea2_14.png" alt=""></h2>
     </div>
     <!--好友列表-->
-    <div class="lhy-haoyou">
-        <div class="lhy-hy-left">
-            <div class="lhy-hy-leftimg">
-                <a href=""><img src="../../../images/lhy-header_03.png" alt=""></a>
+        <lhyhylb  ng-repeat="v in hylb">
+            <div class="lhy-haoyou"> 
+                <div class="lhy-hy-left">
+                    <div class="lhy-hy-leftimg">
+                        <a href=""><img src="{{v.headerimg}}" alt=""></a>
+                    </div>
+                    <h4>
+                        <b>GREEN.</b>JIM
+                    </h4>
+                    <h3>{{v.num}}位好友</h3>
+                </div>
+                <div class="lhy-hy-middle"></div>
+                <div class="lhy-hy-right">
+                    <h2>{{v.name}}<img src="pages/search/images/lhy-hylb_09.png" alt=""></h2>
+                    <h3><b>Small cherry </b>Chen Chen who love to eat</h3>
+                    <h4>
+                        <b>故乡：</b><span>{{v.gx}}</span><b>年龄：</b><span>{{v.age}}</span>
+                    </h4>
+                    <h4 class="lhy-hobby">
+                        <b>爱好：</b> <span></span><span></span>
+                    </h4>
+                </div>
             </div>
-            <h4>
-                <b>GREEN.</b>JIM
-            </h4>
-            <h3>2138位好友</h3>
-        </div>
-        <div class="lhy-hy-middle"></div>
-        <div class="lhy-hy-right">
-            <h2>陈陈禾爱吃小樱桃<img src="../images/lhy-hylb_09.png" alt=""></h2>
-            <h3><b>Small cherry </b>Chen Chen who love to eat</h3>
-            <h4>
-                <b>故乡：</b><span>山西晋城</span><b>年龄：</b><span>22</span>
-            </h4>
-            <h4 class="lhy-hobby">
-                <b>爱好：</b> <span></span><span></span>
-            </h4>
-        </div>
+
+        </lhyhylb>
     </div>
 
-    <div class="lhy-haoyou">
-        <div class="lhy-hy-left">
-            <div class="lhy-hy-leftimg">
-                <a href=""><img src="../../../images/lhy-header_03.png" alt=""></a>
-            </div>
-            <h4>
-                <b>GREEN.</b>JIM
-            </h4>
-            <h3>2138位好友</h3>
-        </div>
-        <div class="lhy-hy-middle"></div>
-        <div class="lhy-hy-right">
-            <h2>陈陈禾爱吃小樱桃<img src="../images/lhy-hylb_09.png" alt=""></h2>
-            <h3><b>Small cherry </b>Chen Chen who love to eat</h3>
-            <h4>
-                <b>故乡：</b><span>山西晋城</span><b>年龄：</b><span>22</span>
-            </h4>
-            <h4 class="lhy-hobby">
-                <b>爱好：</b> <span></span><span></span>
-            </h4>
-        </div>
+    <div class="lhy-search-click" ng-show="searchdisplay">
+    <!-- zhezhao -->
+    <div class="lhy-zhezhao" ng-click="searchshow()">
+         <!-- 搜索结果 -->
+        <div class="lhy-ssjg"  ng-show="jgshow">
+        <ul>
+            <li class="lhy-ssjg-list" ng-repeat="v in hylb | filter:sea" >
+                <div class="lhy-ssjg-left">
+                    <img src="{{v.headerimg}}" alt="">
+                </div>
+                <div class="lhy-ssjg-right">
+                    <h3>
+                        <span>{{v.name}}</span>            
+                    </h3>
+                    <h4>
+                        {{v.gxqm}}
+                    </h4>
+                </div>
+
+            </li>
+        </ul>
     </div>
+    </div>   
+    
 </div>
-</body>
-</html>
+
 
 
 

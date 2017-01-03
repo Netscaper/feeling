@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-02 23:23:15
+* @Last Modified time: 2017-01-03 13:42:56
 */
 body{
     font-size: 0.16rem;
@@ -95,18 +95,18 @@ a{
     width: 100%;
 }
 .hyb-ban{
-    width: 17.2rem;
-    margin-right: -0.5rem;
+    width: 20rem;
     overflow:hidden;
-    padding: 0 1rem;
+}
+.swiper-wrapper{
+    margin-left: -29.7%;
 }
 .hyb-ban li{
-    width: 4.2rem;
-    height: 2.2rem;
+    width: 4.2rem!important;
+    height: 2.2rem !important;
     padding: 0.55rem 0.6rem 0.45rem;
     border-radius: 5px;
     margin-bottom: 0.1rem;
-    margin-right: 0.1rem;
     background:#fff;
     box-shadow: 0 0 0.1rem 1px rgba(59, 59, 59, 0.1);
     overflow:hidden;
@@ -114,7 +114,7 @@ a{
     transform: scale(0.8);
     transition: all 1s;
 }
-.hyb-ban .hyb-active{
+.hyb-ban .swiper-slide-active{
     transform: scale(1);
 }
 .hyb-ban li img{
@@ -151,12 +151,12 @@ a{
     margin-top: -0.25rem;
     margin-bottom: 0;
 }
-.hyb-ban-btn{
+.hyb-bank-btn{
     width: 0.9rem;
     height: 0.2rem;
     margin: 0.35rem  auto 0.3rem;
 }
-.hyb-ban-btn li{
+.swiper-visible-switch{
     float:left;
     width: 0.2rem;
     height: 0.2rem;
@@ -164,7 +164,7 @@ a{
     background-color: #ababab;
     border-radius: 50%;
 }
-.hyb-ban-btn  .hyb-ban-btn-active{
+.swiper-active-switch{
     background-color: #192889;
 }
 
@@ -243,13 +243,6 @@ a{
     position: relative;
     background:url('../../images/hyb-pay_15.png')center /contain no-repeat;
 }
-.hyb-btn a{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
 .hyb-btn p{
     color:#FFDCE9;
     font-size: 0.22rem;
@@ -277,6 +270,8 @@ a{
     background-color: rgba(17, 16, 16, 0.8);
     top: 0;
     left: 0;
+    z-index: 999;
+    display:none;
 }
 .hyb-topay{
     position: absolute;

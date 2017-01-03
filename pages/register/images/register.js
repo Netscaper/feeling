@@ -28,14 +28,14 @@ ctrl.factory("localS",function(){
 })
 ctrl.controller("cc",function ($scope,localS){
     // $scope.data=datas;
-
+    $scope.falg1;
+    $scope.content="";
     $scope.data=localS.getdata()||[];
     $scope.eve=function(e){
         var value=e.target.value
         var classname=e.target.className
         console.log(value)
         console.log(classname)
-        var flag1,flag2,flag3;
         console.log(typeof $scope.data)
         function CheckMail(mail) {
             var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -56,48 +56,59 @@ ctrl.controller("cc",function ($scope,localS){
         if(e.target.className=="name"){
 
             if(value.length==0){
-                return  $(".sly-quan")[0].style.backgroundColor="red"
+               $(".sly-quan")[0].style.backgroundColor="red";
+               $scope.content="··用户名不能为空";
+               $scope.falg1=false;
             }else{
                 if(CheckMail(value)||CheckPhone(value)){
                     if($scope.data!=null){
                         for(var i=0;i<=$scope.data.length-1;i++){
                             if($scope.data[i].name==value){
-                               return  $(".sly-quan")[0].style.backgroundColor="red"   
+                                $(".sly-quan")[0].style.backgroundColor="red";
+                                $scope.content="··用户名已存在";
+                                $scope.falg1=false;
                             } 
                         }
                         $(".sly-quan")[0].style.backgroundColor="green"
-                        flag1=true;
+                        $scope.content="";
+                        $scope.falg1=true;
                     }else{
-                        $(".sly-quan")[0].style.backgroundColor="green"
+                        $(".sly-quan")[0].style.backgroundColor="green";
+                        $scope.content="";
+                        $scope.falg1=true;
                     }
                     
                 }else{
-                    $(".sly-quan")[0].style.backgroundColor="red"
+                    $(".sly-quan")[0].style.backgroundColor="red";
+                    $scope.content="··用户名格式错误";
+                    $scope.falg1=false;
                 }
                 
             }
         }else if(e.target.className=="passward"){
             if(value.length==0){
-                return  $(".sly-quan")[1].style.backgroundColor="red"
+                $(".sly-quan")[1].style.backgroundColor="red";
+                $scope.content="··密码不能为空";
             }else{
                 if(value.length>=6&&value.length<=8){
                     $(".sly-quan")[1].style.backgroundColor="green";
-                    flag2=true;
+                    $scope.content=""
                 }else{
-                    $(".sly-quan")[1].style.backgroundColor="red"
+                    $(".sly-quan")[1].style.backgroundColor="red";
+                    $scope.content="··请输入6-8位密码";
                 }     
             }
         }else if(e.target.className=="repwd"){
             if(value.length==0){
-                return  $(".sly-quan")[1].style.backgroundColor="red"
+                $(".sly-quan")[1].style.backgroundColor="red";
+                $scope.content="··两次输入密码不一致";
             }else{
                 if($('input')[1].value==value){
                     $(".sly-quan")[2].style.backgroundColor="green";
-                    $(".pwd").hide()
-                    flag3=true;
+                    $scope.content=""
                 }else{
                     $(".sly-quan")[2].style.backgroundColor="red";
-                    $(".pwd").show()
+                    $scope.content="··两次输入密码不一致";
                 }     
             }
         }

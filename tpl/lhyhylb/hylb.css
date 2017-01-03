@@ -1,0 +1,107 @@
+/**********好友列表**********************/
+.lhy-haoyou{
+    width:100%;
+    height:2.24rem;
+    border-radius:4px;
+    background-color: #fff;
+    box-shadow:0 0 10px 0 #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .12rem;
+    box-shadow: 0 0 15px 0 #aaa;
+}
+.lhy-hy-left{
+    width:2.03rem;
+    height:auto;
+    overflow: hidden;
+}
+.lhy-hy-leftimg{
+    width:100%;
+    height:1.4rem;
+    background:url("../../pages/search/images/lhy-hylb_03.png") center center  no-repeat;
+    background-size: contain;
+}
+.lhy-hy-leftimg img{
+    width:1.22rem;
+    height:1.22rem;
+    display: block;
+    padding:.09rem;
+    margin:0 auto;
+}
+.lhy-hy-left h4{
+    width:1.31rem;
+    height:.28rem;
+    text-align:center;
+    font-size:.18rem;
+    line-height:.28rem;
+    color:#5f5f5f;
+    margin:0 auto;
+    background: url("../../pages/search/images/lhy-hylb_14.png") left bottom no-repeat;
+    background-size: contain;
+}
+.lhy-hy-left h3{
+    width: 1.31rem;
+    height: .35rem;
+    line-height: .35rem;
+    color: #828282;
+    font-size: .22rem;
+    margin:0 auto;
+    text-align: center;
+}
+.lhy-hy-middle{
+    width:.03rem;
+    height:1.47rem;
+    background: url("../../pages/search/images/lhy-hylb_06.png");
+ }
+.lhy-hy-right{
+    width:4.3rem;
+    margin-left:.38rem;
+    padding-right:.27rem;
+    box-sizing:border-box;
+}
+.lhy-hy-right h2{
+    line-height:.26rem;
+    color:#3c3c3c;
+    font-size:.26rem;
+}
+.lhy-hy-right h2 img{
+    margin-left: .27rem;
+}
+.lhy-hy-right h3 b{
+    text-transform: uppercase;
+}
+.lhy-hy-right h3{
+    color:#3c3c3c;
+    font-size:.22rem;
+    margin-top:.1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family:"San Francisco Dispaly";
+    padding-bottom:.18rem;
+    border-bottom:1px dashed #c1c1c1;
+}
+.lhy-hy-right h4{
+    font-size:.22rem;
+    line-height:.5rem;
+    color:#3c3c3c;
+    display: flex;
+    align-items:center;
+}
+.lhy-hy-right h4 b:nth-child(3){
+    margin-left:.53rem;
+}
+.lhy-hobby span{
+    width:.3rem;
+    height:.3rem;
+    display: inline-block;
+    margin-left:.18rem;
+
+}
+.lhy-hobby span:nth-child(2){
+    background:url("../../pages/search/images/lhy-hylb_17.png") center center no-repeat;
+}
+.lhy-hobby span:nth-child(3){
+    background:url("../../pages/search/images/lhy-hylb_19.png") center center no-repeat;
+}

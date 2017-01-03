@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
         <link rel="stylesheet" type="text/css" href="albo.css" />
         <link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/idangerous.swiper.css" />
         <script type="text/javascript" src='../../js/zepto.js'></script>
         <script type="text/javascript" src='../../js/angular.min.js'></script>
         <script type="text/javascript" src='../../js/rem.js'></script>
@@ -26,8 +27,9 @@
             </div>
         </div>
         <div class="hyb-ban-box">
-            <ul class="hyb-ban">
-                <li class='hyb-active'>
+            <div class="swiper-container hyb-ban">
+              <ul class="swiper-wrapper">
+                <li class='swiper-slide'>
                     <img src="../../images/albo.png" height="34" width="98" alt="" />
                     <h1>6025 &nbsp;0003 &nbsp;  3002  &nbsp; 2689  &nbsp; 047</h1>
                     <h2>DATE <b>10/19</b></h2>
@@ -36,7 +38,7 @@
                         <img src="../../images/card.png" alt="" class="hyb-desc-right" />
                     </div>
                 </li>
-                <li>
+                <li class='swiper-slide'>
                     <img src="../../images/albo.png" height="34" width="98" alt="" />
                     <h1>6025 &nbsp;0003 &nbsp;  3002  &nbsp; 2689  &nbsp; 047</h1>
                     <h2>DATE <b>10/19</b></h2>
@@ -45,7 +47,7 @@
                         <img src="../../images/card.png" alt="" class="hyb-desc-right" />
                     </div>
                 </li>
-                <li>
+                <li class='swiper-slide'>
                     <img src="../../images/albo.png" height="34" width="98" alt="" />
                     <h1>6025 &nbsp;0003 &nbsp;  3002  &nbsp; 2689  &nbsp; 047</h1>
                     <h2>DATE <b>10/19</b></h2>
@@ -54,12 +56,9 @@
                         <img src="../../images/card.png" alt="" class="hyb-desc-right" />
                     </div>
                 </li>
-            </ul>
-            <ul class="hyb-ban-btn">
-                <li class="hyb-ban-btn-active"></li>
-                <li></li>
-                <li></li>
-            </ul>
+              </ul>
+            </div>
+            <div class="pagination hyb-bank-btn"></div>
         </div>
         <div class="hyb-bank-card">
             <div class="hyb-bank">
@@ -96,7 +95,6 @@
                 </div>
             </div>
             <div class="hyb-btn">
-                <a href="#"></a>
                 <p>银行卡支付<br />
                     <span><strong>Bank card</strong> payment</span>
                 </p>
@@ -118,5 +116,6 @@
             </div>
         </div>
     </body>
+    <script type="text/javascript" src="../../js/idangerous.swiper.min.js"></script>
     <script type="text/javascript" src='albo.js'></script>
 </html>
