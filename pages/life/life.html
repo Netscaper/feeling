@@ -1,14 +1,19 @@
-<div ng-controller='life'>
-    <link rel="stylesheet" href="pages/life/life.css">
-    <div class="zyp_header">
-        <h1 class="zyp_header_title"></h1>
-        <div class="zyp_header_search">
-            <input type="text" placeholder="请输入您所需要的内容">
+<link rel="stylesheet" href="pages/life/life.css">
+<div ng-controller='lf'>
+     <div class="lhy-top">
+        <div class="lhy-return">
+           <a href="#/"><img src="pages/search/images/lhy-search_03.png" alt=""></a>
+        </div>
+        <div class="lhy-title">
+            <img src="pages/life/images/life_title.png" alt="">
+        </div>
+        <div class="lhy-shaixuan">
+            <a href="#"><img src="pages/life/images/lhy-life1_06.png" alt=""></a>
         </div>
     </div>
     <div class="zyp_touxiang">
         <div class="zyp_photo_box">
-            <img src="images/zyp_tx.png" alt="">
+            <img src="pages/life/images/zyp_tx.png" alt="">
         </div>
         <div class="zyp_dengji">
             <span>游来游去的鱼</span>
@@ -26,5 +31,25 @@
                 <span>2318</span>
             </div>
         </div>
+    </div>
+    <!-- 时尚小范 -->
+    <div class="lhy-ssxf">
+        <div class="lhy-ssxf-title">
+            <h3>
+                <img src="pages/life/images/lhy-life_03.png" alt="">
+            </h3>
+            <h4>
+                <a href=""> <img src="pages/life/images/lhy-life_05.png" alt=""></a>
+            </h4>
+        </div>
+        <ul class="lhy-ssxf-fw">
+            <li ng-repeat="v in lifedata">
+                <a href="">
+                    <img src="pages/life/images/{{v.img}}" alt="">
+                    <h3>{{v.title}}</h3>
+                    <h4>{{v.titleeng}}</h4>
+                </a>        
+            </li>
+        </ul>
     </div>
 </div>
