@@ -6,9 +6,6 @@ dir.directive('zypInput',function(){
         templateUrl:'../tpl/ZypInput/ZypInput.html',
         scope:{
             attr:'=attr'
-        },
-        link:function(scope){
-            console.log(scope.attr) 
         }
     }
 })
