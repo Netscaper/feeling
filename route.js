@@ -5,6 +5,8 @@ app.config(['$routeProvider', function($routeProvider){
     .when('/login1',{templateUrl:'pages/login/login1.html'})
     .when('/chat',{templateUrl:'pages/chat/chat.html'})
     .when('/order',{templateUrl:'pages/pay/order.html'})
+    .when('/life',{templateUrl:'pages/life/life.html'})
+    .when('/life1',{templateUrl:'pages/life/life1.html'})
     .when('/albo',{templateUrl:'pages/pay/albo.html'})
     .when('/register',{templateUrl:'pages/register/register.html'})
 	.when("/search1",{
