@@ -22,15 +22,14 @@ dir.directive("lxLan",function(){
         }
     }
 })
-<<<<<<< HEAD
 dir.directive("lhyssjg",function(){
     return {
         restrict:'ECMA',
         // replace:true,
         templateUrl:"../tpl/lhyssjg/lhyssjg.html",
         scope:true
-    }    
-=======
+    }   
+})     
 dir.directive('order',function(){
     return {
         restrict : "ECMA",
@@ -40,5 +39,4 @@ dir.directive('order',function(){
             data:"=order"
         }
     };
->>>>>>> 3a6567aaf6cf959067bcca2d130d1004d43059b1
 })

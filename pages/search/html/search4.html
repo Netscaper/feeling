@@ -1,39 +1,40 @@
 <div ng-controller="ss">
 <link rel="stylesheet" href="pages/search/css/search4.css">
 <!--头部-->
-<div class="lhy-top">
-    <div class="lhy-return">
-       <a href=""><img src="pages/search/images/lhy-search_03.png" alt=""></a> 
+    <div class="lhy-top" ng-class="{true:'lhy-active-top',false:''}[searchdisplay]">
+        <div class="lhy-return">
+           <a href="#/search1"><img src="pages/search/images/lhy-search_03.png" alt=""></a>
+        </div>
+        <div class="lhy-title">
+            <img src="pages/search/images/lhy-search_08.png" alt="">
+        </div>
+        <div class="lhy-shaixuan">
+            <a href="#/search2"></a>
+        </div>
     </div>
-    <div class="lhy-title">
-        <img src="pages/search/images/lhy-search_08.png" alt="">
+    <div class="lhy-content">
+       <!--search-->
+    <div class="lhy-search" ng-class="{true:'lhy-active-search',false:''}[searchdisplay]">
+        <div class="lhy-sear"  ng-click="searchshow()">        
+                <span></span>
+                <input type="text" ng-model="sea" ng-change="changeshow()">  
+        </div>
+        <div class="lhy-yuyin">
+            <img src="pages/search/images/lhy-search_14.png" alt="">
+        </div>
     </div>
-    <div class="lhy-shaixuan">
-        <a href=""><img src="pages/search/images/lhy-search_05.png" alt=""></a>
-    </div>
-</div>
- <!--search-->
-<div class="lhy-search">
-    <div class="lhy-sear">
-        <span></span>
-        <input type="text">
-    </div>
-    <div class="lhy-yuyin">
-        <img src="pages/search/images/lhy-search_14.png" alt="">
-    </div>
-</div>
 <!-- 搜索结果条数 -->
-<div class="lhy-ssts">
+<div class="lhy-ssts" ng-class="{true:'lhy-active-ssts',false:''}[searchdisplay]">
     <img src="pages/search/images/lhy-ssjg_03.png" alt="">
     当前共为您搜索了<span>2316</span>条结果
 </div>
 <!-- 优选结果 -->
-<div class="lhy-yxjg">
+<div class="lhy-yxjg" >
     <div class="lhy-yx-title">
         <h3>优选结果</h3>
         <h4><b>The optimization</b> results</h4>
     </div>
-    
+
      <div class="lhy-haoyou">
         <div class="lhy-hy-left">
             <div class="lhy-hy-leftimg">
@@ -97,6 +98,7 @@
         </div>
     </div>
 </div>
+<lhyssjg searchdata="hylb"></lhyssjg>
 </div>
 
 

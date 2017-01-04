@@ -16,12 +16,7 @@ h2,h3,h4,h5{
     position:relative;
     z-index: 100;
 }
-.lhy-active-top{
-    position:fixed;
-    top:0;
-    left:0;
-    z-index:100;
-}
+
 .lhy-return,.lhy-shaixuan,.lhy-return img,.lhy-shaixuan img{
     width:.52rem;
     height:.54rem;
@@ -55,13 +50,7 @@ h2,h3,h4,h5{
     position:relative;
     z-index:100;
 }
-.lhy-active-search{
-    padding:0 .62rem;
-    position:fixed;
-    top:.9rem;
-    left:0;
-    z-index:100;
-}
+
 .lhy-sear{
     width:5.21rem;
     height:.73rem;
@@ -107,9 +96,7 @@ h2,h3,h4,h5{
     margin-bottom:.55rem;
     position:relative;
 }
-.lhy-active-lx{
-    margin-top:2.28rem;
-}
+
 .lhy-sear-circle{
     width: .06rem;
     height:.06rem;

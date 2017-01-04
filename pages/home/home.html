@@ -1,8 +1,14 @@
 <link rel="stylesheet" type="text/css" href="pages/home/home.css" />
 <div ng-controller='c'>
-<div class="lhy-banner">
-    <img src="pages/home/images/lhy-bg_02.png" alt="">
+<banner>    
+<div class="swiper-container lhy-banner">
+    <div class="swiper-wrapper ">
+        <div class="swiper-slide" ng-repeat="v in banner"><a href="#"><img src="{{v.image}}"></a></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
 </div>
+</banner>
 <!--热门推荐-->
 <div class="lhy-rmtj">
     <div class="lhy-title">
