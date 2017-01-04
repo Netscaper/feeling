@@ -1,0 +1,26 @@
+ <link rel="stylesheet" href="tpl/lhyssjg/lhyssjg.css">
+
+ <div class="lhy-search-click" ng-show="searchdisplay">
+        <!-- zhezhao -->
+        <div class="lhy-zhezhao" ng-click="searchshow()">
+             <!-- 搜索结果 -->
+            <div class="lhy-ssjg"  ng-show="jgshow">
+            <ul>
+                <li class="lhy-ssjg-list" ng-repeat="v in hylb | filter:sea" >
+                    <div class="lhy-ssjg-left">
+                        <img src="{{v.headerimg}}" alt="">
+                    </div>
+                    <div class="lhy-ssjg-right">
+                        <h3>
+                            <a href="{{v.src}}">{{v.name}}</a>          
+                        </h3>
+                        <h4>
+                            {{v.gxqm}}
+                        </h4>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>   
+</div>

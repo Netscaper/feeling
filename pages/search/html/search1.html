@@ -1,4 +1,3 @@
-
 <div ng-controller="ss">
     <!--头部-->
     <div class="lhy-top" ng-class="{true:'lhy-active-top',false:''}[searchdisplay]">
@@ -71,31 +70,7 @@
     </lhyhylb>
     </div>
 
-
-    <div class="lhy-search-click" ng-show="searchdisplay">
-    <!-- zhezhao -->
-    <div class="lhy-zhezhao" ng-click="searchshow()">
-         <!-- 搜索结果 -->
-        <div class="lhy-ssjg"  ng-show="jgshow">
-        <ul>
-            <li class="lhy-ssjg-list" ng-repeat="v in hylb | filter:sea" >
-                <div class="lhy-ssjg-left">
-                    <img src="{{v.headerimg}}" alt="">
-                </div>
-                <div class="lhy-ssjg-right">
-                    <h3>
-                        <span>{{v.name}}</span>            
-                    </h3>
-                    <h4>
-                        {{v.gxqm}}
-                    </h4>
-                </div>
-
-            </li>
-        </ul>
-    </div>
-    </div>   
-
+    <lhyssjg searchdata="hylb"></lhyssjg>
     </div>
 </div>
 
