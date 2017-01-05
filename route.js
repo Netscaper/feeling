@@ -14,6 +14,10 @@ app.config(['$routeProvider', function($routeProvider){
     .when('/order',{templateUrl:'pages/pay/order.html'})
     .when('/head',{templateUrl:'pages/register/touxiang.html'})
     .when('/head2',{templateUrl:'pages/register/sccg.html'})
+    .when('/sex',{templateUrl:'pages/register/sex.html'})
+    .when('/job',{templateUrl:'pages/register/job.html'})
+    .when('/tag',{templateUrl:'pages/register/tag.html'})
+    .when('/recom',{templateUrl:'pages/register/recom.html'})
 
     .when('/life',{templateUrl:'pages/life/life.html'})
     .when('/life1',{templateUrl:'pages/life/life1.html'})
