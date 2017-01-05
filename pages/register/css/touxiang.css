@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 22:23:43
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 10:35:38
+* @Last Modified time: 2017-01-05 18:50:38
 */
 *{
     padding:0;
@@ -20,6 +20,9 @@ body{
     position: relative;
     z-index: -2;
     font-family: "苹方";
+}
+a{
+    text-decoration: none;
 }
 .sly-bg{
     width:100%;
@@ -161,6 +164,9 @@ body{
     margin: 0.8rem auto 0;
     color:#fff;
     text-align: center;
+}
+.sly-btnbox a{
+    color:#fff;
 }
 .sly-left{
     width:3.1rem;
