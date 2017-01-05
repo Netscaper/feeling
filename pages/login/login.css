@@ -231,7 +231,10 @@ header{
     font-size:.26rem;
     color:#fff;
     border:1px solid #fff;
-    }
+}
+.zyp_btn_active{
+    background: url("yc_login_images/login_04.png") center center/cover;
+}
 .zyp_btn:before{
     content:"";
     display: block;

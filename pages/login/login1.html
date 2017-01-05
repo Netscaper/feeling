@@ -10,15 +10,15 @@
     <ul id="yc_userInfo">
         <li>
             <label >
-                <input type="text" placeholder="Email" ng-blur="zhBlur($event)" name="zhanghao">
-                <span class="zyp_status" ng-style="status1"></span>
+                <input type="text" placeholder="Email" ng-blur="zhBlur($event)" name="zhanghao" ng-model="zhanghao">
+                <span class="zyp_status" ng-show="statusbg1" ng-style="status1"></span>
             </label>
-            <div class="yc_history" ng-show="{{zhStatus}}">当前账号不存在</div>
+            <div class="yc_history" ng-show="zhStatus">{{text}}</div>
         </li>
         <li>
             <label >
-                <input type="password" placeholder="Password" name="mima" ng-model="pwd" ng-change="pwdBlur()">
-                <span class="zyp_status" ng-style="status2"></span>
+                <input type="password" placeholder="Password" name="mima" ng-model="pwd" ng-change="pwdChange()" ng-blur="pwdBlur()">
+                <span class="zyp_status" ng-style="status2" ng-show="statusbg2"></span>
             </label>
         </li>
     </ul>
@@ -26,8 +26,8 @@
         <li><a href="#">忘记密码</a></li>
         <li><a href="#">还没注册账号？10秒快速注册</a></li>
     </ol>
-    <a href="#" class="yc_greyBtn">
-        <button class="zyp_btn" disabled ng-click="btnClick($event)">
+    <a href="{{route}}" class="yc_greyBtn">
+        <button ng-class="{true:'zyp_btn',false:'zyp_btn zyp_btn_active'}[status]" ng-click="btnClick($event)">
             登录
         </button>            
     </a>

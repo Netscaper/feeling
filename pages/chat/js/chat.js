@@ -21,13 +21,14 @@ var listdata=[
 var list=[
     {
         src:"jd.png",
-        title:"更改备注名称友",
+        title:"更改备注名称",
         remark:"方便认识并且快速找到您的好友",
     },
     {
         src:"mht.png",
         title:"分组设置",
         remark:"给她添加分组，以便实现好友管理",
+        friend:"单身很好"
     },
     {
         src:"bql.png",
@@ -35,10 +36,24 @@ var list=[
         remark:"添加为特别关注好友可随时了解他的最新动态",
     }
 ]
+var active=[
+    {
+        src:"td.png",
+        title:"不让他看我的动态",
+        remark:"打开后，该好友将无法查看你的动态",
+    },
+    {
+        src:"pg.png",
+        title:"不看他的动态",
+        remark:"打开后，该好友将无法查看你的动态",
+    }
+]
 var chat=angular.module("chat",[])
 chat.controller("c",function($scope){
     $scope.listdata=listdata;
     $scope.list=list;
+    $scope.active=active;
+    $scope.flag=true;
 })
 chat.directive("pList",function(){
     return {

@@ -5,6 +5,7 @@
 }
 a{
     text-decoration: none;
+    color:#303030;
 }
 ul{
     list-style: none;
@@ -25,4 +26,191 @@ ul{
     width:0.55rem;
     height:0.60rem;
     background:url("../images/return.png") center center/cover no-repeat;
+}
+/**/
+.sly-ul{
+    margin-top: 0.24rem;
+    margin-bottom: 0.34rem;
+}
+.sly-list{
+    width:7.02rem;
+    height: 1.24rem;
+    margin:.12rem auto;
+    box-shadow: 0 0 0.1rem #d0d0d0;
+    border-radius: 0.15rem;
+    background:#fff;
+}
+
+.sly-list:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.sly-list img{
+    display:block;
+    width:0.66rem;
+    height:0.73rem;
+    margin-left:0.15rem ;
+    margin-right:.3rem;
+    float:left;
+    margin-top: 0.24rem;
+}
+.sly-commit{
+    float:left;
+    margin-top: .22rem;
+}
+.sly-title{
+    font-size: .26rem;
+    font-weight:bold;
+}
+.sly-title>i,.sly-title>b{
+    display:inline-block;
+    width:0.08rem;
+    height:0.08rem;
+    border-radius: 50%;
+    font-style: normal;
+    margin:0 0.03rem;
+}
+.sly-title>i{
+    background:#ffe829;
+    margin-left: 0.1rem;
+}
+.sly-title>b{
+    background:#f52b7c;
+}
+.sly-line{
+    width:1.05rem;
+    height:1px;
+    border-bottom:1px dashed #50cea6;
+    margin: .1rem 0 .1rem;
+}
+
+.sly-line:before{
+    content:"";
+    display: block;
+    width:.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #50cea6;
+    float: left;
+}
+.sly-line:after{
+    content:"";
+    display: block;
+    width:0.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #50cea6;
+    float:right;
+}
+.sly-remark{
+    font-size: 0.22rem;
+    white-space: nowrap;
+}
+.sly-cel{
+    width:0.4rem;
+    height:0.4rem;
+    background:url("../images/more.png") center center/cover;
+    float:right;
+    margin-top: 0.4rem;
+    margin-right: 0.26rem;
+}
+.sly-group{
+    color:#ff539f;
+    float:right;
+    font-size: 0.22rem;
+    margin-top: 0.46rem;
+    margin-right: 0.26rem;
+    font-weight: bold;
+}
+.sly-add{
+    color:#fff;
+    font-size: 0.22rem;
+    background:#ff539f;
+    border-radius: 0.2rem;
+    width:1rem;
+    height:0.4rem;
+    float:right;
+    /*margin-top: 0.4rem;*/
+    margin-right: 0.1rem;
+    text-align: center;
+}
+/*dongtaishezhi*/
+.sly-tit{
+    width:7.02rem;
+    margin:0.4rem auto;
+}
+.sly-tit:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.sly-tit .sly-left{
+    float:left;
+}
+.sly-eng{
+    text-transform: uppercase;
+    font-size: 0.36rem;
+    color:#f21549;
+    font-weight: bold;
+}
+.sly-eng>span{
+    font-size: 0.22rem;
+    color:#707070;
+    font-weight: normal;
+}
+.sly-china{
+    font-size: 0.24rem;
+    color:#686868;
+}
+.sly-yx{
+    width:1.88rem;
+    height:1px;
+    border-bottom: 1px dashed #30d5b0;
+}
+.sly-yx:before{
+    content:"";
+    float:left;
+    width:0.03rem;
+    height:0.03rem;
+    background:#ffe326;
+}
+.sly-yx:after{
+    content:"";
+    float:right;
+    width:0.03rem;
+    height:0.03rem;
+    background:#ffe326;
+}
+.sly-tit .sly-right{
+    float:right;
+    width:0.5rem;
+    height:0.5rem;
+    background:url("../images/yt_03.png") center center/cover;
+    margin-top: 0.2rem;
+}
+.sly-rangbox{
+    width:1rem;
+    height:0.4rem;
+    background:#ff539f;
+    border-radius: 0.2rem;
+    float:right;
+    margin-top: 0.44rem;
+    margin-right: 0.24rem;
+}
+.sly-hrangbx{
+    background:#a4a4a4;
+}
+.sly-hrangbx>.sly-rang{
+    margin-left: 0.72rem;
+}
+.sly-rang{
+    width:0.02rem;
+    height:0.02rem;
+    background:#3c95bd;
+    border-radius: 50%;
+    border:0.06rem solid #fff;
+    box-shadow: 0 0 0 0.02rem #858585,0 0 0 0.08rem #fff;
+    margin-left: 0.14rem;
+    margin-top: 0.13rem;
 }
