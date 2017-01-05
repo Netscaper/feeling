@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="pages/look/look.css">   
+    <!--title start-->
+    <header>
+        <div class="zyp_back">
+            <a href="#/"></a>
+        </div>
+        <h1 class="zyp_nav_title"></h1>
+    </header>
+    <!--title end-->
+    <!--内容 start-->
+    <div ng-controller="lookCtrl" style="background:#CADDEB;padding-top:1px">
+        <div class="zyp_card">
+            <div ng-class="{true:'zyp_card_bg zyp_card_bg_active',false:'zyp_card_bg'}[bgFlag]"></div>
+            <div ng-class="{true:'zyp_card_left',false:'zyp_card_left zyp_card_active'}[bgFlag]" ng-click="lrClick(false)">
+                <a href="">
+                    <div class="a_before"></div>
+                    <span>制作</span>
+                    <i>The Login</i>
+                    <div class="a_after"></div>
+                </a>
+            </div>
+            <div ng-class="{true:'zyp_card_left zyp_card_right zyp_card_active',false:'zyp_card_left zyp_card_right'}[bgFlag]" ng-click="lrClick(true)">
+                <a href="">
+                    <div class="a_before"></div>
+                    <span>商城</span>
+                    <i>The Mall</i>
+                    <div class="a_after"></div>
+                </a>
+            </div>
+        </div>
+        <div class="zyp_box" ng-show="!bgFlag">
+            <div class="zyp_biaoqing_box">
+                <img src="pages/look/images/zyp_look.png" alt="">
+            </div>
+            <ul class="zyp_bqlist">
+                <li class="li_active">表情</li>
+                <li>挂件</li>
+                <li>文字</li>
+            </ul>
+            <ul class="zyp_lxlist">
+                <li class="zyp_lxlist_active">脸型</li>
+                <li>鼻子</li>
+                <li>眼睛</li>
+                <li>嘴巴</li>
+            </ul>
+            <ul class="zyp_zaoxingList">
+                <li ng-repeat="v in lookData" style="background:{{v}} no-repeat center center;background-size:auto 80%"></li>
+            </ul>
+            <a href="" class="zyp_save">保存形象</a>
+        </div>
+        <div class="shop" ng-show="bgFlag">
+
+        </div>
+    </div>
+    
+    <!--内容 end-->

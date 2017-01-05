@@ -4,6 +4,10 @@ app.config(['$routeProvider', function($routeProvider){
     .when('/login',{templateUrl:'pages/login/login.html'})
     .when('/login1',{templateUrl:'pages/login/login1.html'})
     .when('/chat',{templateUrl:'pages/chat/chat.html'})
+    .when('/look',{
+        templateUrl:'pages/look/look.html',
+        controller:'lookCtrl'   
+    })
     .when('/order',{templateUrl:'pages/pay/order.html'})
     .when('/life',{templateUrl:'pages/life/life.html'})
     .when('/life1',{templateUrl:'pages/life/life1.html'})
