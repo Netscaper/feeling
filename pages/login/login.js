@@ -22,7 +22,7 @@ login.controller('loginCtrl',function($scope,localS,$filter){
     $scope.status=true;
     $scope.route="javascript:;";
     $scope.zhBlur=function(){
-        $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true)||[];
+        $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true)||[{name:'zyp@qq.com',pwd:'123456'}];
         $scope.statusbg1=true;
         if($scope.xinxi != [] && $scope.zhanghao != undefined){
             $scope.status1={
