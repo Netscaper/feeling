@@ -14,13 +14,11 @@ login.factory('localS',function(){
 login.controller('loginCtrl',function($scope,localS,$filter){
     $scope.zhanghao;
     $scope.pwd;
-    $scope.xinxi=[];
-    console.log($scope.xinxi)
     $scope.data = localS.getdata();
     $scope.zhStatus=false;
     $scope.status;
     $scope.zhBlur=function(){
-        $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true);
+        $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true)||[];
         if($scope.xinxi.length){
             $scope.status1={
                 'background':'#28DB67'
@@ -29,6 +27,9 @@ login.controller('loginCtrl',function($scope,localS,$filter){
             $scope.status1={
                 'background':'#FF0000'
             }
+        }
+        if($scope.xinxi == $scope.zhanghao){
+            $scope.zhStatus=true;
         }
     }
     $scope.pwdBlur = function(){

@@ -2,7 +2,7 @@
 <header class="yc_header">
     <div class="yc_head">
     </div>
-    <div class="yc_back"><a href="#/"></a></div>
+    <div class="yc_back"><a href="#/login"></a></div>
 </header>
 <div class="yc_logo">
 </div>
@@ -13,13 +13,7 @@
                 <input type="text" placeholder="Email" ng-blur="zhBlur($event)" name="zhanghao">
                 <span class="zyp_status" ng-style="status1"></span>
             </label>
-            <div class="yc_history" ng-show="zhStatus">
-                <div class="yc_account" ng-repeat="v in data | filter:{name:zhanghao}:false | limitTo:3">
-                    <img src="{{v.src}}" alt="">
-                </div>
-                <div class="yc_more">
-                </div>
-            </div>
+            <div class="yc_history" ng-show="{{zhStatus}}">当前账号不存在</div>
         </li>
         <li>
             <label >
