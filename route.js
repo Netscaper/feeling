@@ -11,6 +11,9 @@ app.config(['$routeProvider', function($routeProvider){
         templateUrl:'pages/look/look.html',
         controller:'lookCtrl'   
     })
+    .when('/look1',{
+        templateUrl:'pages/look/look1.html',
+    })
     .when('/order',{templateUrl:'pages/pay/order.html'})
     .when('/head',{templateUrl:'pages/register/touxiang.html'})
     .when('/head2',{templateUrl:'pages/register/sccg.html'})

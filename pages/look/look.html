@@ -2,7 +2,7 @@
     <!--title start-->
     <header>
         <div class="zyp_back">
-            <a href="#/"></a>
+            <a href="#/home"></a>
         </div>
         <h1 class="zyp_nav_title"></h1>
     </header>
@@ -51,11 +51,13 @@
         <div class="zyp_shop" ng-show="bgFlag">
             <ul class="zyp_shop_box">
                 <li class="zyp_shop_list" ng-repeat="v in lookfood">
-                    <div class="zyp_shop_img">
-                        <img src="{{v.url}}" alt="">
-                    </div>
-                    <p class="p1"><b>{{v.reb}}</b> REM</p>
-                    <p class="p2">{{v.name}}</p>
+                    <a href="#/look1">
+                        <div class="zyp_shop_img">
+                            <img src="{{v.url}}" alt="">
+                        </div>
+                        <p class="p1"><b>{{v.reb}}</b> REM</p>
+                        <p class="p2">{{v.name}}</p>
+                    </a>
                 </li>
             </ul>
         </div>
