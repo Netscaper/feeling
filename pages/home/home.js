@@ -6,8 +6,8 @@ var data=[
     },
     {
         src:"images/lx_09.png",
-        title:"特效视频"
-
+        title:"特效视频",
+        href:"javascript:;"
     },
     {
         src:"images/lx_11.png",
@@ -16,7 +16,8 @@ var data=[
     },
     {
         src:"images/lx_14.png",
-        title:"电子书城"
+        title:"电子书城",
+        href:"javascript:;"
     },
     {
         src:"images/lx_03.png",
