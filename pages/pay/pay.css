@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-01 18:30:35
+* @Last Modified time: 2017-01-05 10:57:04
 */
 body{
     font-size: 0.16rem;
@@ -119,6 +119,10 @@ a{
 }
 .hyb-ctitle li,.hyb-ctitle span{
     float:left;
+}
+.hyb-ctitle span{
+    font-size: 0.16rem;
+    line-height: 0.32rem;
 }
 .hyb-pay-style {
     display:flex;

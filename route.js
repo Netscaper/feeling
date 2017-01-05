@@ -1,11 +1,16 @@
 app.config(['$routeProvider', function($routeProvider){
     $routeProvider
-    .when('/',{templateUrl:'pages/home/home.html'})
+    .when('/',{templateUrl:'pages/flash/flash.html'})
+    .when('/home',{templateUrl:'pages/home/home.html'})
     .when('/flash',{templateUrl:'pages/flash/flash.html'})
     .when('/login',{templateUrl:'pages/login/login.html'})
     .when('/login1',{templateUrl:'pages/login/login1.html'})
     .when('/chat',{templateUrl:'pages/chat/chat.html'})
     .when('/friend',{templateUrl:'pages/chat/friend.html'})
+    .when('/look',{
+        templateUrl:'pages/look/look.html',
+        controller:'lookCtrl'   
+    })
     .when('/order',{templateUrl:'pages/pay/order.html'})
     .when('/life',{templateUrl:'pages/life/life.html'})
     .when('/life1',{templateUrl:'pages/life/life1.html'})

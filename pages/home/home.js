@@ -2,7 +2,7 @@ var data=[
     {
         src:"images/lx_06.png",
         title:"聊天表情",
-        href:"#/order"
+        href:"#/look"
     },
     {
         src:"images/lx_09.png",
