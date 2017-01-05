@@ -8,7 +8,7 @@
     </header>
     <!--title end-->
     <!--内容 start-->
-    <div ng-controller="lookCtrl" style="background:#CADDEB;padding-top:1px">
+    <div ng-controller="lookCtrl" style="background:#CADDEB;padding-top:1px;margin-top:-2px">
         <div class="zyp_card">
             <div ng-class="{true:'zyp_card_bg zyp_card_bg_active',false:'zyp_card_bg'}[bgFlag]"></div>
             <div ng-class="{true:'zyp_card_left',false:'zyp_card_left zyp_card_active'}[bgFlag]" ng-click="lrClick(false)">
@@ -48,9 +48,18 @@
             </ul>
             <a href="" class="zyp_save">保存形象</a>
         </div>
-        <div class="shop" ng-show="bgFlag">
-
+        <div class="zyp_shop" ng-show="bgFlag">
+            <ul class="zyp_shop_box">
+                <li class="zyp_shop_list" ng-repeat="v in lookfood">
+                    <div class="zyp_shop_img">
+                        <img src="{{v.url}}" alt="">
+                    </div>
+                    <p class="p1"><b>{{v.reb}}</b> REM</p>
+                    <p class="p2">{{v.name}}</p>
+                </li>
+            </ul>
         </div>
+        <div class="zyp_floor_bg"></div>
     </div>
     
     <!--内容 end-->

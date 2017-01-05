@@ -13,8 +13,56 @@ var lookData = [
     'url(pages/look/images/zyp_mr11.png)',
     'url(pages/look/images/zyp_mr12.png)'
     ];
+var lookfood = [
+    {
+        reb:'2',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food1.png'
+    },
+    {
+        reb:'6',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food2.png'
+    },
+    {
+        reb:'8',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food3.png'
+    },
+    {
+        reb:'12',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food4.png'
+    },
+    {
+        reb:'8',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food5.png'
+    },
+    {
+        reb:'4',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food6.png'
+    },
+    {
+        reb:'5',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food7.png'
+    },
+    {
+        reb:'3',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food8.png'
+    },
+    {
+        reb:'7',
+        name:'小太阳花表情',
+        url:'pages/look/images/zyp_food9.png'
+    }
+]
 look.controller('lookCtrl',function($scope){
     $scope.lookData = lookData;
+    $scope.lookfood = lookfood;
     $scope.bgFlag=false;
     $scope.lrClick = function(value){
         $scope.bgFlag=value;

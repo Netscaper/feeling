@@ -15,13 +15,14 @@ login.controller('loginCtrl',function($scope,localS,$filter){
     console.log(1);
     $scope.zhanghao;
     $scope.pwd;
-    $scope.xinxi;
+    $scope.xinxi=[];
     $scope.data = localS.getdata();
     $scope.zhStatus=false;
     $scope.status;
     console.log(localS.getdata());
     $scope.zhBlur=function(){
         $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true);
+        console.log($scope.xinxi)
         console.log($scope.xinxi);
         if($scope.xinxi.length){
             $scope.status1={
