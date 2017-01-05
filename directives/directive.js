@@ -19,21 +19,21 @@ dir.directive("lxLan",function(){
         }
     }
 })
+<<<<<<< HEAD
+
+=======
+>>>>>>> 382af616c0e828a73d341965596c9a4169adf74b
 dir.directive("lhyssjg",function(){
     return {
         restrict:'ECMA',
         // replace:true,
         templateUrl:"../tpl/lhyssjg/lhyssjg.html",
         scope:true
-    }   
-})     
-dir.directive('order',function(){
-    return {
-        restrict : "ECMA",
-        templateUrl :"../pages/pay/tpl1.html",
-        replace:true,
-        scope:{
-            data:"=order"
-        }
-    };
+<<<<<<< HEAD
+    }    
 })
+=======
+    }   
+}) 
+
+>>>>>>> 382af616c0e828a73d341965596c9a4169adf74b

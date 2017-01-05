@@ -39,14 +39,14 @@
         <div class="lhy-mood-content-left">
             <li  ng-repeat="v in mood1">
                 <div class="lhy-mood-top">
-                    <img src="pages/home/{{v.img1}}" alt="">
+                    <a href="#/mood"><img src="pages/home/{{v.img1}}" alt=""></a>
                     <div class="lhy-mood-top-middle">
                         <h3>{{v.title1}}</h3>
                         <h4>{{v.title2}}</h4>
                     </div>
                     <span class="lhy-mood-top-right">{{v.min}}</span>
                 </div>
-                <img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt="">
+                <a href="#/mood"><img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt=""></a>
                 <div class="lhy-mood-bottom">
                     <h4>{{v.content}}</h4>
                     <h2>{{v.contentYin}}</h2>
@@ -62,14 +62,16 @@
         <div class="lhy-mood-content-right">
             <li  ng-repeat="v in mood2">
                 <div class="lhy-mood-top">
-                    <img src="pages/home/{{v.img1}}" alt="">
+                    <a href=#/mood"><img src="pages/home/{{v.img1}}" alt=""></a>
                     <div class="lhy-mood-top-middle">
                         <h3>{{v.title1}}</h3>
                         <h4>{{v.title2}}</h4>
                     </div>
                     <span class="lhy-mood-top-right">{{v.min}}</span>
                 </div>
-                <img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt="">
+                <a href="#/mood">
+                    <img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt="">                    
+                </a>
                 <div class="lhy-mood-bottom">
                     <h4>{{v.content}}</h4>
                     <h2>{{v.contentYin}}</h2>

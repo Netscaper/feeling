@@ -1,0 +1,26 @@
+<ul class="hyb-list-box">
+    <li>
+        <div class="hyb-list-left"><img src="{{data.icon}}" height="100%" width="100%" alt="" /></div>
+        <div class="hyb-list-con">
+            <h2>{{data.title}}
+                <s class='hyb-dian hyb-s1'></s><s class='hyb-dian hyb-s2'></s>
+            </h2>
+            <h3>{{data.desc}}</h3>
+        </div>
+        <div class="hyb-list-right"><span>{{data.price|number:2}}</span><b></b></div>
+    </li>
+    <li class="hyb-border"></li>
+    <li>
+        <div class="hyb-list-num">数量</div>
+        <div class="hyb-list-nub">
+            <button>-</button>
+            <input type="number" min="0" max='99' ng-model='{{data.num}}' />
+            <button>+</button>
+        </div>
+    </li>
+    <li class="hyb-border"></li>
+    <li>
+        <div class="hyb-list-num">小计</div>
+        <div class="hyb-list-right hyb-all"><span>{{data.price*data.num|number:2}}</span><b></b></div>
+    </li>
+</ul>

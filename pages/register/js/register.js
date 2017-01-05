@@ -26,17 +26,20 @@ ctrl.factory("localS",function(){
         }
     }
 })
-ctrl.controller("cc",function ($scope,localS){
+ctrl.controller("cc",function ($scope,localS,$filter){
     // $scope.data=datas;
-    $scope.falg1;
+    $scope.f1=false;
+    $scope.f2=false;
+    $scope.f3=false;
+    $scope.nextkg=""
     $scope.content="";
+    $scope.status3={'backgroundColor':'#222222'};
+    $scope.status2={'backgroundColor':'#222222'};
+    $scope.status1={'backgroundColor':'#222222'};
     $scope.data=localS.getdata()||[];
     $scope.eve=function(e){
         var value=e.target.value
-        var classname=e.target.className
-        console.log(value)
-        console.log(classname)
-        console.log(typeof $scope.data)
+        var classname=e.target.className;
         function CheckMail(mail) {
             var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             if (filter.test(mail)) {
@@ -54,9 +57,8 @@ ctrl.controller("cc",function ($scope,localS){
             }
         }
         if(e.target.className=="name"){
-
+            $scope.f1=true
             if(value.length==0){
-               $(".sly-quan")[0].style.backgroundColor="red";
                $scope.content="··用户名不能为空";
                $scope.falg1=false;
             }else{
@@ -64,57 +66,58 @@ ctrl.controller("cc",function ($scope,localS){
                     if($scope.data!=null){
                         for(var i=0;i<=$scope.data.length-1;i++){
                             if($scope.data[i].name==value){
-                                $(".sly-quan")[0].style.backgroundColor="red";
                                 $scope.content="··用户名已存在";
                                 $scope.falg1=false;
                             } 
                         }
-                        $(".sly-quan")[0].style.backgroundColor="green"
                         $scope.content="";
                         $scope.falg1=true;
                     }else{
-                        $(".sly-quan")[0].style.backgroundColor="green";
                         $scope.content="";
                         $scope.falg1=true;
                     }
                     
                 }else{
-                    $(".sly-quan")[0].style.backgroundColor="red";
                     $scope.content="··用户名格式错误";
                     $scope.falg1=false;
                 }
                 
             }
         }else if(e.target.className=="passward"){
+            $scope.f2=true
             if(value.length==0){
-                $(".sly-quan")[1].style.backgroundColor="red";
+                $scope.falg2=false;
                 $scope.content="··密码不能为空";
             }else{
                 if(value.length>=6&&value.length<=8){
-                    $(".sly-quan")[1].style.backgroundColor="green";
+                    $scope.falg2=true;
                     $scope.content=""
                 }else{
-                    $(".sly-quan")[1].style.backgroundColor="red";
+                    $scope.falg2=false;
                     $scope.content="··请输入6-8位密码";
                 }     
             }
         }else if(e.target.className=="repwd"){
+            $scope.f3=true
             if(value.length==0){
-                $(".sly-quan")[1].style.backgroundColor="red";
+                $scope.falg3=false;
                 $scope.content="··两次输入密码不一致";
             }else{
                 if($('input')[1].value==value){
-                    $(".sly-quan")[2].style.backgroundColor="green";
+                    $scope.falg3=true;
                     $scope.content=""
                 }else{
-                    $(".sly-quan")[2].style.backgroundColor="red";
+                    $scope.falg3=false;
                     $scope.content="··两次输入密码不一致";
                 }     
             }
         }
-        if($(".sly-quan").eq(0).css("background-color")=='green'&&$(".sly-quan").eq(1).css("background-color")=='green'&&$(".sly-quan").eq(2).css("background-color")=='green') {
+        if($scope.falg1&&$scope.falg2&&$scope.falg3) {
             $(".sly-next")[0].style.backgroundImage='url("../../images/redbtn.png")'
             $(".sly-next").removeAttr('disabled')
+        }else{
+            $(".sly-next")[0].style.backgroundImage='url("../../images/greybtn.png")'
+            $(".sly-next").attr('disabled','true')
         }
     }
     $scope.save=function(){
@@ -156,5 +159,83 @@ ctrl.controller("cc",function ($scope,localS){
         }
         $scope.hidefalg=!$scope.hidefalg
     }
+    // $scope.zhBlur=function(){
+    //     $scope.f1=true
+    //     console.log($scope.zhanghao)
+    //     function CheckMail(mail) {
+    //         var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    //         if (filter.test(mail)) {
+    //             return true;
+    //         }else {
+    //             return false;
+    //         }
+    //     }
+    //     function CheckPhone(phone){
+    //         var str=/^1[34578]\d{9}$/
+    //         if(str.test(phone)){
+    //             return true;
+    //         }else{
+    //             return false;
+    //         }
+    //     }
+    //     if(!$scope.zhanghao){
+    //         $scope.status1={'backgroundColor':'#f60c3d'};
+    //         $scope.content="··用户名不能为空";
+    //     }else{
+    //         if(CheckMail($scope.zhanghao)||CheckPhone($scope.zhanghao)){
+    //             if($scope.data!=null){
+    //                 $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true);
+    //                 if($scope.xinxi.length){
+    //                     $scope.status1={'backgroundColor':'#f60c3d'};
+    //                     $scope.content="··用户名已存在";
+    //                 }else{
+    //                     $scope.status1={'backgroundColor':'#28db67'};
+    //                     $scope.content="";
+    //                 }
+    //             }else{
+    //                 $scope.content="";
+    //                 $scope.status1={'backgroundColor':'#28db67'}
+    //             }      
+    //         }else{
+    //             $scope.content="··用户名格式错误";
+    //             $scope.status1={'backgroundColor':'#f60c3d'}
+    //         } 
+    //     }
+        
+    // }
+    // $scope.password;
+    // $scope.pwd = function(){
+    //     $scope.f2=true;
+    //     console.log($scope.password)
+    //     if(!$scope.password){
+    //         $scope.status2={'backgroundColor':'#f60c3d'};
+    //         $scope.content="··密码不能为空";
+    //     }else{
+    //         if($scope.password.length>=6&&$scope.password.length<=8){
+    //             $scope.status2={'backgroundColor':'#28db67'};
+    //             $scope.content=""
+    //         }else{
+    //             $scope.status2={'backgroundColor':'#f60c3d'};
+    //             $scope.content="··请输入6-8位密码";
+    //         }     
+    //     }    
+    // }
+    // $scope.repwd;
+    // $scope.repwdBlur = function(){
+    //     $scope.f3=true;
+    //     if(!$scope.repwd){
+    //         $scope.status3={'backgroundColor':'#f60c3d'};
+    //         $scope.content="··两次输入密码不一致";
+    //     }else{
+    //         if($scope.password===$scope.repwd){
+    //             $scope.status3={'backgroundColor':'#28db67'};
+    //             $scope.content=""
+    //         }else{
+    //             $scope.status3={'backgroundColor':'#f60c3d'};
+    //             $scope.content="··两次输入密码不一致";
+    //         }     
+    //     }  
+        
+    // }
     
 })

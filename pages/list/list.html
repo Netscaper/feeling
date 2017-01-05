@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/list.css" />
+    <title>Document</title>
+    <script src="../../js/rem.js"></script>
+    <script src="../../js/angular.min.js"></script>
+    <script src="js/list.js"></script>
+</head>
+<body>
+    <div class="sly-bg">
+        <div class="sly-wz">
+            <p>消息列表</p>
+            <p>The <span>message</span> list</p>
+        </div>
+    </div>
+    <div class="sly-search">
+        <div class="sly-posimg"></div>
+        <div class="sly-posquan">
+            <span class="yquan"></span>
+            <span class="rquan"></span>
+        </div>
+        <input type="text" class="sly-inp" placeholder="search"/>
+        <button class="sly-buttom">
+            <i></i>
+        </button>
+    </div>
+    <ul class="sly-ul" ng-app="list" ng-controller="c">
+        <li class="sly-list" ng-repeat="v in data" >
+            <a href="##">
+                <div class="sly-xfpic">
+                    <img src="images/{{v.src}}" height="73" width="66" alt="" />
+                </div>
+                <div class="sly-commit">
+                    <p class="sly-title">{{v.title}}<i></i><b></b></p>
+                    <div class="sly-line"></div>
+                    <p class="sly-remark">{{v.remark}}</p>
+                </div>
+                <div class="sly-border" ng-if="v.num">{{v.num}}</div>
+                <div class="sly-time" ng-if="v.time">{{v.time}}</div>
+            </a>
+        </li>
+    </ul>
+</body>
+</html>

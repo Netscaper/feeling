@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="ctrl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/friend.css" />
+    <title>Document</title>
+    <script src="../../js/rem.js"></script>
+    <script src="../../js/angular.min.js"></script>
+    <script src="js/chat.js"></script>
+</head>
+<body>
+    <header class="head">
+        <a href="##">
+            <button></button>
+        </a>
+    </header>
+    <ul class="sly-ul"  ng-controller="c">
+        <li class="sly-list" ng-repeat="v in data" >
+            <a href="##">
+                <div class="sly-xfpic">
+                    <img src="images/{{v.src}}" height="73" width="66" alt="" />
+                </div>
+                <div class="sly-commit">
+                    <p class="sly-title">{{v.title}}<i></i><b></b></p>
+                    <div class="sly-line"></div>
+                    <p class="sly-remark">{{v.remark}}</p>
+                </div>
+                <div class="sly-border" ng-if="v.num">{{v.num}}</div>
+                <div class="sly-time" ng-if="v.time">{{v.time}}</div>
+            </a>
+        </li>
+    </ul>
+</body>
+</html>

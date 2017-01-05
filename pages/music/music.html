@@ -1,0 +1,125 @@
+<link rel="stylesheet" href="pages/music/music.css">
+<div ng-controller='music'>
+     <!--title start-->
+    <header>
+        <div class="zyp_back">
+            <a href="#/"></a>
+        </div>
+        <div class="lhy_nav_title">
+            <h3>音乐空间</h3>
+            <h4><b>Music </b>space</h4>
+        </div>
+    </header>
+    <!--title end-->
+    <!--music info-->
+    <div class="lhy-music-tab">
+        <div class="lhy-music-list">
+              <img src="pages/music/images/lhy-music_03.png" alt="">  
+              <h3>歌手</h3>
+              <h4>singer</h4>
+        </div>
+        <div class="lhy-music-line">
+
+        </div>
+        <div class="lhy-music-list">
+              <img src="pages/music/images/lhy-music_05.png" alt="">  
+              <h3>排行</h3>
+              <h4>Ranking</h4>
+        </div>
+        <div class="lhy-music-line">
+
+        </div>
+        <div class="lhy-music-list">
+              <img src="pages/music/images/lhy-music_07.png" alt="">  
+              <h3>主题</h3>
+              <h4>Theme</h4>
+        </div>
+        <div class="lhy-music-line">
+
+        </div>
+        <div class="lhy-music-list">
+              <img src="pages/music/images/lhy-music_09.png" alt="">  
+              <h3>电台</h3>
+              <h4>Radio</h4>
+        </div>
+    </div>
+    <!--new song-->
+    <div class="lhy-newsong">
+        <h3>
+            <img src="pages/music/images/lhy-music_15.png" alt="">
+        </h3>
+        <img src="pages/music/images/lhy-music_18.png" alt="">
+    </div>
+    <!--music song title-->
+    <div class="lhy-song-title">
+        Moves Like Jagger
+    </div>
+    <div class="lhy-song-line">
+
+    </div>
+    <!---->
+    <div class="lhy-life-infoeng">
+        I don't believe is not only don't want you want 
+interesting the is degree is not enough.
+    </div>
+    <!--头像-->
+    <div class="lhy-photo">
+        <ul class="lhy-photo-left">
+            <li>
+                <img src="pages/life/images/lhy-life2_07.png" alt="">
+            </li>
+            <li>
+                <img src="pages/life/images/lhy-life2_09.png" alt="">
+            </li>
+            <li>
+                <img src="pages/life/images/lhy-life2_12.png" alt="">
+            </li>
+            <li>
+                <img src="pages/life/images/lhy-life2_15.png" alt="">
+            </li>
+            <li>
+                <img src="pages/life/images/lhy-life2_18.png" alt="">
+            </li>
+        </ul>
+        <div class="lhy-photo-right">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!--评论-->
+    <div class="lhy-life-plsc">
+        <div class="lhy-life-sc">
+            <div><img src="pages/life/images/lhy-life2_26.png" alt=""></div>
+           <span>2231</span>
+        </div>
+        <div class="lhy-life-pl">
+            <div><img src="pages/life/images/lhy-life2_29.png" alt=""></div>
+            <span>4522</span>
+        </div>
+        <div class="lhy-life-date">
+             <div><img src="pages/life/images/lhy-life2_32.png" alt=""></div>
+           <span>2231</span>
+        </div>
+    </div>
+     <!--tuijian-->
+    <div class="lhy-tuijian">
+        <h3><img src="pages/music/images/lhy-music_21.png" alt=""></h3>
+        <ul>
+            <li class="lhy-tuijian-list" ng-repeat="v in musicdata">
+                <img src="pages/music/images/{{v.img}}" alt="">
+                <div class="lhy-tjlist-title">
+                    {{v.title}}
+                    <img src="pages/music/images/lhy-music_34.png" alt="">
+                    <img src="pages/music/images/lhy-music_34.png" alt="">
+                    <img src="pages/music/images/lhy-music_34.png" alt="">
+                </div>
+                <div class="lhy-tj-line"></div>
+                <div class="lhy-tj-name">
+                    <b>Lemon </b>tree
+                    <span>{{v.people}}万人听过</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

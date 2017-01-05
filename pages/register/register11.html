@@ -1,0 +1,41 @@
+<link rel="stylesheet" type="text/css" href="pages/register/css/register.css" />
+<div ng-controller="cc">
+    <div class="sly-bg"></div>
+    <div class="sly-return"><a href="#/"></a></div>
+    <div class="sly-mb">
+        <div class="sly-input" >
+            <img src="pages/register/images/xl.png" alt="" />
+            <input type="text" ng-blur="zhBlur()" ng-model="zhanghao" class="name" placeholder="Email/手机号"/>
+            <span class="sly-quan" ng-show="f1" ng-style="status1"></span>
+        </div>
+        <div class="sly-input">
+            <img src="pages/register/images/pg.png" class="pg" alt="" />
+            <input type="password"  ng-blur="pwd()" ng-model="password" class="passward" placeholder="请输入您的密码"/>
+            <div class="sly-btn" ng-click="show()">
+                <i class="mima"></i>
+            </div>
+            <span class="sly-quan" ng-show="f2" ng-style="status2"></span>
+        </div>
+        <div class="sly-input">
+            <img src="pages/register/images/pg.png" class="pg" alt="" />
+            <input type="password" ng-blur="repwdBlur()" ng-model="repwd" class="repwd" placeholder="请再次输入您的密码"/>
+            <div class="sly-btn">
+                <i class="mm" ng-click="hide()"></i>
+            </div>
+            <span class="sly-quan" ng-show="f3" ng-style="status3"></span>
+        </div>
+        <div class="sly-input sly-noborder">
+            <img src="pages/register/images/td.png" alt="" />
+            <input type="text" class="sly-num" ng-blur="eve($event)" placeholder="请输入验证码"/>
+            <span class="sly-yz">获取验证码</span>
+        </div>
+    </div>
+    <p class="pwd">{{content}}</p>
+    <a href="##">
+    <button class="sly-next" disabled ng-click="save()">
+        NEXT
+    </button>
+    </a>
+    <div class="sly-lb1"></div>
+</div>
+

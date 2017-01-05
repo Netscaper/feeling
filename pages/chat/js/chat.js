@@ -18,9 +18,27 @@ var listdata=[
         num:"2/2"
     }
 ]
+var list=[
+    {
+        src:"jd.png",
+        title:"更改备注名称友",
+        remark:"方便认识并且快速找到您的好友",
+    },
+    {
+        src:"mht.png",
+        title:"分组设置",
+        remark:"给她添加分组，以便实现好友管理",
+    },
+    {
+        src:"bql.png",
+        title:"特别关注",
+        remark:"添加为特别关注好友可随时了解他的最新动态",
+    }
+]
 var chat=angular.module("chat",[])
 chat.controller("c",function($scope){
-    $scope.listdata=listdata
+    $scope.listdata=listdata;
+    $scope.list=list;
 })
 chat.directive("pList",function(){
     return {
