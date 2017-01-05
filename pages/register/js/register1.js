@@ -26,16 +26,16 @@ ctrl.factory("localS",function(){
         }
     }
 })
-ctrl.controller("cc",function ($scope,localS,$filter){
+ctrl.controller("cc",function ($scope,localS){
     // $scope.data=datas;
+    $scope.falg1;
+    $scope.falg2;
+    $scope.falg3;
     $scope.f1=false;
     $scope.f2=false;
     $scope.f3=false;
     $scope.nextkg=""
     $scope.content="";
-    $scope.status3={'backgroundColor':'#222222'};
-    $scope.status2={'backgroundColor':'#222222'};
-    $scope.status1={'backgroundColor':'#222222'};
     $scope.data=localS.getdata()||[];
     $scope.eve=function(e){
         var value=e.target.value
@@ -159,83 +159,5 @@ ctrl.controller("cc",function ($scope,localS,$filter){
         }
         $scope.hidefalg=!$scope.hidefalg
     }
-    // $scope.zhBlur=function(){
-    //     $scope.f1=true
-    //     console.log($scope.zhanghao)
-    //     function CheckMail(mail) {
-    //         var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-    //         if (filter.test(mail)) {
-    //             return true;
-    //         }else {
-    //             return false;
-    //         }
-    //     }
-    //     function CheckPhone(phone){
-    //         var str=/^1[34578]\d{9}$/
-    //         if(str.test(phone)){
-    //             return true;
-    //         }else{
-    //             return false;
-    //         }
-    //     }
-    //     if(!$scope.zhanghao){
-    //         $scope.status1={'backgroundColor':'#f60c3d'};
-    //         $scope.content="··用户名不能为空";
-    //     }else{
-    //         if(CheckMail($scope.zhanghao)||CheckPhone($scope.zhanghao)){
-    //             if($scope.data!=null){
-    //                 $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true);
-    //                 if($scope.xinxi.length){
-    //                     $scope.status1={'backgroundColor':'#f60c3d'};
-    //                     $scope.content="··用户名已存在";
-    //                 }else{
-    //                     $scope.status1={'backgroundColor':'#28db67'};
-    //                     $scope.content="";
-    //                 }
-    //             }else{
-    //                 $scope.content="";
-    //                 $scope.status1={'backgroundColor':'#28db67'}
-    //             }      
-    //         }else{
-    //             $scope.content="··用户名格式错误";
-    //             $scope.status1={'backgroundColor':'#f60c3d'}
-    //         } 
-    //     }
-        
-    // }
-    // $scope.password;
-    // $scope.pwd = function(){
-    //     $scope.f2=true;
-    //     console.log($scope.password)
-    //     if(!$scope.password){
-    //         $scope.status2={'backgroundColor':'#f60c3d'};
-    //         $scope.content="··密码不能为空";
-    //     }else{
-    //         if($scope.password.length>=6&&$scope.password.length<=8){
-    //             $scope.status2={'backgroundColor':'#28db67'};
-    //             $scope.content=""
-    //         }else{
-    //             $scope.status2={'backgroundColor':'#f60c3d'};
-    //             $scope.content="··请输入6-8位密码";
-    //         }     
-    //     }    
-    // }
-    // $scope.repwd;
-    // $scope.repwdBlur = function(){
-    //     $scope.f3=true;
-    //     if(!$scope.repwd){
-    //         $scope.status3={'backgroundColor':'#f60c3d'};
-    //         $scope.content="··两次输入密码不一致";
-    //     }else{
-    //         if($scope.password===$scope.repwd){
-    //             $scope.status3={'backgroundColor':'#28db67'};
-    //             $scope.content=""
-    //         }else{
-    //             $scope.status3={'backgroundColor':'#f60c3d'};
-    //             $scope.content="··两次输入密码不一致";
-    //         }     
-    //     }  
-        
-    // }
     
 })

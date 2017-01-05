@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+html,body{
+    height: 100%;
+}
+.sly-bg{
+    width:100%;
+    height:4.72rem;
+    padding-top: 0.18rem;
+    position: relative;
+    background: url("../images/wobg.png") center top/cover no-repeat;
+}
+.sly-return{
+    width:0.56rem;
+    height:0.58rem;
+    background:url("../images/wosz.png") center top/cover;
+    margin-right:0.2rem;
+    float:right;
+}
+.sly-tx{
+    width:1.5rem;
+    height:1.5rem;
+    border: 0.03rem solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left:50%;
+    margin-left: -0.75rem;
+    top: 0.87rem;
+    overflow: hidden;
+}
+.sly-tx img{
+    width:1.5rem;
+    height:auto;
+}
+.sly-zb{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+    border:1px solid #fff;
+    position: absolute;
+    left:1.6rem;
+    top: 1.32rem;
+    background:rgba(0, 0, 0, 0.5);
+}
+.sly-yb{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+    border:1px solid #fff;
+    position: absolute;
+    right:1.60rem;
+    top: 1.32rem;
+    background:rgba(0, 0, 0, 0.5);
+}
+.sly-zb img,.sly-yb img{
+    width:0.25rem;
+    height:auto;
+    position: absolute;
+    left:0;top: 0;right:0;bottom:0;
+    margin:auto;
+}
+.sly-box{
+    margin-top: 0.6rem;
+    height:1.65rem;
+}
+.sly-name{
+    font-size: 0.26rem;
+    font-weight: bold;
+    text-align: center;
+    color:#464646;
+    margin-top: 0.2rem;
+}
+.sly-name>span{
+    font-weight: normal;
+}
+.sly-star{
+    height:0.21rem;
+    position: relative;
+    margin:0.12rem 0 0.16rem;
+}
+.sly-star ul{
+    position: absolute;
+    margin:0 auto;
+    left:50%;
+    top: 0;
+    margin-left: -0.4rem;
+}
+.sly-star li{
+    display: block;
+    font-style: normal;
+    width:0.18rem;
+    height:0.21rem;
+    background:url("../images/star.png") center center/cover;
+    float: left;
+    margin:0 0.01rem;
+}
+.sly-xq{
+    color:#666;
+    font-size: 0.18rem;
+    text-align: center;
+}
+/*内容*/
+.sly-bigbox{
+    position: absolute;
+    left:50%;
+    margin-left: -3.51rem;
+    top: 4rem;
+    width:7.02rem;
+    box-shadow: 0 0 0.1rem #cbcbcb;
+    background:#fff;
+    border-radius: 0.1rem;
+}
+.sly-ulbox{
+    height:1.3rem;
+    display: -webkit-flex;
+    display:flex;   
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    margin:0.4rem 0 0.6rem;
+}
+.sly-libox{
+    width:1.4rem;
+    text-align: center;   
+}
+.sly-bgpic{
+    width:0.94rem;
+    height:0.94rem;
+    border-radius: 50%;
+    background:#ff7ab5;
+    position: relative;
+    margin-left: 0.23rem;
+}
+.sly-bgpic img{
+    width:0.43rem;
+    height:auto;
+    position: absolute;
+    left:0;top: 0;right:0;bottom:0;
+    margin:auto;
+}
+.sly-libox p{
+    color:#626163;
+    font-size: 0.22rem;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.sly-libox p>em{
+    display:inline-block;
+    width:0.06rem;
+    height:0.06rem;
+    border-radius: 50%;
+    background:#30d5b0;
+}
+/*zhiling*/
+.sly-ul{
+    margin-top: 0.24rem;
+    margin-bottom: 0.34rem;
+}
+.sly-list{
+    width:7.02rem;
+    height: 1.24rem;
+    margin:.12rem auto;
+    box-shadow: 0 0 0.1rem #d0d0d0;
+    border-radius: 0.15rem;
+}
+
+.sly-list:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.sly-list img{
+    display:block;
+    width:0.66rem;
+    height:0.73rem;
+    margin-left:0.15rem ;
+    margin-right:.3rem;
+    float:left;
+    margin-top: 0.24rem;
+}
+.sly-commit{
+    width:4.5rem;
+    float:left;
+    margin-top: .22rem;
+}
+.sly-title{
+    font-size: .26rem;
+    font-weight: bold;
+    color:#303030;
+}
+.sly-title>i,.sly-title>b{
+    display:inline-block;
+    width:0.08rem;
+    height:0.08rem;
+    border-radius: 50%;
+    font-style: normal;
+    margin:0 0.03rem;
+}
+.sly-title>i{
+    background:#ffe829;
+    margin-left: 0.1rem;
+}
+.sly-title>b{
+    background:#f52b7c;
+}
+.sly-line{
+    width:1.05rem;
+    height:1px;
+    border-bottom:1px dashed #50cea6;
+    margin: .1rem 0 .14rem;
+}
+
+.sly-line:before{
+    content:"";
+    display: block;
+    width:.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #50cea6;
+    float: left;
+}
+.sly-line:after{
+    content:"";
+    display: block;
+    width:0.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    background: #50cea6;
+    float:right;
+}
+.sly-remark{
+    color:#303030;
+    font-size: 0.22rem;
+    white-space: nowrap;
+}
+.sly-border{
+    width:0.9rem;
+    height:0.4rem;
+    border-radius: 0.2rem;
+    background:#ff539f;
+    float:right;
+    margin-top: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    color:#fff;
+    margin-right: 0.3rem;
+}
+.sly-dian{
+    width:0.1rem;
+    height:0.1rem;
+    border-radius: 50%;
+    background:#ff539f;
+    float:right;
+    margin-right: 0.8rem;
+    margin-top: 0.6rem;
+}

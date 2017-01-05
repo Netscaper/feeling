@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/wo.css" />
+    <script src="js/rem.js"></script>
+    <script src="../../js/angular.min.js"></script>
+    <script src="js/wo.js"></script>
+</head>
+<body>
+    <div class="sly-bg">
+        <a href="##">
+            <div class="sly-return"></div>
+        </a>     
+        <div class="sly-box">
+            <div class="sly-zb">
+                <a href="##">
+                    <img src="images/xin.png" alt="" />
+                </a>
+            </div>
+            <div class="sly-tx">
+                <a href="##">
+                    <img src="images/tx.png" alt="" />
+                </a>
+            </div>
+            <div class="sly-yb">
+                <a href="##">
+                    <img src="images/fx.png" alt="" />
+                </a>
+            </div>
+        </div>
+        <p class="sly-name">SUSAN  <span>GREEN</span></p>
+        <div class="sly-star">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <p class="sly-xq">微笑是对美的一种诠释，是对心灵的一种释放。</p>
+        <!-- 内容 -->
+        <div class="sly-bigbox" ng-app="wo">
+            <ul class="sly-ulbox">
+                <li class="sly-libox">
+                    <a href="##">
+                        <div class="sly-bgpic">
+                            <img src="images/dfk.png" alt="" />
+                        </div>
+                        <p><em></em> 待付款 <em></em></p>
+                    </a>
+                </li>
+                <li class="sly-libox">
+                    <a href="##">
+                        <div class="sly-bgpic">
+                            <img src="images/gwc.png" alt="" />
+                        </div>
+                        <p><em></em> 购物车 <em></em></p>
+                    </a>
+                </li>
+                <li class="sly-libox">
+                    <a href="##">
+                        <div class="sly-bgpic">
+                            <img src="images/dpj.png" alt="" />
+                        </div>
+                        <p><em></em> 待评价 <em></em></p>
+                    </a>
+                </li>
+                <li class="sly-libox">
+                    <a href="##">
+                        <div class="sly-bgpic">
+                            <img src="images/dd.png" alt="" />
+                        </div>
+                        <p><em></em> 全部订单 <em></em></p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="sly-ul" ng-controller="wo">
+                <li class="sly-list" ng-repeat="v in data" >
+                    <a href="##">
+                        <img src="images/{{v.src}}" height="73" width="66" alt="" />
+                        <div class="sly-commit">
+                            <p class="sly-title">{{v.title}}<i></i><b></b></p>
+                            <div class="sly-line"></div>
+                            <p class="sly-remark">{{v.remark}}</p>
+                        </div>
+                        <div class="sly-border" ng-if="v.num">{{v.num}}</div>
+                        <div class="sly-dian" ng-if="$index==2"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
