@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 18:40:18
+* @Last Modified time: 2017-01-04 10:03:11
 */
 body{
     font-size: 0.16rem;
@@ -76,8 +76,6 @@ a{
     background:url(../../images/more.png) center/contain no-repeat;
     display: block;
 }
-
-
 
 
 .hyb-list-box{
