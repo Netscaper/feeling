@@ -1,8 +1,14 @@
 <link rel="stylesheet" type="text/css" href="pages/home/home.css" />
 <div ng-controller='c'>
-<div class="lhy-banner">
-    <img src="pages/home/images/lhy-bg_02.png" alt="">
+<banner>    
+<div class="swiper-container lhy-banner">
+    <div class="swiper-wrapper ">
+        <div class="swiper-slide" ng-repeat="v in banner"><a href="#"><img src="{{v.image}}"></a></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
 </div>
+</banner>
 <!--热门推荐-->
 <div class="lhy-rmtj">
     <div class="lhy-title">
@@ -15,7 +21,7 @@
 <!--fashion-->
 <div class="lhy-fashion">
     <div class="lhy-fashion-title">
-        <img src="pages/home/images/lximg_03.png" alt="" class="lhy-fashionimg">
+        <a href="#/life1" class="lhy-fashionimg"><img src="pages/home/images/lximg_03.png" alt="" class="lhy-fashionimg"></a>
         <img src="pages/home/images/lximg_06.png" alt="" class="lhy-fashion-more">
     </div>
     <ul class="lhy-fashion-imglist">
@@ -33,14 +39,14 @@
         <div class="lhy-mood-content-left">
             <li  ng-repeat="v in mood1">
                 <div class="lhy-mood-top">
-                    <img src="pages/home/{{v.img1}}" alt="">
+                    <a href="#/mood"><img src="pages/home/{{v.img1}}" alt=""></a>
                     <div class="lhy-mood-top-middle">
                         <h3>{{v.title1}}</h3>
                         <h4>{{v.title2}}</h4>
                     </div>
                     <span class="lhy-mood-top-right">{{v.min}}</span>
                 </div>
-                <img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt="">
+                <a href="#/mood"><img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt=""></a>
                 <div class="lhy-mood-bottom">
                     <h4>{{v.content}}</h4>
                     <h2>{{v.contentYin}}</h2>
@@ -56,14 +62,16 @@
         <div class="lhy-mood-content-right">
             <li  ng-repeat="v in mood2">
                 <div class="lhy-mood-top">
-                    <img src="pages/home/{{v.img1}}" alt="">
+                    <a href=#/mood"><img src="pages/home/{{v.img1}}" alt=""></a>
                     <div class="lhy-mood-top-middle">
                         <h3>{{v.title1}}</h3>
                         <h4>{{v.title2}}</h4>
                     </div>
                     <span class="lhy-mood-top-right">{{v.min}}</span>
                 </div>
-                <img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt="">
+                <a href="#/mood">
+                    <img src="pages/home/{{v.img2}}" class="lhy-mood-middle" alt="">                    
+                </a>
                 <div class="lhy-mood-bottom">
                     <h4>{{v.content}}</h4>
                     <h2>{{v.contentYin}}</h2>

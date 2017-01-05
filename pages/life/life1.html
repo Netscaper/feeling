@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="pages/life/life1.css">
+<div ng-controller='lf'>
+    <div class="lhy-top">
+        <div class="lhy-return">
+           <a href="#/"><img src="pages/search/images/lhy-search_03.png" alt=""></a>
+        </div>
+        <div class="lhy-title">
+            <img src="pages/search/images/lhy-search_08.png" alt="">
+        </div>
+        <div class="lhy-shaixuan">
+            <a href="#"><img src="pages/life/images/lhy-life1_06.png" alt=""></a>
+        </div>
+    </div>
+    <div class="zyp_touxiang">
+        <div class="zyp_photo_box">
+            <img src="pages/life/images/zyp_tx.png" alt="">
+        </div>
+        <div class="zyp_dengji">
+            <h3><b>Bill</b> Murray</h3>
+            <span class="zyp_dengji_span"><i></i><i></i><i></i></span>
+        </div>
+       <div class="lhy-life-description">
+           <h3>生活是一门艺术，更是一门学问</h3>
+           <h4>Life is an art, but also a science</h4>
+       </div>
+    </div>
+    <!-- 时尚小范 -->
+    <div class="lhy-ssxf">
+        <div class="lhy-ssxf-title">
+            <h3>
+                <img src="pages/life/images/lhy-life1_11.png" alt="">
+            </h3>
+            <h4>时尚就是现在，feeling陪你找感觉
+            </h4>
+        </div>
+        <ul class="lhy-ssxf-fw">
+            <li ng-repeat="v in lifefashion">
+                <a href="#/life2">
+                    <img src="pages/life/images/{{v.img}}" alt="">
+                </a>        
+            </li>
+        </ul>
+    </div>
+</div>

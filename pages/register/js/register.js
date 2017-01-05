@@ -17,7 +17,7 @@ var ctrl=angular.module("ctrl",[]);
 ctrl.factory("localS",function(){
     return {
         getdata:function(){
-            var arr=[]
+            var arr=[];
             var st=localStorage.getItem("data");
             return JSON.parse(st)
         },

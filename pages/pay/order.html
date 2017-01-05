@@ -1,66 +1,40 @@
         <link rel="stylesheet" type="text/css" href="pages/pay/order.css" />
         <div class="hyb-top"></div>
-        <div class="hyb-content-box">
+        <div class="hyb-content-box" ng-controller='o'>
             <div class='hyb-dian hyb-t1'></div>
             <div class='hyb-dian hyb-t2'></div>
             <div class='hyb-dian hyb-t3'></div>
             <div class="hyb-con-title">
-                <a class="hyb-more" herf='#/'></a>
+                <a class="hyb-more" href='#/'></a>
                 <h1>提交订单</h1>
                 <h2><strong>Submit</strong> orders</h2>
             </div>
-            <ul class="hyb-list-box">
+            <ul class="hyb-list-box" ng-repeat='v in order'>
                 <li>
-                    <div class="hyb-list-left"><img src="../../images/xl.png" height="100%" width="100%" alt="" /></div>
+                    <div class="hyb-list-left"><img src="{{v.icon}}" height="100%" width="100%" alt="" /></div>
                     <div class="hyb-list-con">
-                        <h2>蛋蛋smile表情
+                        <h2>{{v.title}}
                             <s class='hyb-dian hyb-s1'></s><s class='hyb-dian hyb-s2'></s>
                         </h2>
-                        <h3>一个会动会眨眼睛的蛋蛋,在陪你说话呢。</h3>
+                        <h3>{{v.desc}}</h3>
                     </div>
-                    <div class="hyb-list-right"><span>2.00</span><b></b></div>
+                    <div class="hyb-list-right"><span>{{v.price|number:2}}</span><b></b></div>
                 </li>
                 <li class="hyb-border"></li>
                 <li>
                     <div class="hyb-list-num">数量</div>
                     <div class="hyb-list-nub">
-                        <button>-</button>
-                        <input type="number" min="0" max='99' value="6" />
-                        <button>+</button>
+                        <button ng-click='del(v)'>-</button>
+                        <input type="number" min="0" max='99' ng-model='v.num' />
+                        <button ng-click='add(v)'>+</button>
                     </div>
                 </li>
                 <li class="hyb-border"></li>
                 <li>
                     <div class="hyb-list-num">小计</div>
-                    <div class="hyb-list-right hyb-all"><span>12.00</span><b></b></div>
+                    <div class="hyb-list-right hyb-all"><span>{{v.price*v.num|number:2}}</span><b></b></div>
                 </li>
-            </ul>
-            <ul class="hyb-list-box">
-                <li>
-                    <div class="hyb-list-left"></div>
-                    <div class="hyb-list-con">
-                        <h2>蛋蛋smile表情
-                            <s class='hyb-dian hyb-s1'></s><s class='hyb-dian hyb-s2'></s>
-                        </h2>
-                        <h3>一个会动会眨眼睛的蛋蛋,在陪你说话呢。</h3>
-                    </div>
-                    <div class="hyb-list-right"><span>2.00</span><b></b></div>
-                </li>
-                <li class="hyb-border"></li>
-                <li>
-                    <div class="hyb-list-num">数量</div>
-                    <div class="hyb-list-nub">
-                        <button>-</button>
-                        <input type="number" min="0" max='99' value="6" />
-                        <button>+</button>
-                    </div>
-                </li>
-                <li class="hyb-border"></li>
-                <li>
-                    <div class="hyb-list-num">小计</div>
-                    <div class="hyb-list-right hyb-all"><span>12.00</span><b></b></div>
-                </li>
-            </ul>
+            </ul> 
             <ul class="hyb-list-box">
                 <li>
                     <div class="hyb-list-num">使用现金抵扣劵 <s class='hyb-dian hyb-s1'></s><s class='hyb-dian hyb-s2'></s></div>
@@ -72,7 +46,7 @@
                 <li class="hyb-border"></li>
                 <li>
                     <div class="hyb-list-num">订单总价</div>
-                    <div class="hyb-list-right hyb-all"><span>12.00</span><b></b></div>
+                    <div class="hyb-list-right hyb-all"><span>{{sum|number:2}}</span><b></b></div>
                 </li>
             </ul>
             <ul class="hyb-list-box">
@@ -86,7 +60,7 @@
                 </li>
             </ul>
             <div class="hyb-btn">
-                <a href="#"></a>
+                <a href="/"></a>
                 <p>提交订单<br />
                     <span><strong>Submit</strong> orders</span>
                 </p>

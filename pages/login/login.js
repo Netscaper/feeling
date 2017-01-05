@@ -55,4 +55,8 @@ login.controller('loginCtrl',function($scope,localS,$filter){
             $scope.zhStatus=false;
         }
     }
+    console.log($scope.$watch)
+    $scope.btnClick = function(e){
+        console.log(e)
+    }
 })

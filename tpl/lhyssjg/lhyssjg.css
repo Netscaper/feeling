@@ -1,3 +1,23 @@
+/*************active*******************/
+.lhy-active-top{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+}
+.lhy-active-search{
+    padding:0 .62rem;
+    position:fixed;
+    top:.9rem;
+    left:0;
+    z-index:100;
+}
+.lhy-active-lx{
+    margin-top:2.28rem;
+}
+.lhy-active-ssts{
+    margin-top:2.28rem;
+}
 /****************遮罩************************/
 .lhy-search-click{
     width:100%;
