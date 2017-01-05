@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-01-05 15:47:06
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 16:06:56
+* @Last Modified time: 2017-01-05 17:54:00
 */
 
 var swiper = angular.module('swiper',[]);
@@ -14,7 +14,7 @@ swiper.directive('swiper',function($timeout){
         transclude:true,
         link:function(){
             $timeout(function(){
-               var mySwiper = new Swiper('.swiper-container',{
+               var flashSwiper = new Swiper('.swiper-container',{
                      pagination: '.pagination',
                      paginationClickable: true
                    })
