@@ -21,12 +21,12 @@ app.config(['$routeProvider', function($routeProvider){
     .when('/job',{templateUrl:'pages/register/job.html'})
     .when('/tag',{templateUrl:'pages/register/tag.html'})
     .when('/recom',{templateUrl:'pages/register/recom.html'})
-
     .when('/life',{templateUrl:'pages/life/life.html'})
     .when('/life1',{templateUrl:'pages/life/life1.html'})
     .when('/life2',{templateUrl:'pages/life/life2.html'})
     .when('/mood',{templateUrl:'pages/life/mood.html'})
     .when('/wo',{templateUrl:'pages/chat/wo.html'})
+    .when('/list',{templateUrl:'pages/list/list.html'})
     .when('/music',{templateUrl:'pages/music/music.html'})
     .when('/albo',{templateUrl:'pages/pay/albo.html'})
     .when('/register',{templateUrl:'pages/register/register.html'})
