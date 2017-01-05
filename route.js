@@ -15,6 +15,9 @@ app.config(['$routeProvider', function($routeProvider){
         templateUrl:'pages/look/look1.html',
     })
     .when('/order',{templateUrl:'pages/pay/order.html'})
+    .when('/albo',{templateUrl:'pages/pay/albo.html'})
+    .when('/bind',{templateUrl:'pages/pay/bind.html'})
+    .when('/pay',{templateUrl:'pages/pay/pay.html'})
     .when('/head',{templateUrl:'pages/register/touxiang.html'})
     .when('/head2',{templateUrl:'pages/register/sccg.html'})
     .when('/sex',{templateUrl:'pages/register/sex.html'})
