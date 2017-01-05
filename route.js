@@ -1,6 +1,7 @@
 app.config(['$routeProvider', function($routeProvider){
     $routeProvider
-    .when('/',{templateUrl:'pages/flash/flash.html'})
+    // .when('/',{templateUrl:'pages/flash/flash.html'})
+    .when('/',{templateUrl:'pages/look/look1.html'})
     .when('/home',{templateUrl:'pages/home/home.html'})
     .when('/flash',{templateUrl:'pages/flash/flash.html'})
     .when('/login',{templateUrl:'pages/login/login.html'})
