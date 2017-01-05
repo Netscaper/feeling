@@ -20,7 +20,8 @@ var data=[
     },
     {
         src:"images/lx_03.png",
-        title:"音乐空间"
+        title:"音乐空间",
+        href:'#/music'
     }
 ]
 var lximg=[
