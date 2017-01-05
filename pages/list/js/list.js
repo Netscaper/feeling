@@ -25,6 +25,6 @@ var listdata=[
     }
 ]
 var list=angular.module("list",[])
-list.controller("c",function($scope){
+list.controller("list",function($scope){
     $scope.data=listdata
 })

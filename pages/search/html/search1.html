@@ -2,7 +2,7 @@
     <!--头部-->
     <div class="lhy-top" ng-class="{true:'lhy-active-top',false:''}[searchdisplay]">
         <div class="lhy-return">
-           <a href="#/"><img src="pages/search/images/lhy-search_03.png" alt=""></a>
+           <a href="#/home"><img src="pages/search/images/lhy-search_03.png" alt=""></a>
         </div>
         <div class="lhy-title">
             <img src="pages/search/images/lhy-search_08.png" alt="">
@@ -27,7 +27,7 @@
         <h2><img src="pages/search/images/lhy-search_17.png" alt=""></h2>
         <div class="lhy-rmss-list">
             <div ng-repeat="t in searchdata">
-                <a href="#">{{t.title}}</a>
+                <a href="javascript:;">{{t.title}}</a>
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@
         <h2><img src="pages/search/images/zxtj_03.png" alt=""></h2>
         <div class="lhy-rmtj-content">
             <div ng-repeat="v in rmtjimg">
-                <a href="#">
+                <a href="javascript:;">
                     <img src="{{v.src}}" alt="">
                 </a>
             </div>
