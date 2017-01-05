@@ -353,3 +353,32 @@ a{
 .sly-like>span{
     font-size: 0.16rem;
 }
+
+
+/***************tab*********************/
+.lhy-tab{
+    width:100%;
+    height:0.98rem;
+    background:#2c3033;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+.lhy-tab li{
+    padding:.18rem 0;
+    box-sizing:border-box;
+    background:url("../../home/images/lhy-tab_09.png") center right no-repeat;
+    background-size:auto 60%;
+}
+.lhy-tab li,.lhy-tab li a{
+    width:25%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+}
+.lhy-tab li img{
+    display: block;
+    height:90%;
+}
