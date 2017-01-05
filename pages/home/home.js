@@ -1,4 +1,4 @@
-var data=[
+var lhydata=[
     {
         src:"images/lx_06.png",
         title:"聊天表情",
@@ -128,7 +128,7 @@ var  banner=[
 ]
 var home=angular.module("home",[]);
 home.controller("lhyhome",function($scope){
-    $scope.data=data;
+    $scope.lhydata=lhydata;
     $scope.lximg=lximg;
     $scope.mood1=mood1;
     $scope.mood2=mood2;
