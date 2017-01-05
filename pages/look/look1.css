@@ -26,6 +26,7 @@ body{
     margin-left: .24rem;
     margin-top: .18rem;
     position:relative;
+    display: block;
 }
 .sly-wel{
     width:5.18rem;
