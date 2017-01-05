@@ -70,7 +70,7 @@ var mood1=[
         img1:"images/mood_03.png",
         img2:"images/mood_10.png"
     },
-    {
+    { 
         title1:"游来游去的鱼",
         title2:"Gary White",
         min:"19 m",
