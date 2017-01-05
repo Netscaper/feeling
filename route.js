@@ -15,13 +15,15 @@ app.config(['$routeProvider', function($routeProvider){
         templateUrl:'pages/look/look1.html',
     })
     .when('/order',{templateUrl:'pages/pay/order.html'})
+    .when('/albo',{templateUrl:'pages/pay/albo.html'})
+    .when('/bind',{templateUrl:'pages/pay/bind.html'})
+    .when('/pay',{templateUrl:'pages/pay/pay.html'})
     .when('/head',{templateUrl:'pages/register/touxiang.html'})
     .when('/head2',{templateUrl:'pages/register/sccg.html'})
     .when('/sex',{templateUrl:'pages/register/sex.html'})
     .when('/job',{templateUrl:'pages/register/job.html'})
     .when('/tag',{templateUrl:'pages/register/tag.html'})
     .when('/recom',{templateUrl:'pages/register/recom.html'})
-
     .when('/life',{templateUrl:'pages/life/life.html'})
     .when('/life1',{templateUrl:'pages/life/life1.html'})
     .when('/life2',{templateUrl:'pages/life/life2.html'})
