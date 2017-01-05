@@ -6,9 +6,6 @@ dir.directive('zypInput',function(){
         templateUrl:'../tpl/ZypInput/ZypInput.html',
         scope:{
             attr:'=attr'
-        },
-        link:function(scope){
-            console.log(scope.attr) 
         }
     }
 })
@@ -29,4 +26,18 @@ dir.directive("lhyssjg",function(){
         templateUrl:"../tpl/lhyssjg/lhyssjg.html",
         scope:true
     }   
+<<<<<<< HEAD
 }) 
+=======
+})     
+dir.directive('order',function(){
+    return {
+        restrict : "ECMA",
+        templateUrl :"../pages/pay/tpl1.html",
+        replace:true,
+        scope:{
+            data:"=order"
+        }
+    };
+})
+>>>>>>> 8235d49e24574715a6dfac3692ee411add9a1ca2

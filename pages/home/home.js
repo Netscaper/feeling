@@ -7,10 +7,12 @@ var data=[
     {
         src:"images/lx_09.png",
         title:"特效视频"
+
     },
     {
         src:"images/lx_11.png",
-        title:"生活服务"
+        title:"生活服务",
+        href:"#/life"
     },
     {
         src:"images/lx_14.png",
@@ -18,7 +20,8 @@ var data=[
     },
     {
         src:"images/lx_03.png",
-        title:"音乐空间"
+        title:"音乐空间",
+        href:'#/music'
     }
 ]
 var lximg=[
@@ -114,10 +117,36 @@ var mood2=[
         img2:"images/mood_12.png"
     }
 ]
+var  banner=[
+    {
+        image:"images/banner1_02.png"
+    },
+    {
+        image:"images/banner1_02.png"
+    }
+]
 var home=angular.module("home",[]);
 home.controller("c",function($scope){
     $scope.data=data;
     $scope.lximg=lximg;
     $scope.mood1=mood1;
     $scope.mood2=mood2;
+    $scope.banner=banner;
+})
+home.directive("banner",function($timeout){
+    return {
+        restrict:"ECMA",
+        replace:true,
+        link:function(){
+            $timeout(function(){
+                var mySwiper = new Swiper ('.swiper-container', {
+                    loop: true,
+                    autoplay : 1000,
+                    // 如果需要分页器
+                    pagination: '.swiper-pagination',
+                })
+            },500);
+
+        }
+    }
 })

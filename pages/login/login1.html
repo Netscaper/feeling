@@ -14,7 +14,9 @@
                 <span class="zyp_status" ng-style="status1"></span>
             </label>
             <div class="yc_history" ng-show="zhStatus">
-                <div class="yc_account" ng-repeat="v in data | filter:{name:zhanghao}:false | limitTo:3">{{v.name}}</div>
+                <div class="yc_account" ng-repeat="v in data | filter:{name:zhanghao}:false | limitTo:3">
+                    <img src="{{v.src}}" alt="">
+                </div>
                 <div class="yc_more">
                 </div>
             </div>
@@ -31,8 +33,8 @@
         <li><a href="#">还没注册账号？10秒快速注册</a></li>
     </ol>
     <a href="#" class="yc_greyBtn">
-        <em></em>
-        <span class="yc_btnLogin">登录</span>
-        <em></em>
+        <button class="zyp_btn" disabled ng-click="btnClick($event)">
+            登录
+        </button>            
     </a>
 </div>
