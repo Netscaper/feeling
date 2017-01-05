@@ -126,7 +126,7 @@ var  banner=[
     }
 ]
 var home=angular.module("home",[]);
-home.controller("c",function($scope){
+home.controller("lhyhome",function($scope){
     $scope.data=data;
     $scope.lximg=lximg;
     $scope.mood1=mood1;
