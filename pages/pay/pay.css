@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 18:57:28
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 10:57:04
+* @Last Modified time: 2017-01-05 19:52:46
 */
 body{
     font-size: 0.16rem;
@@ -16,7 +16,6 @@ a{
     height: 1.9rem;
     position: absolute;
     left: 0;top: 0;
-    z-index: -1;
     background: url(../../images/1.jpg) right 35%/cover;
 }
 .hyb-content-box{
