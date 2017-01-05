@@ -1,27 +1,36 @@
-body,html{
-    height:100%;
-    width:100%;
-    overflow:hidden;
+html,body,.swiper-container{
+    height: 100%;
 }
-.swiper-container{
-    height:14rem;
+.swiper-slide{
+    width: 100%;
+    height: 100%;
 }
-.li:nth-child(1){
+.swiper-slide:nth-child(1){
     background: url("yc_images/1_02.png") top center/cover no-repeat;
 }
-.li:nth-child(2){
+.swiper-slide:nth-child(2){
     background: url("yc_images/2_02.png") top center/cover no-repeat;
 }
-.li:nth-child(3){
+.swiper-slide:nth-child(3){
     background: url("yc_images/3_02.png") top center/cover no-repeat;
 }
-.li a{
-    display:block;
-    width:100%;
-    height:100%;
+.pagination {
+  position: absolute;
+  z-index: 20;
+  left: 45%;
+  bottom: 10px;
 }
-.btnbox{
-    position: absolute;
-    left:50%;
-    bottom:.1rem;
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #555;
+  margin-right: 5px;
+  opacity: 0.8;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #fff;
 }
