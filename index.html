@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="tpl/lhyhylb/hylb.css">
     <link rel="stylesheet" href="pages/search/css/search1.css">
+    <link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css" />
+    <link rel="stylesheet" href="pages/flash/flash.css">
     <title>Title</title>
     <script src="js/rem.js"></script>
     <script src="js/angular.min.js"></script>
@@ -25,8 +27,16 @@
     <script src="pages/flash/flash.js"></script>
     <script type="text/javascript" src='pages/home/home.js'></script>
     <script type="text/javascript" src='pages/pay/orders.js'></script>
+    <script type="text/javascript" src="directives/swiper.js"></script>
 </head>
 <body>
     <div ng-view></div>
 </body>
+<script type="text/javascript" src='js/idangerous.swiper.min.js'></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container',{
+       pagination: '.pagination',
+       paginationClickable: true
+     })
+</script>
 </html>
