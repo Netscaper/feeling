@@ -1,0 +1,288 @@
+h2,h3,h4,h5{
+    list-style: none;
+    font-weight: normal;
+}
+.lhy-zhezhao{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    background: rgba(0,0,0,0.5);
+}
+.lhy-zz-content{
+    width: 7.01rem;
+    height: 9.53rem;
+    position:absolute;
+    top:1.46rem;
+    left:.24rem;
+    border-radius: 20px;
+    background:url("images/lhy-touch_03.png") 0 0 no-repeat #fff;
+    background-size:100% auto;
+}
+.lhy-zz-img{
+    width: 1.6rem;
+    height: 1.6rem;
+    position:absolute;
+    top:2.31rem;
+    border-radius: 50%;
+    right:.7rem;
+    background:url("images/zyp_tx.png") center center no-repeat/contain;
+}
+.lhy-bianji{
+    width: 1.46rem;
+    height: .62rem;
+    position:absolute;
+    top:2.56rem;
+    left:.79rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lhy-bianji a{
+    width: .62rem;
+    height: .62rem;
+    display: block;
+}
+.lhy-bianji a img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lhy-circle{
+    width: 3.48rem;
+    height: .93rem;
+    position:absolute;
+    top:3.45rem;
+    left:0;
+}
+.lhy-circle img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/*********人物介绍**********/
+.lhy-person-info{
+    width: 2.22rem;
+    height: 1.5rem;
+    position:absolute;
+    top:4.28rem;
+    right:.62rem;
+}
+.lhy-person-info h3{
+    width: 1.95rem;
+    font-size:.26rem;
+    color:#505050;
+    font-family:sans-serif;
+}
+.lhy-person-info h3 b{
+    color:#ff4e4e;
+}
+.lhy-person-line{
+    width: 1.34rem;
+    height: 1px;
+    border-bottom:2px dashed #464646;
+    margin-left:.76rem;
+    position:relative;
+}
+.lhy-person-line::after{
+    width: .07rem;
+    height: .07rem;
+    background: #fff;
+    border:2px solid #fff100;
+    content: "";
+    border-radius: 50%;
+    position:absolute;
+    right:0;
+    top:-0.04rem;
+}
+.lhy-person-title{
+    width: 100%;
+    height: .39rem;
+    line-height: .39rem;
+    font-size:.24rem;
+    color:#777777;
+} 
+.lhy-person-title span:nth-child(1),.lhy-person-title span:nth-child(2){
+    width: .08rem;
+    height: .08rem;
+    border-radius: 50%;
+    background: #63d1ff;
+    display:inline-block;
+    margin-left:.82rem;
+}
+.lhy-person-title span:nth-child(2){
+    margin-left:.1rem;
+    background: #35ff3e;
+    margin-right:.17rem;
+}
+.lhy-luobo{
+    width: .99rem;
+    height: .49rem;
+    margin-left:.97rem;
+    margin-top:.33rem;
+}
+.lhy-luobo img{
+    width: .99rem;
+    height: .49rem;
+    display: block;
+}
+/*************follow*****************/
+.lhy-follow{
+    width: 1.87rem;
+    height: .52rem;
+    position:absolute;
+    top:5.24rem;
+    left:.56rem;
+    border:2px solid #71efdc;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lhy-follow span:nth-child(1){
+    width: .41rem;
+    height: .41rem;
+    border:2px solid #f1f1f1;
+    line-height: .41rem;
+    text-align: center;
+    font-size:.3rem;
+    color:#4b4b4b;
+    border-radius: 50%;
+    margin-left:.02rem;
+}
+.lhy-follow span:nth-child(2){
+    color:#ff4e4e;
+    font-size:.24rem; 
+    margin:0 .16rem;   
+}  
+.lhy-follow span:nth-child(3),.lhy-follow span:nth-child(4){
+    width: .06rem;
+    height: .06rem;
+    background: #fff45c;
+    border-radius: 50%;
+}
+.lhy-follow span:nth-child(4){
+    background: #28bf61;
+    margin-right:.21rem;
+}
+/**********************/
+.lhy-ptitle{
+    width: 6.45rem;
+    height: .92rem;
+    position:absolute;
+    top:6.45rem;
+    left:.6rem;
+}
+.lhy-ptitle h3{
+    width: 100%;
+    height: .22rem;
+    line-height: .22rem;
+    color:#323232;
+    font-size:.24rem;
+}
+.lhy-ptitle h4{
+     width: 100%;
+    height: .22rem;
+    line-height: .28rem;
+    color:#6a6a6a;
+    font-size:.2rem;
+    margin-top:.23rem;
+}
+.lhy-flower{
+    width: 5.77rem;
+    height: .57rem;
+    position:absolute;
+    bottom:1.49rem;
+    left:.55rem;
+}
+.zyp_get{
+    width:5.8rem;
+    height:.62rem;
+    margin:0 auto;
+    margin-top:.45rem;
+    margin-bottom:.84rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.zyp_get_flower{
+    width:2.6rem;
+    height:.6rem;
+    background:url(images/flower.png) no-repeat left top;
+    background-size:1.44rem auto;
+    border-bottom:1px dashed #40D18D;
+    line-height:.1rem;
+    text-align:right;
+}
+.zyp_get_lizhi{
+    background:url(images/lizhi.png) no-repeat left top;
+    background-size:1.2rem auto;
+}
+.zyp_get_flower span{
+    font-size:.36rem;
+    font-family:'San Francisco Display';
+    color:#5988E6;
+}
+/*************button**************/
+.lhy-button{
+    width: 7.01rem;
+    height: .68rem;
+    position:absolute;
+    bottom:1.1rem;
+    left:.24rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lhy-button-left{
+    width: 3.12rem;
+    height: .92rem;
+}
+.lhy-button-left a{
+     width: 3.12rem;
+    height: .92rem;
+    display: block;
+    display: flex;    
+    align-items: center;
+    background: url("../../images/renbtn.png") 0 0 no-repeat/contain;
+}
+.lhy-btn-left{
+    width: .21rem;
+    height: .33rem;
+    margin-left:.74rem;
+    background: url("images/lhy-touch_13.png")  0  0 no-repeat/contain;
+}
+.lhy-btn-left1{
+    width: .34rem;
+    height: .33rem;
+    margin-left:.74rem;
+    background: url("images/lhy-touch_10.png")  0  0 no-repeat/contain;
+}
+.lhy-btn-right{
+    width: 1.29rem;
+    height: .4rem;
+    margin-left:.31rem;
+}
+.lhy-button-right a{
+     width: 3.12rem;
+    height: .92rem;
+    display: block;
+    display: flex;    
+    align-items: center;
+    background: url("../../images/bluebtn.png") 0 0 no-repeat/contain;
+}
+.lhy-btn-right h3{
+    width: 1.8rem;
+    line-height: .22rem;
+    font-size:.22rem;
+    color:#fff;
+}
+.lhy-btn-right h4{
+    width: 1.8rem;
+    margin-top:.05rem;
+    line-height: .14rem;
+    font-size:.16rem;
+    color:#fff;
+}
