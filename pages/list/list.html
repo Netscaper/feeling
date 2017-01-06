@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html  ng-app="list">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" type="text/css" href="css/list.css" />
-    <title>Document</title>
-    <script src="../../js/rem.js"></script>
-    <script src="../../js/angular.min.js"></script>
-    <script src="js/list.js"></script>
-</head>
-<body>
+<link rel="stylesheet" type="text/css" href="pages/list/css/list.css" />
+<div ng-controller="list">
     <div class="sly-bg">
         <div class="sly-wz">
             <p>消息列表</p>
@@ -31,7 +21,11 @@
         <li class="sly-list" ng-repeat="v in data" >
             <a href="##">
                 <div class="sly-xfpic">
+<<<<<<< HEAD
                     <img src="pages/chat/images/{{v.src}}" height="73" width="66" alt="" />
+=======
+                    <img src="pages/list/images/{{v.src}}" height="73" width="66" alt="" />
+>>>>>>> 925f907f904c5d19c97862979e8394581f95894c
                 </div>
                 <div class="sly-commit">
                     <p class="sly-title">{{v.title}}<i></i><b></b></p>
@@ -43,5 +37,21 @@
             </a>
         </li>
     </ul>
-</body>
-</html>
+
+   <!--tab栏-->
+<ul class="lhy-tab">
+    <li>
+        <a href="#/home"><img src="images/xl.png" alt=""></a>
+    </li>
+    <li>
+        <a href="#/chat"><img src="pages/home/images/lhy-tab_15.png" alt=""></a>
+    </li>
+    <li>
+        <a href="#/list"><img src="pages/home/images/lhy-tab_06.png" alt=""></a>
+    </li>
+    <li>
+        <a href="#/wo"><img src="pages/home/images/lhy-tab_12.png" alt=""></a>
+    </li>
+</ul>
+
+</div>

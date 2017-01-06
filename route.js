@@ -29,6 +29,7 @@ app.config(['$routeProvider', function($routeProvider){
     .when('/life2',{templateUrl:'pages/life/life2.html'})
     .when('/mood',{templateUrl:'pages/life/mood.html'})
     .when('/wo',{templateUrl:'pages/chat/wo.html'})
+    .when('/list',{templateUrl:'pages/list/list.html'})
     .when('/music',{templateUrl:'pages/music/music.html'})
     .when('/albo',{templateUrl:'pages/pay/albo.html'})
     .when('/register',{templateUrl:'pages/register/register.html'})
