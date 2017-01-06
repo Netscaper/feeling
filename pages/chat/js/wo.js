@@ -1,4 +1,4 @@
-var listdata=[
+var wolist=[
     {
         src:"jd.png",
         title:"我的钱包",
@@ -24,5 +24,5 @@ var listdata=[
 ]
 var wo=angular.module("wo",[])
 wo.controller("wo",function($scope){
-    $scope.data=listdata
+    $scope.wolist=wolist
 })
