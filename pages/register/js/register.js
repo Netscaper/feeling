@@ -55,6 +55,7 @@ $scope.eve=function(e){
         }else{
             return false;
         }
+<<<<<<< HEAD
     }
     if(e.target.className=="name"){
         $scope.f1=true
@@ -69,6 +70,27 @@ $scope.eve=function(e){
                             $scope.content="··用户名已存在";
                             $scope.falg1=false;
                         } 
+=======
+        if(e.target.className=="sly-register-name"){
+            $scope.f1=true
+            if(value.length==0){
+               $scope.content="··用户名不能为空";
+               $scope.falg1=false;
+            }else{
+                if(CheckMail(value)||CheckPhone(value)){
+                    if($scope.data!=null){
+                        for(var i=0;i<=$scope.data.length-1;i++){
+                            if($scope.data[i].name==value){
+                                $scope.content="··用户名已存在";
+                                $scope.falg1=false;
+                            } 
+                        }
+                        $scope.content="";
+                        $scope.falg1=true;
+                    }else{
+                        $scope.content="";
+                        $scope.falg1=true;
+>>>>>>> f8552630a1f8d4428e4813ce7a12cbde4d616221
                     }
                     $scope.content="";
                     $scope.falg1=true;
@@ -77,10 +99,20 @@ $scope.eve=function(e){
                     $scope.falg1=true;
                 }
                 
+<<<<<<< HEAD
+=======
+            }
+        }else if(e.target.className=="sly-register-passward"){
+            $scope.f2=true
+            if(value.length==0){
+                $scope.falg2=false;
+                $scope.content="··密码不能为空";
+>>>>>>> f8552630a1f8d4428e4813ce7a12cbde4d616221
             }else{
                 $scope.content="··用户名格式错误";
                 $scope.falg1=false;
             }
+<<<<<<< HEAD
             
         }
     }else if(e.target.className=="passward"){
@@ -92,11 +124,19 @@ $scope.eve=function(e){
             if(value.length>=6&&value.length<=8){
                 $scope.falg2=true;
                 $scope.content=""
+=======
+        }else if(e.target.className=="sly-register-repwd"){
+            $scope.f3=true
+            if(value.length==0){
+                $scope.falg3=false;
+                $scope.content="··两次输入密码不一致";
+>>>>>>> f8552630a1f8d4428e4813ce7a12cbde4d616221
             }else{
                 $scope.falg2=false;
                 $scope.content="··请输入6-8位密码";
             }     
         }
+<<<<<<< HEAD
     }else if(e.target.className=="repwd"){
         $scope.f3=true
         if(value.length==0){
@@ -156,6 +196,54 @@ $scope.hide=function(){
             marginLeft:'0.06rem'
         });
         $(".mm").parent().parent().find("input")[0].type="password"
+=======
+        if($scope.falg1&&$scope.falg2&&$scope.falg3) {
+            $(".sly-register-next")[0].style.backgroundImage='url("../../images/redbtn.png")'
+            $(".sly-register-next").removeAttr('disabled')
+        }else{
+            $(".sly-register-next")[0].style.backgroundImage='url("../../images/greybtn.png")'
+            $(".sly-register-next").attr('disabled','true')
+        }
+    }
+    $scope.save=function(){
+        var name=$(".sly-register-name").val()
+        var pwd=$(".sly-register-passward").val()
+        $scope.data.push({
+            name:name,
+            pwd:pwd
+        })
+        localS.savedata($scope.data)
+    }
+    $scope.showfalg=true;
+    $scope.hidefalg=true;
+    $scope.show=function(){
+        if($scope.showfalg){
+            $(".sly-register-mima").css({
+                marginLeft:'0.6rem'
+            });
+            $(".sly-register-mima").parent().parent().find("input")[0].type="text"
+        }else{
+            $(".sly-register-mima").css({
+                marginLeft:'0.06rem'
+            });
+            $(".sly-register-mima").parent().parent().find("input")[0].type="password"
+        }
+        $scope.showfalg=!$scope.showfalg
+    }
+    $scope.hide=function(){
+        if($scope.hidefalg){
+            $(".sly-register-mm").css({
+                marginLeft:'0.6rem'
+            });
+            $(".sly-register-mm").parent().parent().find("input")[0].type="text"
+        }else{
+            $(".sly-register-mm").css({
+                marginLeft:'0.06rem'
+            });
+            $(".sly-register-mm").parent().parent().find("input")[0].type="password"
+        }
+        $scope.hidefalg=!$scope.hidefalg
+>>>>>>> f8552630a1f8d4428e4813ce7a12cbde4d616221
     }
     $scope.hidefalg=!$scope.hidefalg
 }

@@ -9,24 +9,22 @@ a{
 ul{
     list-style: none;
 }
-html,body{
-    height: 100%;
-}
-.sly-bg{
+
+.sly-wo-bg{
     width:100%;
     height:4.72rem;
     padding-top: 0.18rem;
     position: relative;
-    background: url("../images/wobg.png") center top/cover no-repeat;
+    background: url("../images/wobg.png") center top/100% auto no-repeat;
 }
-.sly-return{
+.sly-wo-return{
     width:0.56rem;
     height:0.58rem;
-    background:url("../images/wosz.png") center top/cover;
+    background:url("../images/wosz.png") center top/100% auto no-repeat;
     margin-right:0.2rem;
     float:right;
 }
-.sly-tx{
+.sly-wo-tx{
     width:1.5rem;
     height:1.5rem;
     border: 0.03rem solid #fff;
@@ -37,11 +35,11 @@ html,body{
     top: 0.87rem;
     overflow: hidden;
 }
-.sly-tx img{
+.sly-wo-tx img{
     width:1.5rem;
     height:auto;
 }
-.sly-zb{
+.sly-wo-zb{
     width:0.6rem;
     height:0.6rem;
     border-radius: 50%;
@@ -51,7 +49,7 @@ html,body{
     top: 1.32rem;
     background:rgba(0, 0, 0, 0.5);
 }
-.sly-yb{
+.sly-wo-yb{
     width:0.6rem;
     height:0.6rem;
     border-radius: 50%;
@@ -61,55 +59,55 @@ html,body{
     top: 1.32rem;
     background:rgba(0, 0, 0, 0.5);
 }
-.sly-zb img,.sly-yb img{
+.sly-wo-zb img,.sly-wo-yb img{
     width:0.25rem;
     height:auto;
     position: absolute;
     left:0;top: 0;right:0;bottom:0;
     margin:auto;
 }
-.sly-box{
+.sly-wo-box{
     margin-top: 0.6rem;
     height:1.65rem;
 }
-.sly-name{
+.sly-wo-name{
     font-size: 0.26rem;
     font-weight: bold;
     text-align: center;
     color:#464646;
     margin-top: 0.2rem;
 }
-.sly-name>span{
+.sly-wo-name>span{
     font-weight: normal;
 }
-.sly-star{
+.sly-wo-star{
     height:0.21rem;
     position: relative;
     margin:0.12rem 0 0.16rem;
 }
-.sly-star ul{
+.sly-wo-star ul{
     position: absolute;
     margin:0 auto;
     left:50%;
     top: 0;
     margin-left: -0.4rem;
 }
-.sly-star li{
+.sly-wo-star li{
     display: block;
     font-style: normal;
     width:0.18rem;
     height:0.21rem;
-    background:url("../images/star.png") center center/cover;
+    background:url("../images/star.png") center center/100% auto no-repeat;
     float: left;
     margin:0 0.01rem;
 }
-.sly-xq{
+.sly-wo-xq{
     color:#666;
     font-size: 0.18rem;
     text-align: center;
 }
 /*内容*/
-.sly-bigbox{
+.sly-wo-bigbox{
     position: absolute;
     left:50%;
     margin-left: -3.51rem;
@@ -119,7 +117,7 @@ html,body{
     background:#fff;
     border-radius: 0.1rem;
 }
-.sly-ulbox{
+.sly-wo-ulbox{
     height:1.3rem;
     display: -webkit-flex;
     display:flex;   
@@ -127,11 +125,11 @@ html,body{
     flex-wrap: nowrap;
     margin:0.4rem 0 0.6rem;
 }
-.sly-libox{
+.sly-wo-libox{
     width:1.4rem;
     text-align: center;   
 }
-.sly-bgpic{
+.sly-wo-bgpic{
     width:0.94rem;
     height:0.94rem;
     border-radius: 50%;
@@ -139,20 +137,20 @@ html,body{
     position: relative;
     margin-left: 0.23rem;
 }
-.sly-bgpic img{
+.sly-wo-bgpic img{
     width:0.43rem;
     height:auto;
     position: absolute;
     left:0;top: 0;right:0;bottom:0;
     margin:auto;
 }
-.sly-libox p{
+.sly-wo-libox p{
     color:#626163;
     font-size: 0.22rem;
     text-align: center;
     margin-top: 0.1rem;
 }
-.sly-libox p>em{
+.sly-wo-libox p>em{
     display:inline-block;
     width:0.06rem;
     height:0.06rem;
@@ -160,11 +158,11 @@ html,body{
     background:#30d5b0;
 }
 /*zhiling*/
-.sly-ul{
+.sly-wo-ul{
     margin-top: 0.24rem;
     margin-bottom: 0.34rem;
 }
-.sly-list{
+.sly-wo-list{
     width:7.02rem;
     height: 1.24rem;
     margin:.12rem auto;
@@ -172,12 +170,12 @@ html,body{
     border-radius: 0.15rem;
 }
 
-.sly-list:after{
+.sly-wo-list:after{
     content:"";
     display:block;
     clear:both;
 }
-.sly-list img{
+.sly-wo-list img{
     display:block;
     width:0.66rem;
     height:0.73rem;
@@ -186,17 +184,17 @@ html,body{
     float:left;
     margin-top: 0.24rem;
 }
-.sly-commit{
+.sly-wo-commit{
     width:4.5rem;
     float:left;
     margin-top: .22rem;
 }
-.sly-title{
+.sly-wo-title{
     font-size: .26rem;
     font-weight: bold;
     color:#303030;
 }
-.sly-title>i,.sly-title>b{
+.sly-wo-title>i,.sly-wo-title>b{
     display:inline-block;
     width:0.08rem;
     height:0.08rem;
@@ -204,21 +202,21 @@ html,body{
     font-style: normal;
     margin:0 0.03rem;
 }
-.sly-title>i{
+.sly-wo-title>i{
     background:#ffe829;
     margin-left: 0.1rem;
 }
-.sly-title>b{
+.sly-wo-title>b{
     background:#f52b7c;
 }
-.sly-line{
+.sly-wo-line{
     width:1.05rem;
     height:1px;
     border-bottom:1px dashed #50cea6;
     margin: .1rem 0 .14rem;
 }
 
-.sly-line:before{
+.sly-wo-line:before{
     content:"";
     display: block;
     width:.05rem;
@@ -227,7 +225,7 @@ html,body{
     background: #50cea6;
     float: left;
 }
-.sly-line:after{
+.sly-wo-line:after{
     content:"";
     display: block;
     width:0.05rem;
@@ -236,12 +234,12 @@ html,body{
     background: #50cea6;
     float:right;
 }
-.sly-remark{
+.sly-wo-remark{
     color:#303030;
     font-size: 0.22rem;
     white-space: nowrap;
 }
-.sly-border{
+.sly-wo-border{
     width:0.9rem;
     height:0.4rem;
     border-radius: 0.2rem;
@@ -254,7 +252,7 @@ html,body{
     color:#fff;
     margin-right: 0.3rem;
 }
-.sly-dian{
+.sly-wo-dian{
     width:0.1rem;
     height:0.1rem;
     border-radius: 50%;

@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 14:29:45
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-06 11:31:23
+* @Last Modified time: 2017-01-06 13:16:55
 */
 
 *{
@@ -24,24 +24,24 @@ a{
     color:#303030;
 }
 
-.sly-head{
+.sly-chat-head{
     height:0.91rem;
     width:100%;
-    background:url("../images/bg.png") center center/cover ;
+    background:url("../images/bg.png") center center/100% auto no-repeat ;
 }
-.sly-return{
+.sly-chat-return{
     width:.54rem;
     height:.58rem;
-    background:url("../images/return.png") center center/cover;
+    background:url("../images/return.png") center center/100% auto no-repeat;
     position: absolute;
     left: .24rem;
     top: .18rem;
 }
-.sly-ul{
+.sly-chat-ul{
     margin-top: 0.24rem;
     margin-bottom: 0.34rem;
 }
-.sly-list{
+.sly-chat-list{
     width:7.02rem;
     height: 1.24rem;
     margin:.12rem auto;
@@ -50,12 +50,12 @@ a{
     background:#fff;
 }
 
-.sly-list:after{
+.sly-chat-list:after{
     content:"";
     display:block;
     clear:both;
 }
-.sly-list img{
+.sly-chat-list img{
     display:block;
     width:0.66rem;
     height:0.73rem;
@@ -64,23 +64,23 @@ a{
     float:left;
     margin-top: 0.24rem;
 }
-.sly-commit{
+.sly-chat-commit{
     width:4.5rem;
     float:left;
     margin-top: .22rem;
 }
-.sly-title{
+.sly-chat-title{
     font-size: .26rem;
     /*line-height: 0.6rem;*/
 }
-.sly-line{
+.sly-chat-line{
     width:1.05rem;
     height:1px;
     border-bottom:1px dashed #50cea6;
     margin: .1rem 0 .14rem;
 }
 
-.sly-line:before{
+.sly-chat-line:before{
     content:"";
     display: block;
     width:.05rem;
@@ -89,7 +89,7 @@ a{
     background: #50cea6;
     float: left;
 }
-.sly-line:after{
+.sly-chat-line:after{
     content:"";
     display: block;
     width:0.05rem;
@@ -98,11 +98,11 @@ a{
     background: #50cea6;
     float:right;
 }
-.sly-remark{
+.sly-chat-remark{
     font-size: 0.22rem;
     white-space: nowrap;
 }
-.sly-border{
+.sly-chat-border{
     width:0.9rem;
     height:0.4rem;
     border-radius: 0.2rem;
@@ -115,7 +115,7 @@ a{
     color:#fff;
     margin-right: 0.3rem;
 }
-.sly-border-no{
+.sly-chat-border-no{
     width:0.9rem;
     height:0.4rem;
     border-radius: 0.2rem;
@@ -129,33 +129,33 @@ a{
     margin-right: 0.3rem;
 }
 /*haoyoulist*/
-.sly-plist{
+.sly-chat-plist{
     font-family: 'San Francisco Display';
     font-size: .36rem;
     color:#f21549;
     text-transform: uppercase;
 }
-.sly-nk{
+.sly-chat-nk{
     width:7.02rem;
     margin: 0 auto;
     position: relative;
 }
-.sly-nk:after{
+.sly-chat-nk:after{
     content:"";
     display:block;
     clear:both;
 }
-.sly-plist>span{
+.sly-chat-plist>span{
     color:#424242;
     font-size: .26rem;
 }
-.sly-yline{
+.sly-chat-yline{
     /*height:1px;*/
     border-bottom: 1px dashed #50cea6;
     width:1.86rem;
     margin: 0.1rem 0;
 }
-.sly-yline:before{
+.sly-chat-yline:before{
     content:"";
     display: block;
     width:.05rem;
@@ -164,7 +164,7 @@ a{
     background: #ffe326;
     float: left;
 }
-.sly-yline:after{
+.sly-chat-yline:after{
     content:"";
     display: block;
     width:0.05rem;
@@ -173,27 +173,27 @@ a{
     background: #ffe326;
     float:right;
 }
-.sly-person{
+.sly-chat-person{
     color:#686868;
 }
-.sly-posimg{
+.sly-chat-posimg{
     width:0.5rem;
     height:0.5rem;
-    background:url("../images/yt_03.png") center center/cover;
+    background:url("../images/yt_03.png") center center/100% auto no-repeat;
     position: absolute;
     right:0;
     top: 1rem;
 }
-.sly-pernum{
+.sly-chat-pernum{
     color:#686868;
     font-weight: bold;
     margin: 0.3rem 0;
 }
-.sly-pernum>span{
+.sly-chat-pernum>span{
     color:#ff539f;
     
 }
-.sly-inp{
+.sly-chat-inp{
     width:4.65rem;
     height:0.84rem;
     border-radius: 0.40rem;
@@ -202,27 +202,27 @@ a{
     padding-left: 0.85rem;
     float:left;
 }
-.sly-posquan{
+.sly-chat-posquan{
     position: absolute;
     left:0.3rem;
     top: 2.1rem;
     height:0.08rem;
 }
-.yquan{
+.sly-chat-yquan{
     display:inline-block;
     width:0.08rem;
     height:0.08rem;
     border-radius: 50%;
     background:#ffe612;
 }
-.rquan{
+.sly-chat-rquan{
     display:inline-block;
     width:0.08rem;
     height:0.08rem;
     border-radius: 50%;
     background:#ff123f;
 }
-.sly-buttom{
+.sly-chat-buttom{
     width:1.42rem;
     height:0.84rem;
     border-radius: 0.40rem;
@@ -230,25 +230,25 @@ a{
     text-align: center;
     background:#fff;
 }
-.sly-buttom>i{
+.sly-chat-buttom>i{
     display: inline-block;
     font-style: normal;
     width:0.5rem;
     height:0.5rem;
-    background:url("../images/fdj.png") center center/cover;
+    background:url("../images/fdj.png") center center/100% auto no-repeat;
 }
 /**/
-.sly-peritem{
+.sly-chat-peritem{
     width:7.02rem;
     margin: 0 auto;
 }
-.sly-cont{
+.sly-chat-cont{
     color:#606060;
     font-size: 0.28rem;
     font-weight: bold;
     margin: 0.32rem 0 0.26rem;
 }
-.sly-zlbox{
+.sly-chat-zlbox{
     width:7rem;
     height:1.4rem;
     box-shadow: 0 0 0.1rem #d0d0d0;
@@ -257,14 +257,14 @@ a{
     margin-bottom: 0.2rem;
     background:#fff;
 }
-.sly-cbj{
+.sly-chat-cbj{
     height:1.15rem;
     width:1.15rem;
     float: left;
     margin: 0 0.3rem;
-    background:url("../images/pc.png") center center/cover;
+    background:url("../images/pc.png") center center/100% auto no-repeat;
 }
-.sly-cbj>div{
+.sly-chat-cbj>div{
     height:1rem;
     width:1rem;
     border-radius: 50%;
@@ -272,58 +272,58 @@ a{
     margin: 0.06rem auto 0;
     border:1px solid #fff;
 }
-.sly-zlbox>a>img{
+.sly-chat-zlbox>a>img{
     height:1.1rem;
     width:1.1rem;
 }
-.sly-commit-bot{
+.sly-chat-commit-bot{
     width:4.5rem;
     float:left;
     color:#434343;
 }
-.sly-one-bot:after{
+.sly-chat-one-bot:after{
     content:"";
     display:block;
     clear:both;
 }
-.sly-title-bot{
+.sly-chat-title-bot{
     font-size: .26rem;
     font-weight: bold;
     float:left;
 }
-.sly-title-bot>span{
+.sly-chat-title-bot>span{
     color:#ff185a;
 }
-.sly-title-bot>i{
+.sly-chat-title-bot>i{
     font-weight: normal;
     font-style: normal;
 }
-.sly-star{
+.sly-chat-star{
     height:0.21rem;
     margin:0.04rem 0.26rem;
     float:left;
 }
-.sly-star>i{
+.sly-chat-star>i{
     display:inline-block;
     width:0.18rem;
     height:0.21rem;
-    background:url("../images/star.png") center center/cover;
+    background:url("../images/star.png") center center/100% auto no-repeat;
 }
-.sly-line-bot{
+.sly-chat-line-bot{
     width:2.36rem;
     border-bottom:1px dashed #8a8a8a;
     margin: .1rem 0 .1rem;
 }
-.sly-vip{
+.sly-chat-vip{
     width:0.42rem;
     height:0.16rem;
     border-radius: .20rem;
-    background:url("../images/vip.png") center center/cover;
+    background:url("../images/vip.png") center center/100% auto no-repeat;
     text-align: center;
     float:left;
     margin:0.07rem 0;
 }
-.sly-line-bot:before{
+.sly-chat-line-bot:before{
     content:"";
     display: block;
     width:.05rem;
@@ -332,7 +332,7 @@ a{
     background: #8a8a8a;
     float: left;
 }
-.sly-line-bot:after{
+.sly-chat-line-bot:after{
     content:"";
     display: block;
     width:0.05rem;
@@ -341,32 +341,32 @@ a{
     background: #8a8a8a;
     float:right;
 }
-.sly-remark-bot{
+.sly-chat-remark-bot{
     font-size: 0.24rem;
     white-space: nowrap;
 }
-.sly-border-bot{
+.sly-chat-border-bot{
     width:0.16rem;
     height:0.26rem;
-    background:url("../images/phone.png") center center/cover;
+    background:url("../images/phone.png") center center/100% auto no-repeat;
     float:right;
     margin-top: .5rem;
     margin-right: 0.3rem;
 }
-.sly-like{
+.sly-chat-like{
     display:inline-block;
     height:0.24rem;
     margin-top: 0.1rem;
 }
-.left5{
+.sly-chat-left5{
     margin-right: 0.5rem;
 }
-.sly-like>img{
+.sly-chat-like>img{
     width:auto;
     height:0.23rem;
     vertical-align: bottom;
 }
-.sly-like>span{
+.sly-chat-like>span{
     font-size: 0.16rem;
 }
 

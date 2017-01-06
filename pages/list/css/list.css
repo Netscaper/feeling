@@ -15,7 +15,7 @@ body{
 .sly-bg{
     height:0.9rem;
     text-align: center;
-    background:url("../images/bg.png") center center/cover;
+    background:url("../images/bg.png") center center/100% auto no-repeat;
 }
 .sly-wz{
     display: inline-block;
@@ -61,14 +61,14 @@ body{
     height:0.08rem;
     width:0.26rem;
 }
-.yquan{
+.sly-yquan{
     float:left;
     width:0.08rem;
     height:0.08rem;
     border-radius: 50%;
     background:#ffe612;
 }
-.rquan{
+.sly-rquan{
     float:right;
     width:0.08rem;
     height:0.08rem;
@@ -88,7 +88,7 @@ body{
     font-style: normal;
     width:0.5rem;
     height:0.5rem;
-    background:url("../images/fdj.png") center center/cover;
+    background:url("../images/fdj.png") center center/100% auto no-repeat;
 }
 /*list*/
 .sly-ul{
@@ -116,7 +116,7 @@ body{
     width:0.82rem;
     height:0.82rem;
     position: relative;
-    background:url(../images/pc.png) center center/cover;
+    background:url(../images/pc.png) center center/100% auto no-repeat;
 }
 .sly-list img{
     display:block;
