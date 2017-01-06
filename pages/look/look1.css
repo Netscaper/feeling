@@ -1,12 +1,9 @@
 ul{
     list-style: none;
 }
-html,body{
-    height:100%;
-    /*background:#caddeb;*/
-    overflow:hidden;
-}
 .lhy-body{
+    height:100%;
+    overflow:hidden;
     background:#caddeb;
 }
 body{
