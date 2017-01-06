@@ -108,7 +108,7 @@ $scope.eve=function(e){
             }
             
         }
-    }else if(e.target.className=="passward"){
+    }else if(e.target.className=="sly-register-passward"){
         $scope.f2=true
         if(value.length==0){
             $scope.falg2=false;
