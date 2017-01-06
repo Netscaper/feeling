@@ -135,11 +135,10 @@ home.directive("banner",function($timeout){
         replace:true,
         link:function(){
             $timeout(function(){
-                var mySwiper = new Swiper ('.swiper-container', {
+                var lhySwiper = new Swiper ('.swiper-container', {
                     loop: true,
                     autoplay : 1000,
-                    // 如果需要分页器
-                    pagination: '.swiper-pagination',
+                    pagination: '.swiper-pagination'
                 })
             },500);
 
