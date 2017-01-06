@@ -56,7 +56,7 @@ ctrl.controller("cc",function ($scope,localS,$filter){
                 return false;
             }
         }
-        if(e.target.className=="name"){
+        if(e.target.className=="sly-register-name"){
             $scope.f1=true
             if(value.length==0){
                $scope.content="··用户名不能为空";
@@ -83,7 +83,7 @@ ctrl.controller("cc",function ($scope,localS,$filter){
                 }
                 
             }
-        }else if(e.target.className=="passward"){
+        }else if(e.target.className=="sly-register-passward"){
             $scope.f2=true
             if(value.length==0){
                 $scope.falg2=false;
@@ -97,7 +97,7 @@ ctrl.controller("cc",function ($scope,localS,$filter){
                     $scope.content="··请输入6-8位密码";
                 }     
             }
-        }else if(e.target.className=="repwd"){
+        }else if(e.target.className=="sly-register-repwd"){
             $scope.f3=true
             if(value.length==0){
                 $scope.falg3=false;
@@ -113,16 +113,16 @@ ctrl.controller("cc",function ($scope,localS,$filter){
             }
         }
         if($scope.falg1&&$scope.falg2&&$scope.falg3) {
-            $(".sly-next")[0].style.backgroundImage='url("../../images/redbtn.png")'
-            $(".sly-next").removeAttr('disabled')
+            $(".sly-register-next")[0].style.backgroundImage='url("../../images/redbtn.png")'
+            $(".sly-register-next").removeAttr('disabled')
         }else{
-            $(".sly-next")[0].style.backgroundImage='url("../../images/greybtn.png")'
-            $(".sly-next").attr('disabled','true')
+            $(".sly-register-next")[0].style.backgroundImage='url("../../images/greybtn.png")'
+            $(".sly-register-next").attr('disabled','true')
         }
     }
     $scope.save=function(){
-        var name=$(".name").val()
-        var pwd=$(".passward").val()
+        var name=$(".sly-register-name").val()
+        var pwd=$(".sly-register-passward").val()
         $scope.data.push({
             name:name,
             pwd:pwd
@@ -133,29 +133,29 @@ ctrl.controller("cc",function ($scope,localS,$filter){
     $scope.hidefalg=true;
     $scope.show=function(){
         if($scope.showfalg){
-            $(".mima").css({
+            $(".sly-register-mima").css({
                 marginLeft:'0.6rem'
             });
-            $(".mima").parent().parent().find("input")[0].type="text"
+            $(".sly-register-mima").parent().parent().find("input")[0].type="text"
         }else{
-            $(".mima").css({
+            $(".sly-register-mima").css({
                 marginLeft:'0.06rem'
             });
-            $(".mima").parent().parent().find("input")[0].type="password"
+            $(".sly-register-mima").parent().parent().find("input")[0].type="password"
         }
         $scope.showfalg=!$scope.showfalg
     }
     $scope.hide=function(){
         if($scope.hidefalg){
-            $(".mm").css({
+            $(".sly-register-mm").css({
                 marginLeft:'0.6rem'
             });
-            $(".mm").parent().parent().find("input")[0].type="text"
+            $(".sly-register-mm").parent().parent().find("input")[0].type="text"
         }else{
-            $(".mm").css({
+            $(".sly-register-mm").css({
                 marginLeft:'0.06rem'
             });
-            $(".mm").parent().parent().find("input")[0].type="password"
+            $(".sly-register-mm").parent().parent().find("input")[0].type="password"
         }
         $scope.hidefalg=!$scope.hidefalg
     }

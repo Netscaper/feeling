@@ -1,41 +1,41 @@
 <link rel="stylesheet" type="text/css" href="pages/register/css/register.css" />
 <div ng-controller="cc">
-    <div class="sly-bg"></div>
-    <div class="sly-return"><a href="#/login"></a></div>
-    <div class="sly-mb">
-        <div class="sly-input" >
+    <div class="sly-register-bg"></div>
+    <div class="sly-register-return"><a href="#/login"></a></div>
+    <div class="sly-register-mb">
+        <div class="sly-register-input" >
             <img src="pages/register/images/xl.png" alt="" />
-            <input type="text" ng-blur="eve($event)"  class="name" placeholder="Email/手机号"/>
-            <span class="sly-quan" ng-show="f1" ng-style="{backgroundColor:falg1?'#28db67':'#f60c3d'}"></span>
+            <input type="text" ng-blur="eve($event)"  class="sly-register-name" placeholder="Email/手机号"/>
+            <span class="sly-register-quan" ng-show="f1" ng-style="{backgroundColor:falg1?'#28db67':'#f60c3d'}"></span>
         </div>
-        <div class="sly-input">
-            <img src="pages/register/images/pg.png" class="pg" alt="" />
-            <input type="password"  ng-blur="eve($event)"  class="passward" placeholder="请输入您的密码"/>
-            <div class="sly-btn" ng-click="show()">
-                <i class="mima"></i>
+        <div class="sly-register-input">
+            <img src="pages/register/images/pg.png" class="sly-register-pg" alt="" />
+            <input type="password"  ng-blur="eve($event)"  class="sly-register-passward" placeholder="请输入您的密码"/>
+            <div class="sly-register-btn" ng-click="show()">
+                <i class="sly-register-mima"></i>
             </div>
-            <span class="sly-quan" ng-show="f2" ng-style="{backgroundColor:falg2?'#28db67':'#f60c3d'}"></span>
+            <span class="sly-register-quan" ng-show="f2" ng-style="{backgroundColor:falg2?'#28db67':'#f60c3d'}"></span>
         </div>
-        <div class="sly-input">
-            <img src="pages/register/images/pg.png" class="pg" alt="" />
-            <input type="password" ng-blur="eve($event)" class="repwd" placeholder="请再次输入您的密码"/>
-            <div class="sly-btn">
-                <i class="mm" ng-click="hide()"></i>
+        <div class="sly-register-input">
+            <img src="pages/register/images/pg.png" class="sly-register-pg" alt="" />
+            <input type="password" ng-blur="eve($event)" class="sly-register-repwd" placeholder="请再次输入您的密码"/>
+            <div class="sly-register-btn">
+                <i class="sly-register-mm" ng-click="hide()"></i>
             </div>
-            <span class="sly-quan" ng-show="f3" ng-style="{backgroundColor:falg3?'#28db67':'#f60c3d'}"></span>
+            <span class="sly-register-quan" ng-show="f3" ng-style="{backgroundColor:falg3?'#28db67':'#f60c3d'}"></span>
         </div>
-        <div class="sly-input sly-noborder">
+        <div class="sly-register-input sly-register-noborder">
             <img src="pages/register/images/td.png" alt="" />
-            <input type="text" class="sly-num" ng-blur="eve($event)" placeholder="请输入验证码"/>
-            <span class="sly-yz">获取验证码</span>
+            <input type="text" class="sly-register-num" ng-blur="eve($event)" placeholder="请输入验证码"/>
+            <span class="sly-register-yz">获取验证码</span>
         </div>
     </div>
-    <p class="pwd">{{content}}</p>
+    <p class="sly-register-pwd">{{content}}</p>
     <a href="#/head">
-    <button class="sly-next" disabled ng-click="save()">
+    <button class="sly-register-next" disabled ng-click="save()">
         NEXT
     </button>
     </a>
-    <div class="sly-lb1"></div>
+    <div class="sly-register-lb1"></div>
 </div>
 
