@@ -14,8 +14,13 @@
     <div class="lhy-title">
         <img src="pages/home/images/lhy-title1_03.png" alt="">
     </div>
-    <ul class="lhy-lx"  >
-        <lx-lan ng-repeat="v in lhydata" data="v"></lx-lan>
+    <ul class="lhy-lx">
+        <li ng-repeat="v in lhydata">
+            <div class="lhy-lximg">
+                <a href="{{v.href}}"><img src="pages/home/{{v.src}}" alt=""></a>
+            </div>
+            <h2>{{v.title}}</h2>
+        </li>
     </ul>
 </div>
 <!--fashion-->
