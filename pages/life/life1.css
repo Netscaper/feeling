@@ -5,7 +5,7 @@ h3,h4,h5,h2{
     font-weight:normal;
 }
 /***********top*************/
-.lhy-top{
+.lhy-life1-top{
     width:100%;
     height:.9rem;
     display: flex;
@@ -15,28 +15,28 @@ h3,h4,h5,h2{
     padding:0 .24rem;
     box-sizing:border-box;
 }
-.lhy-active-top{
+.lhy-life1-active-top{
     position:fixed;
     top:0;
     left:0;
     z-index:100;
 }
-.lhy-return,.lhy-shaixuan,.lhy-return img,.lhy-shaixuan img{
+.lhy-life1-return,.lhy-life1-shaixuan,.lhy-life1-return img,.lhy-life1-shaixuan img{
     width:.52rem;
     height:.54rem;
     display: block;
 }
-.lhy-return a,.lhy-shaixuan a{
+.lhy-life1-return a,.lhy-life1-shaixuan a{
     width: 100%;
     height: 100%;
     display: block;
 }
-.lhy-title,.lhy-title img{
+.lhy-life1-title,.lhy-life1-title img{
     width:1.56rem;
     height:.52rem;
     display: block;
 }
-.lhy-content{
+.lhy-life1-content{
     width:100%;
     height:auto;
     padding:0 .24rem;
@@ -163,13 +163,13 @@ h3,h4,h5,h2{
     font-family:'San Francisco Display';
     color:#5988E6;
 }
-.lhy-life-description{
+.lhy-life1-life-description{
     width: 4.44rem;
     height:auto;
     position:relative;
     margin:0 auto;
 }
-.lhy-life-description::before,.lhy-life-description::after{
+.lhy-life1-life-description::before,.lhy-life1-life-description::after{
     width: .08rem;
     height: .08rem;
     background: #ffec4d;
@@ -179,11 +179,11 @@ h3,h4,h5,h2{
     left:0;
     content:"";
 }
-.lhy-life-description::after{
+.lhy-life1-life-description::after{
     left:auto;
     right:0;
 }
-.lhy-life-description h3{
+.lhy-life1-life-description h3{
     width: 100%;
     height: .26rem;
     font-size:.26rem;
@@ -191,7 +191,7 @@ h3,h4,h5,h2{
     text-align: center;
     margin-bottom:.16rem;
 }
-.lhy-life-description h4{
+.lhy-life1-life-description h4{
     width: 100%;
     height: .26rem;
     font-size:.26rem;
@@ -201,23 +201,23 @@ h3,h4,h5,h2{
     font-weight:bold;
 }
 /***************时尚小范儿*******************/
-.lhy-ssxf{
+.lhy-life1-ssxf{
     width: 100%;
     height: 6.32rem;
 }
-.lhy-ssxf-title{
+.lhy-life1-ssxf-title{
     width: 100%;
     height: .62rem;
     padding:0 .39rem;
     box-sizing:border-box;
     margin-bottom: .34rem;
 }
-.lhy-ssxf-title h3,.lhy-ssxf-title h3 img{
+.lhy-life1-ssxf-title h3,.lhy-life1-ssxf-title h3 img{
     width: 1.95rem;
     height: 100%;
     float:left
 }
-.lhy-ssxf-title h4{
+.lhy-life1-ssxf-title h4{
     width: auto;
     height: .19rem;
     float:left;
@@ -226,7 +226,7 @@ h3,h4,h5,h2{
     font-size:.2rem;
     color:#434343;
 }
-.lhy-ssxf-fw{
+.lhy-life1-ssxf-fw{
     width: 100%;
     height: 4.58rem;
     display: flex;
@@ -236,7 +236,7 @@ h3,h4,h5,h2{
     padding:0 .24rem;
     box-sizing: border-box;
 }
-.lhy-ssxf-fw li{
+.lhy-life1-ssxf-fw li{
     width: 2.22rem;
     height: 2.22rem;
     display: flex;
@@ -244,7 +244,7 @@ h3,h4,h5,h2{
     background-size: contain;
     margin-bottom:.14rem;
 }
-.lhy-ssxf-fw li a{
+.lhy-life1-ssxf-fw li a{
     width: 100%;
     height: 100%;
     display: block;  
@@ -253,7 +253,7 @@ h3,h4,h5,h2{
     flex-direction:column;
     align-items: center;
 }
-.lhy-ssxf-fw li img{
+.lhy-life1-ssxf-fw li img{
     width: 100%;
     height: 100%;
     display: block;

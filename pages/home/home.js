@@ -18,11 +18,6 @@ var lhydata=[
         src:"images/lx_14.png",
         title:"电子书城",
         href:"javascript:;"
-    },
-    {
-        src:"images/lx_03.png",
-        title:"音乐空间",
-        href:'#/music'
     }
 ]
 var lximg=[
