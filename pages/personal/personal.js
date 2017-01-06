@@ -1,4 +1,3 @@
-console.log(app)
 var userList=[
     {
         username:"Json",
