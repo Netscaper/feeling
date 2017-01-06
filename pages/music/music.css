@@ -84,7 +84,7 @@ header{
     border-radius: 50%;
     display: block;
 }
-.lhy-photo-left li{
+.lhy-photo-left li img{
     border:2px solid #f1104a;    
 }
 .lhy-photo-right{
