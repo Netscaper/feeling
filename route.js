@@ -10,9 +10,8 @@ app.config(['$routeProvider', function($routeProvider){
         templateUrl:'pages/look/look.html',
         controller:'lookCtrl'   
     })
-    .when('/look1',{
-        templateUrl:'pages/look/look1.html',
-    })
+    .when('/look1',{templateUrl:'pages/look/look1.html'})
+    .when('/dialog',{templateUrl:'pages/chat/dialog.html'})
     .when('/order',{templateUrl:'pages/pay/order.html'})
     .when('/albo',{templateUrl:'pages/pay/albo.html'})
     .when('/bind',{templateUrl:'pages/pay/bind.html'})

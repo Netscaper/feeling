@@ -15,16 +15,16 @@ login.controller('loginCtrl',function($scope,localS,$filter){
     $scope.zhanghao;
     $scope.pwd;
     $scope.text;
-    $scope.data = localS.getdata();
+    $scope.data = localS.getdata()||[{name:'zyp@qq.com',pwd:'123456'}];
     $scope.zhStatus=false;
     $scope.statusbg1=false;
     $scope.statusbg2=false;
     $scope.status=true;
     $scope.route="javascript:;";
     $scope.zhBlur=function(){
-        $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true)||[{name:'zyp@qq.com',pwd:'123456'}];
+        $scope.xinxi = $filter('filter')($scope.data,$scope.zhanghao,true);
         $scope.statusbg1=true;
-        if($scope.xinxi != [] && $scope.zhanghao != undefined){
+        if($scope.xinxi.length && $scope.zhanghao != undefined){
             $scope.status1={
                 'background':'#28DB67'
             }
