@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:苹方;
+    font-size:20px;
+}
+body,html{
+    height:100%;
+    /*overflow: hidden;*/
+}
+:root{
+    background: #f6f6f6;
+}
+
+header{
+    height: 5rem;
+    background: url(yc_messageImg/share_02.png)center center/cover no-repeat;
+}
+.yc_section{
+    width: 7rem;
+    margin: 0 auto;
+}
+/*返回键*/
+.yc_back{
+    display: inline-block;
+    width: 0.56rem;
+    height: 0.58rem;
+    background: url(yc_messageImg/r2.png) center center/cover;
+    margin-top:.6rem;
+}
+/*个人信息*/
+.yc_box{
+    width: 4.34rem;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-top:1rem;*/
+}
+.yc_zb,.yc_yb {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+.yc_tx{
+    width:1.45rem;
+    height:1.45rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    overflow: hidden;
+    border:1px solid#fff;
+}
+.yc_tx img{
+    width:100%;
+    height:100%;
+}
+.yc_zb img,.yc_yb img{
+    width: 0.25rem;
+    height: auto;
+    margin: auto;
+}
+.yc_zb a,.yc_yb a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.yc_yb a{
+    background: url("yc_messageImg/seting_03.png") center center/cover;
+}
+.yc_name{
+    font-size:.24rem;
+    font-weight:bold;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+.yc_xq{
+    color: #666;
+    font-size: 0.18rem;
+    text-align: center;
+}
+.yc_name>span {
+    font-size:.18rem;
+    font-weight: normal;
+}
+.yc_star{
+    height: 0.21rem;
+
+    margin: 0.12rem 0 0.16rem;
+}
+.yc_star ul{
+    display: flex;
+    justify-content: center;
+}
+.yc_star ul li{
+    display: block;
+    font-style: normal;
+    width: 0.18rem;
+    height: 0.21rem;
+    background: url(yc_messageImg/star.png) center center/cover
+}
+/*空间*/
+#messageList{
+    width:7rem;
+    border-left:1px solid #F9F9F9;
+    border-right:1px solid #F9F9F9;
+    margin: -.6rem auto;
+    background: #F9F9F9;
+    border-radius: .1rem;
+    padding: 0 .3rem;
+}
+nav ul{
+    width:100%;
+    height:1.84rem;
+    margin-bottom:.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+nav ul li{
+    width:1.69rem;
+    height:.5rem;
+    border-radius:.4rem;
+    background: #f64267;
+}
+.yc_itemTitle{
+    font-size:.2rem;
+    color: #fff;
+    float: right;
+    border-left:1px dashed #fff;
+    white-space: nowrap;
+    display: inline-block;
+    width: .98rem;
+    height: .5rem;
+}
+.yc_itemTitle em{
+    font-size: .16rem;
+    display: block;
+    font-style: normal;
+}
+.yc_listNum{
+    width:.38rem;
+    height:.38rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: #fff;
+    display: inline-block;
+    margin-top: .06rem;
+
+}
+#messageList ol{
+    width:5.25rem;
+    border-left:1px solid#848484;
+    float: right;
+}
+#messageList ol li{
+    position: relative;
+    height:4.37rem;
+}
+.message{
+    position: absolute;
+    right:0;
+    bottom:0;
+    width: 4.64rem;
+    height: 4.17rem;
+    background: #fff;
+    box-shadow: 0 1px 1px 1px #ededed;
+    border-radius:.1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-flow: row wrap;
+}
+.yc_time{
+    position: absolute;
+    width:.8rem;
+    left: -1.3rem;
+    top: .5rem;
+}
+.yc_time span{
+    text-align: right;
+}
+.yc_time:after{
+    display: inline-block;
+    content: '';
+    height:.44rem;
+    width:.44rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: url(yc_messageImg/lizhi.png) #fff center center/cover no-repeat;
+    border:2px solid #ef1643;
+    position: absolute;
+    right: -37px;
+    top: 2px;
+}
+.yc_year,.yc_date{
+    display: block;
+}
+.yc_year{
+    font-size:.18rem;
+    color: #888888;
+
+}
+.yc_date{
+    font-size:.22rem;
+    font-weight:bold;
+    color: #000;
+    font-style: normal;
+}
+/*动态*/
+.yc_detail{
+    width:4rem;
+    height:1rem;
+    border-bottom: 1px dashed #9D9D9D;
+    display: flex;
+    justify-content: flex-start;
+}
+.yc_detail span{
+    font-size:.18rem;
+}
+.yc_nickname{
+    font-size:.22rem!important;
+    display: block;
+}
+.yc_avatar{
+    display: inline-block;
+    width:.66rem;
+    height:.66rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    border:1px solid#CACBCB;
+}
+.yc_update{
+
+}
+.yc_update i{
+    font-style: normal;
+    font-size:.18rem;
+}
+.yc_photo{
+    width:4.16rem;
+    height:1.66rem;
+}
+.content{
+    width: 4.15rem;
+    white-space: nowrap;
+    height: 100%;
+    display: block;
+    text-align: left;
+}
+.content span{
+    display: block;
+    line-height:1.5;
+}
+.name{
+    font-size:.26rem;
+    color: #000;
+}
+.yc_saying{
+    color: #303030;
+    width:4.16rem;
+}
+.yc_saying span{
+    font-size:.22rem;
+    white-space:pre-line;
+}
+.messageNum{
+    width:4.16rem;
+    height:.4rem;
+}
+.messageNum span{
+    font-size:.18rem;
+    color:#000;
+    float: left;
+    display: inline-block;
+    width: 1.5rem;
+}
+.yc_praise,.yc_number{
+    width:.3rem;
+    height:.3rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yc_praise{
+    background: url("yc_messageImg/grzx1.png") center center/cover no-repeat;
+}
+.yc_number{
+    background: url("yc_messageImg/grzx.png") center/cover no-repeat;
+}
+.division{
+    display:block;
+    width:1.6rem;
+    border-bottom:1px dashed #50cea6;
+}
+.division:before{
+    display: inline-block;
+    content: '';
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #50cea6;
+    float: left;
+    margin-top: -2px;
+}
+.division:after{
+    display: inline-block;
+    content: '';
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #50cea6;
+    float: right;
+    margin-top: -2px;
+}

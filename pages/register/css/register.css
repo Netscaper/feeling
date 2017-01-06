@@ -15,25 +15,25 @@ a{
 input,button{
     outline: none;
 }
-.sly-bg{
+.sly-register-bg{
     width:100%;
     height: 6.06rem;
-    background: url("../images/bg_02.png") center center/cover no-repeat;
+    background: url("../images/bg_02.png") center center/100% auto no-repeat;
 }
-.sly-return{
+.sly-register-return{
     width:.54rem;
     height:.58rem;
-    background:url("../images/return.png") center center/cover;
+    background:url("../images/return.png") center center/100% auto no-repeat;
     position: absolute;
     left: .24rem;
     top: .18rem;
 }
-.sly-return a{
+.sly-register-return a{
     display:block;
     width:100%;
     height:100%;
 }
-.sly-mb{
+.sly-register-mb{
     width:6.55rem;
     height:5.08rem;
     position: absolute;
@@ -44,13 +44,13 @@ input,button{
     background:#fff;
     box-shadow: 0 0 10px #d1d1d1;
 }
-.sly-input{
+.sly-register-input{
     height:1.26rem;
     width:100%;
     border-bottom:1px dashed #b7b7b7;
     
 }
-.sly-input>img{
+.sly-register-input>img{
     float: left;
     width:.64rem;
     height:.66rem;
@@ -58,19 +58,19 @@ input,button{
     vertical-align: middle;
     margin-top: 0.3rem;
 }
-.sly-input>input{
+.sly-register-input>input{
     float:left;
     width:3rem;
     height:.66rem;
     margin:0.3rem .4rem 0;
 }
-.sly-input>.pg{
+.sly-register-input>.sly-register-pg{
     float:left;
     width:.66rem;
     height:.8rem;
     margin-top: 0.23rem;
 }
-.sly-quan{
+.sly-register-quan{
     float:right;
     width:0.16rem;
     height:0.16rem;
@@ -82,7 +82,7 @@ input,button{
     background-clip: content-box;
     margin-top: 0.51rem;
 }
-.sly-btn{
+.sly-register-btn{
     float:left;
     line-height: .36rem;
     width:.9rem;
@@ -91,7 +91,7 @@ input,button{
     background:#727379;
     margin-top: 0.45rem;
 }
-.sly-btn>i{
+.sly-register-btn>i{
     width:.24rem;
     height:.24rem;
     display:block;
@@ -100,7 +100,7 @@ input,button{
     font-style: normal;
     border-radius: 50%;
 }
-.sly-yz{
+.sly-register-yz{
     float:left;
     display:inline-block;
     width:1.8rem;
@@ -115,23 +115,23 @@ input,button{
     text-align: center;
     margin-top: 0.33rem;
 }
-.sly-input>.sly-num{
+.sly-register-input>.sly-register-num{
     width:2.1rem;
 }
-.sly-noborder{
+.sly-register-noborder{
     border:0;
 }
-.pwd{
+.sly-register-pwd{
     font-size: .18rem;
     color:#f6082f;
     position: absolute;
     top: 9.44rem;
     left:0.8rem;
 }
-.sly-next{
+.sly-register-next{
     width:3.26rem;
     height:.86rem;
-    background:url("../../../images/greybtn.png") center center/cover;
+    background:url("../../../images/greybtn.png") center center/100% auto no-repeat;
     position: absolute;
     top: 10.02rem;
     left:50%;
@@ -139,10 +139,16 @@ input,button{
     font-size: 0.26rem;
     color:#fff;
 }
-.sly-next>a{
+.sly-register-rednext{
+    background:url("../../../images/redbtn.png") center center/100% auto no-repeat;
+}
+.sly-register-next>a{
     color:#fff;
 }
-.sly-next:before{
+.sly-register-rednext>a{
+    color:#fff;
+}
+.sly-register-next:before{
     content:"";
     display: block;
     width:.08rem;
@@ -153,7 +159,7 @@ input,button{
     margin-left: 0.9rem;
     margin-top: 0.1rem;
 }
-.sly-next:after{
+.sly-register-next:after{
     content:"";
     display: block;
     width:.08rem;
@@ -164,10 +170,10 @@ input,button{
     margin-top: 0.1rem;
     margin-right: 0.9rem;
 }
-.sly-lb1{
+.sly-register-lb1{
     width:6.16rem;
     height:0.80rem;
-    background:url("../images/lb1.png") center center/cover;
+    background:url("../images/lb1.png") center center/100% auto;
     position: absolute;
     left:50%;
     margin-left: -3.08rem;

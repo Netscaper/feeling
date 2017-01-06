@@ -29,7 +29,7 @@ dir.directive("lhyssjg",function(){
 
     }    
 })
-dir.directive('swiper',function($timeout){
+dir.directive('hybswiper',function($timeout){
     return {
         restrict:'ECMA',
         templateUrl:'directives/template/flash.html',
@@ -41,6 +41,47 @@ dir.directive('swiper',function($timeout){
                      paginationClickable: true
                    })
             },500);
+        }
+    }
+})
+dir.directive('hybrecom',function(){
+    return {
+        restrict:'ECMA',
+        templateUrl:'./directives/template/box.html',
+        transclude:true,
+        scope:{
+            recom:'=recom'
+        },
+        controller:'recom'
+    }
+})
+dir.directive('hyblunbo',function(){
+    return {
+        restrict:'ECMA',
+        templateUrl:'./directives/template/lunbo.html',
+        transclude:true,
+        scope:{
+            recom:'=recom'
+        },
+        controller:'lunbo'
+    }
+})
+dir.directive('hyblis',function($timeout){
+    return {
+        restrict:'ECMA',
+        templateUrl:'./directives/template/lis.html',
+        transclude:true,
+        scope:{
+            recom:'=sex'
+        },
+        controller:'lis',
+        link:function(){
+            $timeout(function(){
+                $('.hyb-sex-change li').click(function(){
+                    $('.hyb-sex-dui').hide();
+                    $(this).find('.hyb-sex-dui').show()
+                })
+            })
         }
     }
 })

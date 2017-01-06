@@ -1,28 +1,34 @@
-<div ng-controller="wo">
+<style type="text/css">
+    html,body{
+        height: 100%;
+    }
+</style>
 <link rel="stylesheet" type="text/css" href="pages/chat/css/wo.css" />
-    <div class="sly-bg">
+
+<div ng-controller="wo">
+    <div class="sly-wo-bg">
         <a href="##">
-            <div class="sly-return"></div>
+            <div class="sly-wo-return"></div>
         </a>     
-        <div class="sly-box">
-            <div class="sly-zb">
+        <div class="sly-wo-box">
+            <div class="sly-wo-zb">
                 <a href="##">
                     <img src="pages/chat/images/xin.png" alt="" />
                 </a>
             </div>
-            <div class="sly-tx">
+            <div class="sly-wo-tx">
                 <a href="##">
                     <img src="pages/chat/images/tx.png" alt="" />
                 </a>
             </div>
-            <div class="sly-yb">
+            <div class="sly-wo-yb">
                 <a href="##">
                     <img src="pages/chat/images/fx.png" alt="" />
                 </a>
             </div>
         </div>
-        <p class="sly-name">SUSAN  <span>GREEN</span></p>
-        <div class="sly-star">
+        <p class="sly-wo-name">SUSAN  <span>GREEN</span></p>
+        <div class="sly-wo-star">
             <ul>
                 <li></li>
                 <li></li>
@@ -30,54 +36,54 @@
                 <li></li>
             </ul>
         </div>
-        <p class="sly-xq">微笑是对美的一种诠释，是对心灵的一种释放。</p>
+        <p class="sly-wo-xq">微笑是对美的一种诠释，是对心灵的一种释放。</p>
         <!-- 内容 -->
-        <div class="sly-bigbox" ng-app="wo">
-            <ul class="sly-ulbox">
-                <li class="sly-libox">
+        <div class="sly-wo-bigbox" ng-app="wo">
+            <ul class="sly-wo-ulbox">
+                <li class="sly-wo-libox">
                     <a href="##">
-                        <div class="sly-bgpic">
+                        <div class="sly-wo-bgpic">
                             <img src="pages/chat/images/dfk.png" alt="" />
                         </div>
                         <p><em></em> 待付款 <em></em></p>
                     </a>
                 </li>
-                <li class="sly-libox">
+                <li class="sly-wo-libox">
                     <a href="##">
-                        <div class="sly-bgpic">
+                        <div class="sly-wo-bgpic">
                             <img src="pages/chat/images/gwc.png" alt="" />
                         </div>
                         <p><em></em> 购物车 <em></em></p>
                     </a>
                 </li>
-                <li class="sly-libox">
+                <li class="sly-wo-libox">
                     <a href="##">
-                        <div class="sly-bgpic">
+                        <div class="sly-wo-bgpic">
                             <img src="pages/chat/images/dpj.png" alt="" />
                         </div>
                         <p><em></em> 待评价 <em></em></p>
                     </a>
                 </li>
-                <li class="sly-libox">
+                <li class="sly-wo-libox">
                     <a href="##">
-                        <div class="sly-bgpic">
+                        <div class="sly-wo-bgpic">
                             <img src="pages/chat/images/dd.png" alt="" />
                         </div>
                         <p><em></em> 全部订单 <em></em></p>
                     </a>
                 </li>
             </ul>
-            <ul class="sly-ul" ng-controller="wo">
-                <li class="sly-list" ng-repeat="v in wolist" >
-                    <a href="##">
+            <ul class="sly-wo-ul" ng-controller="wo">
+                <li class="sly-wo-list" ng-repeat="v in wolist" >
+                    <a href="javascript:;">
                         <img src="pages/chat/images/{{v.src}}" height="73" width="66" alt="" />
-                        <div class="sly-commit">
-                            <p class="sly-title">{{v.title}}<i></i><b></b></p>
-                            <div class="sly-line"></div>
-                            <p class="sly-remark">{{v.remark}}</p>
+                        <div class="sly-wo-commit">
+                            <p class="sly-wo-title">{{v.title}}<i></i><b></b></p>
+                            <div class="sly-wo-line"></div>
+                            <p class="sly-wo-remark">{{v.remark}}</p>
                         </div>
-                        <div class="sly-border" ng-if="v.num">{{v.num}}</div>
-                        <div class="sly-dian" ng-if="$index==2"></div>
+                        <div class="sly-wo-border" ng-if="v.num">{{v.num}}</div>
+                        <div class="sly-wo-dian" ng-if="$index==2"></div>
                     </a>
                 </li>
             </ul>

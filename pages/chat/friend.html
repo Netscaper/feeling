@@ -1,46 +1,46 @@
 <link rel="stylesheet" type="text/css" href="pages/chat/css/friend.css" />
-    <header class="head">
+    <header class="sly-friend-head">
         <a href="##">
             <button></button>
         </a>
     </header>
-    <ul class="sly-ul"  ng-controller="c">
-        <li class="sly-list" ng-repeat="v in list" >
+    <ul class="sly-friend-ul"  ng-controller="c">
+        <li class="sly-friend-list" ng-repeat="v in list" >
             <a href="##">
-                <div class="sly-xfpic">
+                <div class="sly-friend-xfpic">
                     <img src="pages/chat/images/{{v.src}}" height="73" width="66" alt="" />
                 </div>
-                <div class="sly-commit">
-                    <p class="sly-title">{{v.title}}<i></i><b></b></p>
-                    <div class="sly-line"></div>
-                    <p class="sly-remark">{{v.remark}}</p>
+                <div class="sly-friend-commit">
+                    <p class="sly-friend-title">{{v.title}}<i></i><b></b></p>
+                    <div class="sly-friend-line"></div>
+                    <p class="sly-friend-remark">{{v.remark}}</p>
                 </div>
-                <div class="sly-cel" ng-if="$index==1||$index==0"></div>
-                <div class="sly-group">{{v.friend}}</div>
-                <div class="sly-add" ng-if="$index==2">添加</div>
+                <div class="sly-friend-cel" ng-if="$index==1||$index==0"></div>
+                <div class="sly-friend-group">{{v.friend}}</div>
+                <div class="sly-friend-add" ng-if="$index==2">添加</div>
             </a>
         </li>
     </ul>
-    <div class="sly-tit">
-        <div class="sly-left">
-            <p class="sly-eng">Friends <span>set dynamically</span></p>
-            <div class="sly-yx"></div>
-            <p class="sly-china">好友动态设置</p>
+    <div class="sly-friend-tit">
+        <div class="sly-friend-left">
+            <p class="sly-friend-eng">Friends <span>set dynamically</span></p>
+            <div class="sly-friend-yx"></div>
+            <p class="sly-friend-china">好友动态设置</p>
         </div>
-        <div class="sly-right"></div>
+        <div class="sly-friend-right"></div>
     </div>
-    <ul class="sly-ul"  ng-controller="c">
-        <li class="sly-list" ng-repeat="v in active" >
-            <div class="sly-xfpic">
+    <ul class="sly-friend-ul"  ng-controller="c">
+        <li class="sly-friend-list" ng-repeat="v in active" >
+            <div class="sly-friend-xfpic">
                 <img src="pages/chat/images/{{v.src}}" height="73" width="66" alt="" />
             </div>
-            <div class="sly-commit">
-                <p class="sly-title">{{v.title}}<i></i><b></b></p>
-                <div class="sly-line"></div>
-                <p class="sly-remark">{{v.remark}}</p>
+            <div class="sly-friend-commit">
+                <p class="sly-friend-title">{{v.title}}<i></i><b></b></p>
+                <div class="sly-friend-line"></div>
+                <p class="sly-friend-remark">{{v.remark}}</p>
             </div>
-            <div  ng-class="{true:'sly-rangbox sly-hrangbox',false:'sly-rangbox'}[flag]" ng-click="flag=!flag">
-                <div class="sly-rang" ></div>
+            <div  ng-class="{true:'sly-friend-rangbox sly-friend-hrangbox',false:'sly-friend-rangbox'}[flag]" ng-click="flag=!flag">
+                <div class="sly-friend-rang" ></div>
             </div>
         </li>
     </ul>
