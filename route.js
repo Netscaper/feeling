@@ -2,7 +2,6 @@ app.config(['$routeProvider', function($routeProvider){
     $routeProvider
     .when('/',{templateUrl:'pages/flash/flash.html'})
     .when('/home',{templateUrl:'pages/home/home.html'})
-    .when('/flash',{templateUrl:'pages/flash/flash.html'})
     .when('/login',{templateUrl:'pages/login/login.html'})
     .when('/login1',{templateUrl:'pages/login/login1.html'})
     .when('/chat',{templateUrl:'pages/chat/chat.html'})
