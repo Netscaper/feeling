@@ -1,16 +1,16 @@
 ul{
     list-style: none;
 }
-html,body{
+.lhy-body{
     height:100%;
-    /*background:#caddeb;*/
     overflow:hidden;
+    background:#caddeb;
 }
 body{
     position: relative;
     z-index: -2;
 }
-.sly-bg{
+.sly-look1-bg{
     width:100%;
     height:2.25rem;
     background:url("../register/images/tx.png")center center/cover no-repeat;
@@ -19,7 +19,7 @@ body{
     left:0;
     z-index: -1;
 }
-.sly-return{
+.sly-look1-return{
     width:100%;
     height:.58rem;
     background:url("images/zyp_goback.png") .24rem center no-repeat /contain;
@@ -28,17 +28,17 @@ body{
     position:relative;
     display: block;
 }
-.sly-wel{
+.sly-look1-wel{
     width:5.18rem;
     margin:.66rem auto 0;
     line-height: .42rem;
     padding-left:.34rem ;
 }
-.sly-one{
+.sly-look1-one{
     color:#fff;
     font-size: .28rem;
 }
-.sly-one>i,.sly-one>b{
+.sly-look1-one>i,.sly-look1-one>b{
     font-style: normal;
     display:inline-block;
     width:0.12rem;
@@ -46,17 +46,17 @@ body{
     border-radius: 50%;
     margin: 0 0.05rem;
 }
-.sly-one>i{
+.sly-look1-one>i{
     background:#00c0ff;
     margin-left: 0.5rem;
 }
-.sly-one>b{
+.sly-look1-one>b{
     background:#fffc18;
 }
-.sly-one>span{
+.sly-look1-one>span{
     color:#f60b26;
 }
-.sly-two{
+.sly-look1-two{
     color:#fff;
     font-size: .22rem;
 }
@@ -85,15 +85,15 @@ body{
     background:#f6093b;
     float:right;
 }
-.sly-three{
+.sly-look1-three{
     color:#fff; 
 }
-.sly-three:after{
+.sly-look1-three:after{
     content:"";
     display:block;
     clear:both;
 }
-.sly-wel:after{
+.sly-look1-wel:after{
     content:"";
     display:block;
     clear:both;
@@ -107,7 +107,7 @@ body{
     float:right;
 }
 
-.sly-btnbox{
+.sly-look1-btnbox{
     width:6.6rem;
     height:0.9rem;
     margin: 0.8rem auto 0;
@@ -115,14 +115,14 @@ body{
     text-align: center;
 }
 
-.sly-center{
+.sly-look1-center{
     border:1px solid transparent;
     width:3.28rem;
     height:0.9rem;
     background:url("../../../images/redbtn.png") center center/cover no-repeat;
     margin:0 auto;
 }
-.sly-center a{
+.sly-look1-center a{
     font-size: 0.26rem;
     color: #fff;
     display:block;
@@ -132,7 +132,7 @@ body{
     text-align: center;
 }
 /*********头部题目*************/
-.lhy-title{
+.lhy-look1-title{
     width: 2.1rem;
     height: .5rem;
     position:absolute;
@@ -140,7 +140,7 @@ body{
     left:2.69rem;
     position:relative;
 }
-.lhy-title:before{
+.lhy-look1-title:before{
     width: .06rem;
     height: .06rem;
     border-radius: 50%;
@@ -151,7 +151,7 @@ body{
    /*margin-top:-0.03rem;*/
     left:0;
 }
-.lhy-title:after{
+.lhy-look1-title:after{
     width: .06rem;
     height: .06rem;
     border-radius: 50%;
@@ -162,7 +162,7 @@ body{
     margin-top:-0.03rem;
     right:0;
 }
-.lhy-title h3{
+.lhy-look1-title h3{
     width: 100%;
     height: .3rem;
     color:#fff;
@@ -170,7 +170,7 @@ body{
     text-align: center;
     line-height: .3rem;
 }
-.lhy-title h4{
+.lhy-look1-title h4{
      width: 100%;
     height: .3rem;
     color:#fff;
@@ -179,7 +179,7 @@ body{
     line-height: .3rem;
 }
 /*********content***************/
-.lhy-mood-content{
+.lhy-look1-mood-content{
     width: 7.01rem;
     height: auto;
     background: #fff;
@@ -188,19 +188,19 @@ body{
     overflow: hidden;
     padding-bottom:.5rem;
 }
-.lhy-mood{
+.lhy-look1-mood{
     width: 100%;
     height: .86rem;
     margin-top:.45rem;
 }
-.lhy-mood img{
+.lhy-look1-mood img{
     width: .86rem;
     height: .86rem;
     display: block;
     float:left;
     margin-left:2.49rem;
 }
-.lhy-mood span:nth-child(2){
+.lhy-look1-mood span:nth-child(2){
     display: block;
     float: left;
     line-height: .86rem;
@@ -208,21 +208,21 @@ body{
     font-size:.5rem;
     margin-left:.4rem;
 }
-.lhy-mood span:nth-child(3){
+.lhy-look1-mood span:nth-child(3){
     float:left;
     color:#606060;
     font-size:.2rem;
     margin-left:.17rem;
     margin-top:.38rem;
 }
-.lhy-line{
+.lhy-look1-line{
     width: 2.7rem;
     height: 1px;
     margin:.23rem auto .58rem;
     border-top:1px dashed #d7d6d6;
     position:relative;
 }
-.lhy-line:before,.lhy-line:after{
+.lhy-look1-line:before,.lhy-look1-line:after{
     width:.08rem;
     height: .08rem;
     background: #21dbcc;
@@ -232,21 +232,21 @@ body{
     left:0;
     content:""; 
 }
-.lhy-line:after{
+.lhy-look1-line:after{
     left:auto;
     right:0;
 }
-.lhy-mood-content h3{
+.lhy-look1-mood-content h3{
     width: 100%;
     line-height: .24rem;
     font-size:.24rem;
     color:#4f4b4b;
     text-align: center;
 }
-.lhy-mood-content h3 b{
+.lhy-look1-mood-content h3 b{
     color:#f30f50;
 }
-.lhy-mood-content h4{
+.lhy-look1-mood-content h4{
     width: 100%;
     line-height: .42rem;
     font-size:.22rem;
@@ -257,14 +257,14 @@ body{
     margin-top:.3rem;
 }
 /*************头像*****************/
-.lhy-photo{
+.lhy-look1-photo{
     width: 100%;
     height:.81rem;
     padding-left:.5rem;
     box-sizing:border-box;
     margin-top:.5rem;
 }
-.lhy-photo-left{
+.lhy-look1-photo-left{
     width: 5.43rem;
     height: 100%;
     display: flex;
@@ -272,16 +272,16 @@ body{
     align-items: center;
     float:left;
 }
-.lhy-photo-left li,.lhy-photo-left li img{
+.lhy-look1-photo-left li,.lhy-look1-photo-left li img{
     width: .81rem;
     height: .81rem;
     border-radius: 50%;
     display: block;
 }
-.lhy-photo-left li{
+.lhy-look1-photo-left li{
     border:2px solid #f1104a;    
 }
-.lhy-photo-right{
+.lhy-look1-photo-right{
     width: .85rem;
     height: .81rem;
     float:left;
@@ -289,7 +289,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.lhy-photo-right span{
+.lhy-look1-photo-right span{
     width: .06rem;
     height: 0.06rem;
     background: #f10d38;
@@ -298,28 +298,28 @@ body{
     margin:0 0.02rem;
 }
 /*************评论  收藏    日期*************/
-.lhy-life-plsc{
+.lhy-look1-life-plsc{
     width: 6rem;
     height:.23rem;
     margin-left:.5rem;
     margin-top:.5rem;
 }
-.lhy-life-plsc div{
+.lhy-look1-life-plsc div{
     float:left;
 }
-.lhy-life-sc,.lhy-life-pl{
+.lhy-look1-life-sc,.lhy-look1-life-pl{
     width: auto;
     height: 100%;
     float: left;
     margin-right:.57rem;
 }
-.lhy-life-sc img,.lhy-life-pl img,.lhy-life-date img{
+.lhy-look1-life-sc img,.lhy-look1-life-pl img,.lhy-look1-life-date img{
     width: .23rem;
     height: .23rem;
     display: block;
     float:left;
 }
-.lhy-life-plsc span{
+.lhy-look1-life-plsc span{
     width:auto;
     height: 100%;
     margin-left:.15rem;
@@ -328,7 +328,7 @@ body{
     color:#626262;
     float:left;
 }
-.lhy-life-plsc .lhy-life-date{
+.lhy-look1-life-plsc .lhy-look1-life-date{
     float:right;
 }
 .yc_btnBox{
