@@ -29,4 +29,18 @@ dir.directive("lhyssjg",function(){
 
     }    
 })
-
+dir.directive('swiper',function($timeout){
+    return {
+        restrict:'ECMA',
+        templateUrl:'directives/template/flash.html',
+        transclude:true,
+        link:function(){
+            $timeout(function(){
+               var flashSwiper = new Swiper('.swiper-container',{
+                     pagination: '.pagination',
+                     paginationClickable: true
+                   })
+            },500);
+        }
+    }
+})
