@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 14:29:45
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 19:37:45
+* @Last Modified time: 2017-01-06 11:31:23
 */
 
 *{
@@ -47,6 +47,7 @@ a{
     margin:.12rem auto;
     box-shadow: 0 0 0.1rem #d0d0d0;
     border-radius: 0.15rem;
+    background:#fff;
 }
 
 .sly-list:after{
@@ -112,6 +113,19 @@ a{
     font-size: 0.24rem;
     text-align: center;
     color:#fff;
+    margin-right: 0.3rem;
+}
+.sly-border-no{
+    width:0.9rem;
+    height:0.4rem;
+    border-radius: 0.2rem;
+    background:#fff;
+    float:right;
+    margin-top: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    text-align: center;
+    color:#ff539f;
     margin-right: 0.3rem;
 }
 /*haoyoulist*/
@@ -241,6 +255,7 @@ a{
     border-radius: 0.15rem;
     padding-top: 0.3rem;
     margin-bottom: 0.2rem;
+    background:#fff;
 }
 .sly-cbj{
     height:1.15rem;
