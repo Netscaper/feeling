@@ -14,12 +14,12 @@ body,html{
 :root{
     background: #f6f6f6;
 }
-header{
+.yc_login_header{
     height:6.2rem;
     background: url("yc_login_images/login_01.png") top center/cover no-repeat;
     position: relative;
 }
-.yc_head{
+.yc_login_head{
     width:2rem;
     height:2rem;
     border-radius: 50%;
@@ -32,21 +32,21 @@ header{
 #yx_login{
     height:calc(100% - 6.2rem);
 }
-.yc_btnBox{
+.yc_login_btnBox{
     height:.9rem;
     display: flex;
     flex-flow:row nowrap;
     justify-content: center;
     margin-top:2.3rem;
 }
-.yc_btnBox em,.yc_greyBtn em{
+.yc_login_btnBox em,.yc_login_greyBtn em{
     width:.06rem;
     height:0.06rem;
     display: block;
     border-radius:50%;
     background: #fff;
 }
-.yc_btnBox a{
+.yc_login_btnBox a{
     display: flex;
     width:3.1rem;
     height:.9rem;
@@ -56,50 +56,50 @@ header{
     border: none;
 
 }
-.yc_btnRegister,.yc_btnLogin{
+.yc_login_btnRegister,.yc_login_btnLogin{
     display: block;
     font-size:.26rem;
     color: #fff;
     text-align: center;
     width: 1.3rem;
 }
-.yc_login{
+.yc_login_login{
     background: url("yc_login_images/login_04.png") center center/cover;
 }
-.yc_btnLogin:after{
+.yc_login_btnLogin:after{
     display: block;
     content: 'login';
     font-size:.18rem;
     color: #fff;
 }
-.yc_btnRegister:after{
+.yc_login_btnRegister:after{
     content: 'register';
     display: block;
     font-size:.18rem;
     color: #fff;
 }
-.yc_register{
+.yc_login_register{
     background: url("yc_login_images/login_06.png")center center/cover;
 }
-.yc_division{
+.yc_login_division{
     margin-top:.95rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.yc_division span{
+.yc_login_division span{
     font-size:.28rem;
     color: #646464;
     margin: 0 .01rem;
 }
-.yc_xian{
+.yc_login_xian{
     display: block;
     width:.91rem;
     height:1px;
     background: #c5c5c5;
 }
 
-.yc_third:after,.yc_third:before{
+.yc_login_third:after,.yc_login_third:before{
     display: block;
     content: '';
     width:5px;
@@ -109,13 +109,13 @@ header{
     border-radius:50%;
     background: #c5c5c5;
 }
-.yc_third{
+.yc_login_third{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 2rem;
 }
-#yc_otherWay{
+#yc_login_otherWay{
     display: flex;
     flex-flow:row nowrap;
     justify-content:space-between;
@@ -123,23 +123,23 @@ header{
     height: .7rem;
     width:3.82rem;
 }
-#yc_otherWay li{
+#yc_login_otherWay li{
     width:.66rem;
     height:.66rem;
     border-radius:50%;
     margin:0 auto;
 }
-#yc_otherWay>li:nth-child(1){
+#yc_login_otherWay>li:nth-child(1){
     background: url("yc_login_images/login_11.png") center center/cover;
 }
-#yc_otherWay>li:nth-child(2){
+#yc_login_otherWay>li:nth-child(2){
     background: url("yc_login_images/login_13.png") center center/cover;
 }
-#yc_otherWay>li:nth-child(3){
+#yc_login_otherWay>li:nth-child(3){
     background: url("yc_login_images/login_15.png") center center/cover;
 }
 /*输入信息*/
-#yc_userInfo{
+#yc_login_userInfo{
     width:6.54rem;
     height:2.55rem;
     border:.01rem solid #f3f3f3;
@@ -148,10 +148,10 @@ header{
     margin: 0.5rem auto;
     margin-bottom: .13rem;
 }
-#yc_userInfo>li{
+#yc_login_userInfo>li{
     height:50%;
 }
-#yc_userInfo>li label{
+#yc_login_userInfo>li label{
     height: 100%;
     /* float: left; */
     display: flex;
@@ -175,18 +175,17 @@ header{
     background-clip: content-box!important;
     margin-top: 0.51rem;
 }
-#yc_userInfo>li:nth-child(1) label {
+#yc_login_userInfo>li:nth-child(1) label {
     border-bottom: .01rem dashed #B9B9B9;
-
 }
-#yc_userInfo>li input{
+#yc_login_userInfo>li input{
     border:0;
     height:100%;
     width:100%;
     display: block;
     padding-left: 0.25rem;
 }
-#yc_userInfo>li:nth-child(1) label:before{
+#yc_login_userInfo>li:nth-child(1) label:before{
     display: block;
     content: '';
     width:.82rem;
@@ -194,7 +193,7 @@ header{
     background: url("yc_login_images/login1_07.png") center center/cover;
     margin: 0 .2rem;
 }
-#yc_userInfo>li:nth-child(2) label:before{
+#yc_login_userInfo>li:nth-child(2) label:before{
     display: block;
     content: '';
     width:.82rem;
@@ -202,7 +201,7 @@ header{
     background: url("yc_login_images/login1_26.png") center center/cover;
     margin: 0 .2rem;
 }
-.yc_nav{
+.yc_login_nav{
     width:6.08rem;
     height:.3rem;
     display: flex;
@@ -210,11 +209,11 @@ header{
     margin:0 auto;
     align-items: center;
 }
-.yc_nav li a{
+.yc_login_nav li a{
     font-size:.18rem;
     color: #a7a7a7;
 }
-.yc_deng{
+.yc_login_deng{
     margin:0 auto;
     margin-top:1.13rem;
     margin-bottom:2.15rem;
@@ -257,25 +256,25 @@ header{
     margin-top: 0.1rem;
     margin-right: 1rem;
 }
-.yc_greyBtn{
+.yc_login_greyBtn{
     display:block;
     width:3.8rem;
     height:.9rem;
     border:none;
-    margin:1.14rem auto;        
+    margin:1.14rem auto;
     margin-bottom: 1rem;
 }
 /*登录头部*/
-.yc_header{
+.yc_login_header{
     margin-top:-2.4rem;
     position: relative;
 }
-.yc_logo{
+.yc_login_logo{
     height:1.9rem;
     background: url("yc_login_images/logo_02.png")center center/cover;
     margin-top: 1rem;
 }
-.yc_back{
+.yc_login_back{
     position: absolute;
     bottom: 2.58rem;
     left:.26rem;
@@ -283,16 +282,16 @@ header{
     width: .54rem;
     height: .54rem;
 }
-.yc_back a{
+.yc_login_back a{
     display:block;
     width:100%;
     height:100%;
 }
 /*历史纪录*/
-#yc_userInfo li:nth-child(1){
+#yc_login_userInfo li:nth-child(1){
     position: relative;
 }
-.yc_history{
+.yc_login_history{
     width:2.6rem;
     height:.6rem;
     border:1px solid #C3C3C3;
@@ -310,7 +309,7 @@ header{
     text-align:center;
     color:#F62345;
 }
-.yc_history:before{
+.yc_login_history:before{
     content:'';
     display:block;
     position:absolute;
@@ -321,7 +320,7 @@ header{
     background:#F62345;
     border-radius:50%;
 }
-.yc_history:after{
+.yc_login_history:after{
     content:'';
     display:block;
     position:absolute;
@@ -333,7 +332,7 @@ header{
     border-radius:50%;
 }
 /*验证码*/
-.yc_zh{
+.yc_login_zh{
     width: 6.25rem;
     margin:0 auto;
     display: flex;
@@ -341,7 +340,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.yc_zh span{
+.yc_login_zh span{
     height:.66rem;
     display: block;
     text-align: center;
@@ -350,57 +349,57 @@ header{
     font-size:.18rem;
     margin-left: .05rem;
 }
-.yc_never i{
+.yc_login_never i{
     display: inline-block;
     font-size:.08rem;
     font-style: normal;
     margin: 0 -.06rem;
 }
-.yc_tel{
+.yc_login_tel{
     width:6.54rem;
     margin-bottom: .2rem;
     display: flex;
     justify-content: space-between;
 }
-.yc_tel label{
+.yc_login_tel label{
     display: inline-block;
 }
-.yc_tel input{
+.yc_login_tel input{
     width: 5rem;
     height: 100%;
     margin: 0 auto;
     display: block;
     border:none;
 }
-.yc_tel i:nth-child(1){
+.yc_login_tel i:nth-child(1){
     display: inline-block;
     content: '';
     background: url("yc_login_images/login1_07.png") center center/cover;
     width:.7rem;
     height:.7rem;
 }
-.yc_dot{
+.yc_login_dot{
     display: inline-block;
     content: '·';
     width:.7rem;
     height:.7rem;
 }
-.yc_yzm{
+.yc_login_yzm{
     width:3.26rem;
 }
-.yc_yzm span{
+.yc_login_yzm span{
     width:100%;
     height:100%;
     display: block;
     text-align: center;line-height:.8rem;
 }
-.yc_num{
+.yc_login_num{
     width:2.6rem;
     background: #f6f6f6 !important;
     text-align: center;line-height:.8rem;
     border:1px solid #a4a4a4;
 }
-.yc_tel,.yc_yzm,.yc_num{
+.yc_login_tel,.yc_login_yzm,.yc_login_num{
     height:.8rem;
     background: #fff;
     box-shadow: 0 3px 3px 3px solid #e9e9e9;
@@ -408,12 +407,12 @@ header{
     font-size:.22rem;
     color: #565656;
 }
-.yc_more{
+.yc_login_more{
     width: .4rem;
     height: .4rem;
     background: url("yc_login_images/more.png") center center/cover no-repeat;
 }
-.yc_account{
+.yc_login_account{
     width:.7rem;
     height:.7rem;
     -webkit-border-radius:50%;
@@ -423,14 +422,14 @@ header{
     overflow:hidden;
     position:relative;
 }
-.yc_account img{
+.yc_login_account img{
     width:100%;
     height:100%;
     position:absolute;
     left:0;top:0;right:0;bottom:0;
     margin:auto;
 }
-.yc_accounts{
+.yc_login_accounts{
     width: 3.5rem;
     height: .9rem;
     border-radius: 2rem;
@@ -442,7 +441,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.yc_accounts span {
+.yc_login_accounts span {
     font-size:.18rem;
     color: #f6082f;
 }
